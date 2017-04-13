@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="PLAIN_TEXT" />
+      <mapping ext="__styleext__" type="SCSS" />
     </extensionMap>
   </component>
 </application>
