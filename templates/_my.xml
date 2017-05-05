@@ -19,4 +19,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="field" value="&lt;div class=&quot;input-group&quot;&gt;&#10;    &lt;label for=&quot;$id$&quot;&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;$id$&quot; name=&quot;$id$&quot; placeholder=&quot;$label$&quot; /&gt;&#10;    &lt;app-field-error [field]=&quot;$id$&quot;&gt;&lt;/app-field-error&gt;&#10;&lt;/div&gt;" description="Bootstrap Field" toReformat="false" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="camelCase(label)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
