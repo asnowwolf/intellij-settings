@@ -6,7 +6,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="it" value="it('$DESC$', () =&gt; {&#10;  $END$&#10;});" description="it for test" toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it('$DESC$', async(() =&gt; {&#10;  $END$&#10;}));" description="it for test" toReformat="false" toShortenFQNames="true">
     <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -24,6 +24,12 @@
     <variable name="id" expression="camelCase(label)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="svc" value="let api: $Name$;&#10;&#10;beforeEach(inject([$Name$], (_api_: $Name$) =&gt; {&#10;  api = _api_;&#10;}));&#10;" description="Init service" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
