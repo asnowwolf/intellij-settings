@@ -3,6 +3,7 @@
     <option name="stats">
       <map>
         <entry key="'⇧F10'" value="2" />
+        <entry key="'⇧⌘T'" value="1" />
       </map>
     </option>
   </component>
