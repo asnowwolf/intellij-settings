@@ -11,6 +11,16 @@
             <list>
               <Lesson>
                 <option name="name" value="Selection" />
+                <option name="statistic">
+                  <list>
+                    <MyPair>
+                      <option name="status" value="started" />
+                    </MyPair>
+                    <MyPair>
+                      <option name="status" value="closed" />
+                    </MyPair>
+                  </list>
+                </option>
               </Lesson>
               <Lesson>
                 <option name="name" value="Comment Line" />
@@ -124,5 +134,6 @@
         </course>
       </list>
     </option>
+    <option name="lastActivityTime" value="1499560662684" />
   </component>
 </application>
