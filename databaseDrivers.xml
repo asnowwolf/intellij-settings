@@ -30,6 +30,22 @@
       <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="0425e860-9cb4-475e-9005-a0250706e49b" name="XdotApi dev driver" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
+      <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
+      <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:param}&gt;]" />
+      <artifact name="MySQL Connector/J" use="true" version="5.1.40" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <property name="autoReconnect" value="true" />
+      <property name="zeroDateTimeBehavior" value="convertToNull" />
+      <property name="tinyInt1isBit" value="false" />
+      <property name="characterEncoding" value="utf8" />
+      <property name="characterSetResults" value="utf8" />
+      <property name="yearIsDateType" value="false" />
+      <library>
+        <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar</url>
+      </library>
+    </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
       <artifact name="Xerial SQLiteJDBC" use="true" />
       <option name="auto-sync" value="true" />
