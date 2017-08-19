@@ -1,0 +1,23 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="generateContractTests" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="groovy" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="contracts" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/private/xdot/__legacy/XdotApi/gradlew" />
+      <option name="scopeName" value="All Places" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/private/xdot/__legacy/XdotApi" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>
