@@ -14,7 +14,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="$USER_HOME$/private/xdot/__legacy/XdotApi/gradlew" />
-      <option name="scopeName" value="All Places" />
+      <option name="scopeName" value="contracts" />
       <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$USER_HOME$/private/xdot/__legacy/XdotApi" />
       <envs />
