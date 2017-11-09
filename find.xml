@@ -7,17 +7,14 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.html" />
+    <option name="FILE_MASK" value="*.svg" />
     <recentFileMasks>
-      <mask>*.j'a</mask>
-      <mask>*.j'a'd</mask>
       <mask>*.j'a'de</mask>
       <mask>*.sp</mask>
       <mask>*.spe</mask>
       <mask>*.spec</mask>
       <mask>*.spec.</mask>
       <mask>*.spec.t</mask>
-      <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
@@ -39,6 +36,9 @@
       <mask>*.h</mask>
       <mask>*.ht</mask>
       <mask>*.html</mask>
+      <mask>*.s</mask>
+      <mask>*.sv</mask>
+      <mask>*.svg</mask>
     </recentFileMasks>
   </component>
 </application>
