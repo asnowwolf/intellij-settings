@@ -7,10 +7,8 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.html" />
     <recentFileMasks>
-      <mask>*.as</mask>
-      <mask>*.mxml</mask>
-      <mask>*.html</mask>
       <mask>*.j'a</mask>
       <mask>*.j'a'd</mask>
       <mask>*.j'a'de</mask>
@@ -38,6 +36,9 @@
       <mask>*.ja</mask>
       <mask>*.jad</mask>
       <mask>*.jade</mask>
+      <mask>*.h</mask>
+      <mask>*.ht</mask>
+      <mask>*.html</mask>
     </recentFileMasks>
   </component>
 </application>
