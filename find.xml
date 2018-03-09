@@ -5,6 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.md" />
     <recentFileMasks>
       <mask>*.spec</mask>
       <mask>*.spec.</mask>
@@ -34,8 +35,8 @@
       <mask>*.h</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
-      <mask>*.md</mask>
       <mask>*.json</mask>
+      <mask>*.md</mask>
     </recentFileMasks>
   </component>
 </application>
