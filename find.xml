@@ -3,39 +3,9 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localRegularExpressions" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>*.spec</mask>
-      <mask>*.spec.</mask>
-      <mask>*.spec.t</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*.scss</mask>
-      <mask>*.css</mask>
-      <mask>*.sts</mask>
-      <mask>*.spts</mask>
-      <mask>*.spets</mask>
-      <mask>*.spects</mask>
-      <mask>*.spec.ts</mask>
-      <mask>*</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
-      <mask>*.ja</mask>
-      <mask>*.jad</mask>
-      <mask>*.jade</mask>
-      <mask>*.ht</mask>
-      <mask>*.s</mask>
-      <mask>*.sv</mask>
-      <mask>*.svg</mask>
-      <mask>*.ts</mask>
-      <mask>*.t</mask>
-      <mask>*.</mask>
-      <mask>*.h</mask>
-      <mask>*.htm</mask>
-      <mask>*.html</mask>
-      <mask>*.json</mask>
-      <mask>*.md</mask>
-    </recentFileMasks>
   </component>
 </application>
