@@ -1,0 +1,12 @@
+<templateSet group="Bootstrap 4">
+  <template name="b4-form-static" value="&lt;div class=&quot;form-group&quot;&gt;&#10;  &lt;label&gt;$1$&lt;/label&gt;&#10;  &lt;div class=&quot;form-control-plaintext&quot;&gt;$2&lt;/div&gt;&#10;&lt;/div&gt;&#10;$END$" description="form group static text" toReformat="true" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GSP" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
