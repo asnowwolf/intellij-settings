@@ -6,6 +6,7 @@
       <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="PLAIN_TEXT" />
       <mapping ext="__styleext__" type="SCSS" />
       <mapping ext="bpmn2" type="XML" />
