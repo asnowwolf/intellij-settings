@@ -38,4 +38,11 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="ita" value="it('$DESC$', async () =&gt; {&#10;  $END$&#10;});" description="it for test" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
