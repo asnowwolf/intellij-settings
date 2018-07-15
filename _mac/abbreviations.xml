@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="AddFrameworkSupport">
+        <abbreviation name="afs" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
