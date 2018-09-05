@@ -1,0 +1,16 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="* If a trigger binding value is a Boolean, it can be matched using a transition expression that compares true and false or 1 and 0. For example:" />
+      <item value="* The following example defines a transition that starts by hiding the element, then makes sure that it animates properly to whatever state is currently active for trigger:" />
+      <item value="* If the final step in a transition is a call to `animate()` that uses a timing value with no style data, that step is automatically considered the final animation arc, for the element to reach the final state. Angular automatically adds or removes CSS styles to ensure that the element is in the correct final state." />
+      <item value="* If the final step in a transition is a call to `animate()` that uses a timing value * with no style data, that step is automatically considered the final animation arc, * for the element to reach the final state. Angular automatically adds or removes * CSS styles to ensure that the element is in the correct final state." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="5" />
+        <entry key="ENGLISH" value="6" />
+      </map>
+    </option>
+  </component>
+</application>
