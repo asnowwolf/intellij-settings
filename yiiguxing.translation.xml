@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* In the following example, a container element wraps a list of items stamped out * by an `ngFor`. The container element contains an animation trigger that will later be set * to query for each of the inner items." />
+      <item value="* In the following example, a container element wraps a list of items stamped out by an `ngFor`. The container element contains an animation trigger that will later be set to query for each of the inner items." />
+      <item value="An object that encapsulates the stagger data. *" />
+      <item value="* Use within an animation `query()` call to issue a timing gap after each queried item is animated." />
+      <item value="* - `query(&quot;:self&quot;)` : Include the current element into the animation sequence." />
+      <item value="* @param selector The element to query, or a set of elements that contain Angular-specific characteristics, specified with one or more of the following tokens." />
+      <item value="* Finds one or more inner elements within the current element that is being animated within a sequence. Use with `animateChild()`." />
+      <item value="* Note that this feature designed to be used with `query()` and it will only work with animations that are assigned using the Angular animation library. CSS keyframes and transitions are not handled by this API." />
+      <item value="* Executes a queried inner animation element within an animation sequence." />
       <item value="* If a trigger binding value is a Boolean, it can be matched using a transition expression that compares true and false or 1 and 0. For example:" />
       <item value="* The following example defines a transition that starts by hiding the element, then makes sure that it animates properly to whatever state is currently active for trigger:" />
       <item value="* If the final step in a transition is a call to `animate()` that uses a timing value with no style data, that step is automatically considered the final animation arc, for the element to reach the final state. Angular automatically adds or removes CSS styles to ensure that the element is in the correct final state." />
@@ -8,8 +17,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="15" />
+        <entry key="ENGLISH" value="16" />
       </map>
     </option>
   </component>
