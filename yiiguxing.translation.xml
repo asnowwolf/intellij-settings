@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="neutral" />
       <item value="The `MatChipInput` directive can be used together with a chip-list to streamline the interaction between the two components. This directive adds chip-specific behaviors to the input element within `&lt;mat-form-field&gt;` for adding and removing chips. The `&lt;input&gt;` with `MatChipInput` can be placed inside or outside the chip-list element." />
       <item value="Presents a list of items as a set of small, tactile entities." />
       <item value="`&lt;mat-chip-list&gt;` displays a list of values as individual, keyboard accessible, chips." />
@@ -50,12 +51,11 @@
       <item value="Angular Material comprises a range of components which implement common interaction patterns according to the Material Design specification." />
       <item value="Themable, for when you need to stay on brand or just have a favorite color. Accessible and internationalized so that all users are welcome." />
       <item value="Versatile" />
-      <item value="Finely tuned performance, because every millisecond counts. Fully tested across modern browsers." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="74" />
-        <entry key="ENGLISH" value="76" />
+        <entry key="CHINESE" value="75" />
+        <entry key="ENGLISH" value="77" />
       </map>
     </option>
   </component>
