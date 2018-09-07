@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `MatChipInput` directive can be used together with a chip-list to streamline the interaction between the two components. This directive adds chip-specific behaviors to the input element within `&lt;mat-form-field&gt;` for adding and removing chips. The `&lt;input&gt;` with `MatChipInput` can be placed inside or outside the chip-list element." />
       <item value="Presents a list of items as a set of small, tactile entities." />
       <item value="`&lt;mat-chip-list&gt;` displays a list of values as individual, keyboard accessible, chips." />
       <item value="While the `indeterminate` property of the checkbox is true, it will render as indeterminate regardless of the `checked` value. Any interaction with the checkbox by a user (i.e., clicking) will remove the indeterminate state." />
@@ -50,12 +51,11 @@
       <item value="Themable, for when you need to stay on brand or just have a favorite color. Accessible and internationalized so that all users are welcome." />
       <item value="Versatile" />
       <item value="Finely tuned performance, because every millisecond counts. Fully tested across modern browsers." />
-      <item value="Fast and Consistent" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="75" />
+        <entry key="CHINESE" value="74" />
+        <entry key="ENGLISH" value="76" />
       </map>
     </option>
   </component>
