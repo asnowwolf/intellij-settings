@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The autocomplete trigger is given `role=&quot;combobox&quot;`. The trigger sets `aria-owns` to the autocomplete's id, and sets `aria-activedescendant` to the active option's id." />
       <item value="访问性" />
       <item value="optimal" />
       <item value="\*For optimal accessibility, you may want to consider adding text guidance on the page to explain filter criteria. This is especially helpful for screenreader users if you're using a non-standard filter that doesn't limit matches to the beginning of the string." />
@@ -44,7 +45,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="46" />
-        <entry key="ENGLISH" value="46" />
+        <entry key="ENGLISH" value="47" />
       </map>
     </option>
   </component>
