@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Native `&lt;button&gt;` and `&lt;a&gt;` elements are always used in order to provide the most straightforward and accessible experience for users. A `&lt;button&gt;` element should be used whenever some _action_ is performed. An `&lt;a&gt;` element should be used whenever the user will _navigate_ to another view." />
+      <item value="ripples" />
+      <item value="By default, the bottom sheet has `role=&quot;dialog&quot;` on the root element and can be labelled using the `ariaLabel` property on the `MatBottomSheetConfig`." />
       <item value="Badges can be colored in terms of the current theme using the `matBadgeColor` property to set the background color to `primary`, `accent`, or `warn`." />
       <item value="The overlap of the badge in relation to its inner contents can also be defined&#10;using the `matBadgeOverlap` tag. Typically, you want the badge to overlap an icon and not a text phrase. By default it will overlap." />
       <item value="Badges are small status descriptors for UI elements. A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to&#10;another object." />
@@ -48,8 +51,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="50" />
-        <entry key="ENGLISH" value="51" />
+        <entry key="CHINESE" value="53" />
+        <entry key="ENGLISH" value="54" />
       </map>
     </option>
   </component>
