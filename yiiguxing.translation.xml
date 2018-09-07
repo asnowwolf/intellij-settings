@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="While the `indeterminate` property of the checkbox is true, it will render as indeterminate regardless of the `checked` value. Any interaction with the checkbox by a user (i.e., clicking) will remove the indeterminate state." />
+      <item value="### Indeterminate state" />
       <item value="Depending on how cards are used, it may be appropriate to apply a `tabindex` to the `&lt;mat-card&gt;` element. If cards are a primary mechanism through which user interact with the application, `tabindex=&quot;0&quot;` is appropriate. If attention can be sent to the card, but it's not part of the document flow, `tabindex=&quot;-1&quot;` is appropriate." />
       <item value="A role is not necessary when the card is used as a purely decorative container that does not convey a meaningful grouping of related content for a single subject. In these cases, the content of the card should follow standard practices for document content." />
       <item value="There are several ARIA roles that communicate that a portion of the UI represents some semantically meaningful whole. Depending on what the content of the card means to your application, [`role=&quot;group&quot;`][0], [`role=&quot;region&quot;`][1], or [one of the landmark roles][2] should typically be applied to the `&lt;mat-card&gt;` element." />
@@ -49,13 +51,11 @@
       <item value="Fast and Consistent" />
       <item value="Hit the ground running with comprehensive, modern UI components that work across the web, mobile and desktop." />
       <item value="Sprint from Zero to App" />
-      <item value="* In the following example, a container element wraps a list of items stamped out * by an `ngFor`. The container element contains an animation trigger that will later be set * to query for each of the inner items." />
-      <item value="* In the following example, a container element wraps a list of items stamped out by an `ngFor`. The container element contains an animation trigger that will later be set to query for each of the inner items." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="69" />
-        <entry key="ENGLISH" value="71" />
+        <entry key="CHINESE" value="71" />
+        <entry key="ENGLISH" value="73" />
       </map>
     </option>
   </component>
