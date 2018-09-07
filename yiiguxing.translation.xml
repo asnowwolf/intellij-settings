@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Depending on how cards are used, it may be appropriate to apply a `tabindex` to the `&lt;mat-card&gt;` element. If cards are a primary mechanism through which user interact with the application, `tabindex=&quot;0&quot;` is appropriate. If attention can be sent to the card, but it's not part of the document flow, `tabindex=&quot;-1&quot;` is appropriate." />
+      <item value="A role is not necessary when the card is used as a purely decorative container that does not convey a meaningful grouping of related content for a single subject. In these cases, the content of the card should follow standard practices for document content." />
+      <item value="There are several ARIA roles that communicate that a portion of the UI represents some semantically meaningful whole. Depending on what the content of the card means to your application, [`role=&quot;group&quot;`][0], [`role=&quot;region&quot;`][1], or [one of the landmark roles][2] should typically be applied to the `&lt;mat-card&gt;` element." />
+      <item value="landmarks" />
+      <item value="In addition to the aforementioned sections, `&lt;mat-card-header&gt;` gives the ability to add a rich header to a card. This header can contain:" />
       <item value="### Exclusive selection vs. multiple selection" />
       <item value="According to the Material design spec button text has to be capitalized, however we have opted not to capitalize buttons automatically via `text-transform: uppercase`, because it can cause issues in certain locales. It is also worth noting that using ALL CAPS in the text itself causes issues for screen-readers, which will read the text character-by-character. We leave the decision of how to approach this to the consuming app." />
       <item value="It is also worth noting that using ALL CAPS in the text itself causes issues for screen-readers, which will read the text character-by-character. We leave the decision of how to approach this to the consuming app." />
@@ -46,16 +51,11 @@
       <item value="Sprint from Zero to App" />
       <item value="* In the following example, a container element wraps a list of items stamped out * by an `ngFor`. The container element contains an animation trigger that will later be set * to query for each of the inner items." />
       <item value="* In the following example, a container element wraps a list of items stamped out by an `ngFor`. The container element contains an animation trigger that will later be set to query for each of the inner items." />
-      <item value="An object that encapsulates the stagger data. *" />
-      <item value="* Use within an animation `query()` call to issue a timing gap after each queried item is animated." />
-      <item value="* - `query(&quot;:self&quot;)` : Include the current element into the animation sequence." />
-      <item value="* @param selector The element to query, or a set of elements that contain Angular-specific characteristics, specified with one or more of the following tokens." />
-      <item value="* Finds one or more inner elements within the current element that is being animated within a sequence. Use with `animateChild()`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="65" />
+        <entry key="CHINESE" value="69" />
+        <entry key="ENGLISH" value="71" />
       </map>
     </option>
   </component>
