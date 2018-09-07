@@ -1,6 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="elevation" />
+      <item value="typography" />
+      <item value="Theming Angular Material" />
+      <item value="Wraps input fields so they are displayed consistently." />
+      <item value="Captures dates, agnostic about their internal representation." />
+      <item value="Captures boolean input with an optional indeterminate mode." />
+      <item value="Suggests relevant options as the user types." />
+      <item value="Angular Material comprises a range of components which implement common interaction patterns according to the Material Design specification." />
+      <item value="Themable, for when you need to stay on brand or just have a favorite color. Accessible and internationalized so that all users are welcome." />
+      <item value="Versatile" />
+      <item value="Finely tuned performance, because every millisecond counts. Fully tested across modern browsers." />
+      <item value="Fast and Consistent" />
+      <item value="Hit the ground running with comprehensive, modern UI components that work across the web, mobile and desktop." />
+      <item value="Sprint from Zero to App" />
       <item value="* In the following example, a container element wraps a list of items stamped out * by an `ngFor`. The container element contains an animation trigger that will later be set * to query for each of the inner items." />
       <item value="* In the following example, a container element wraps a list of items stamped out by an `ngFor`. The container element contains an animation trigger that will later be set to query for each of the inner items." />
       <item value="An object that encapsulates the stagger data. *" />
@@ -17,8 +31,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="15" />
-        <entry key="ENGLISH" value="16" />
+        <entry key="CHINESE" value="33" />
+        <entry key="ENGLISH" value="34" />
       </map>
     </option>
   </component>
