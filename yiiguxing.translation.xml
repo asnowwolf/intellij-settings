@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The overlap of the badge in relation to its inner contents can also be defined&#10;using the `matBadgeOverlap` tag. Typically, you want the badge to overlap an icon and not a text phrase. By default it will overlap." />
       <item value="Badges are small status descriptors for UI elements. A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to&#10;another object." />
       <item value="Badges are small status descriptors for UI elements. A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to another object." />
       <item value="The autocomplete trigger is given `role=&quot;combobox&quot;`. The trigger sets `aria-owns` to the autocomplete's id, and sets `aria-activedescendant` to the active option's id." />
@@ -46,8 +47,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="48" />
-        <entry key="ENGLISH" value="49" />
+        <entry key="CHINESE" value="49" />
+        <entry key="ENGLISH" value="50" />
       </map>
     </option>
   </component>
