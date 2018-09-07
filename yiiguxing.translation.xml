@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Presents a list of items as a set of small, tactile entities." />
+      <item value="`&lt;mat-chip-list&gt;` displays a list of values as individual, keyboard accessible, chips." />
       <item value="While the `indeterminate` property of the checkbox is true, it will render as indeterminate regardless of the `checked` value. Any interaction with the checkbox by a user (i.e., clicking) will remove the indeterminate state." />
       <item value="### Indeterminate state" />
       <item value="Depending on how cards are used, it may be appropriate to apply a `tabindex` to the `&lt;mat-card&gt;` element. If cards are a primary mechanism through which user interact with the application, `tabindex=&quot;0&quot;` is appropriate. If attention can be sent to the card, but it's not part of the document flow, `tabindex=&quot;-1&quot;` is appropriate." />
@@ -49,13 +51,11 @@
       <item value="Versatile" />
       <item value="Finely tuned performance, because every millisecond counts. Fully tested across modern browsers." />
       <item value="Fast and Consistent" />
-      <item value="Hit the ground running with comprehensive, modern UI components that work across the web, mobile and desktop." />
-      <item value="Sprint from Zero to App" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="71" />
-        <entry key="ENGLISH" value="73" />
+        <entry key="CHINESE" value="73" />
+        <entry key="ENGLISH" value="75" />
       </map>
     </option>
   </component>
