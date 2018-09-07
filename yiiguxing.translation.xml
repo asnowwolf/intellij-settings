@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Next, create the autocomplete panel and the options displayed inside it. Each option should be defined by an `mat-option` tag. Set each option's value property to whatever you'd like the value of the text input to be upon that option's selection." />
+      <item value="Next, create the autocomplete panel and the options displayed inside it. Each option should be&#10;defined by an `mat-option` tag. Set each option's value property to whatever you'd like the value&#10;of the text input to be upon that option's selection." />
+      <item value="It is possible to use template-driven forms instead, if you prefer." />
+      <item value="It is possible to use template-driven forms instead," />
       <item value="Tools for implementing common application features." />
       <item value="Tools for displaying and interacting with tabular data." />
       <item value="Progress spinner" />
@@ -36,8 +40,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="39" />
-        <entry key="ENGLISH" value="40" />
+        <entry key="CHINESE" value="43" />
+        <entry key="ENGLISH" value="44" />
       </map>
     </option>
   </component>
