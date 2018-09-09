@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Custom content can be included before and after the input tag, as a prefix or suffix. It will be included within the visual container that wraps the form control as per the Material specification." />
+      <item value="If a form field can have more than one error state, it is up to the consumer to toggle which messages should be displayed. This can be done with CSS, `ngIf` or `ngSwitch`. Multiple error messages can be shown at the same time if desired, but the `&lt;mat-form-field&gt;` only reserves enough space to display one error message at a time. Ensuring that enough space is available to display multiple errors is up to the user." />
       <item value="Error messages can be shown under the form field underline by adding `mat-error` elements inside the form field. Errors are hidden initially and will be displayed on invalid form fields after the user has interacted with the element or the parent form has been submitted. Since the errors occupy the same space as the hints, the hints are hidden when the errors are shown." />
       <item value="Hint labels are specified in one of two ways: either by using the `hintLabel` property of `&lt;mat-form-field&gt;`, or by adding a `&lt;mat-hint&gt;` element inside the form field. When adding a hint via the `hintLabel` property, it will be treated as the start hint. Hints added via the `&lt;mat-hint&gt;` hint element can be added to either side by setting the `align` property on `&lt;mat-hint&gt;` to either `start` or `end`. Attempting to add multiple hints to the same side will raise an error." />
       <item value="Hint labels are additional descriptive text that appears below the form field's underline. A `&lt;mat-form-field&gt;` can have up to two hint labels; one start-aligned (left in an LTR language, right in RTL), and one end-aligned." />
@@ -49,13 +51,11 @@
       <item value="The autocomplete trigger is given `role=&quot;combobox&quot;`. The trigger sets `aria-owns` to the autocomplete's id, and sets `aria-activedescendant` to the active option's id." />
       <item value="访问性" />
       <item value="optimal" />
-      <item value="\*For optimal accessibility, you may want to consider adding text guidance on the page to explain filter criteria. This is especially helpful for screenreader users if you're using a non-standard filter that doesn't limit matches to the beginning of the string." />
-      <item value="Next, create the autocomplete panel and the options displayed inside it. Each option should be defined by an `mat-option` tag. Set each option's value property to whatever you'd like the value of the text input to be upon that option's selection." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="90" />
-        <entry key="ENGLISH" value="92" />
+        <entry key="CHINESE" value="91" />
+        <entry key="ENGLISH" value="93" />
       </map>
     </option>
   </component>
