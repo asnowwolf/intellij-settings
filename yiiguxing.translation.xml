@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Other components that can act as a form field control include `&lt;mat-select&gt;`, `&lt;mat-chip-list&gt;`, and any custom form field controls you've created." />
+      <item value="Troubleshooting" />
+      <item value="We recommend a specificity of at least 1 element + 1 class" />
       <item value="Custom content can be included before and after the input tag, as a prefix or suffix. It will be included within the visual container that wraps the form control as per the Material specification." />
       <item value="If a form field can have more than one error state, it is up to the consumer to toggle which messages should be displayed. This can be done with CSS, `ngIf` or `ngSwitch`. Multiple error messages can be shown at the same time if desired, but the `&lt;mat-form-field&gt;` only reserves enough space to display one error message at a time. Ensuring that enough space is available to display multiple errors is up to the user." />
       <item value="Error messages can be shown under the form field underline by adding `mat-error` elements inside the form field. Errors are hidden initially and will be displayed on invalid form fields after the user has interacted with the element or the parent form has been submitted. Since the errors occupy the same space as the hints, the hints are hidden when the errors are shown." />
@@ -48,14 +51,11 @@
       <item value="The overlap of the badge in relation to its inner contents can also be defined&#10;using the `matBadgeOverlap` tag. Typically, you want the badge to overlap an icon and not a text phrase. By default it will overlap." />
       <item value="Badges are small status descriptors for UI elements. A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to&#10;another object." />
       <item value="Badges are small status descriptors for UI elements. A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to another object." />
-      <item value="The autocomplete trigger is given `role=&quot;combobox&quot;`. The trigger sets `aria-owns` to the autocomplete's id, and sets `aria-activedescendant` to the active option's id." />
-      <item value="访问性" />
-      <item value="optimal" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="91" />
-        <entry key="ENGLISH" value="93" />
+        <entry key="CHINESE" value="94" />
+        <entry key="ENGLISH" value="96" />
       </map>
     </option>
   </component>
