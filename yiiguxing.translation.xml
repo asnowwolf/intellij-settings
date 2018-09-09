@@ -1,6 +1,27 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Icons alone are not interactive elements for screen-reader users; when the user would interact with some icon on the page, a more appropriate element should &quot;own&quot; the interaction:" />
+      <item value="cosmetic" />
+      <item value="By default icons in an RTL layout will look exactly the same as in LTR, however certain icons have to be [mirrored for RTL users](https://material.io/guidelines/usability/bidirectionality.html). If you want to mirror an icon only in an RTL layout, you can use the `mat-icon-rtl-mirror` CSS class." />
+      <item value="Bidirectionality" />
+      <item value="3. **Indicator**: the icon is not interactive, but it conveys some information, such as a status. This includes using the icon in place of text inside of a larger message." />
+      <item value="In thinking about accessibility, it is useful to place icon use into one of three categories:" />
+      <item value="pertaining" />
+      <item value="Icon sets allow grouping multiple icons into a single SVG file. This is done by creating a single root `&lt;svg&gt;` tag that contains multiple nested `&lt;svg&gt;` tags in its `&lt;defs&gt;` section. Each of these nested tags is identified with an `id` attribute. This `id` is used as the name of the icon." />
+      <item value="vulnerabilities" />
+      <item value="When an `mat-icon` component displays an SVG icon, it does so by directly inlining the SVG content into the page as a child of the component. (Rather than using an &lt;img&gt; tag or a div background image). This makes it easier to apply CSS styles to SVG icons. For example, the default color of the SVG content is the CSS [currentColor](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword) value. This makes SVG icons by default have the same color as surrounding text, and allows you to change the color by setting the &quot;color&quot; style on the `mat-icon` element." />
+      <item value="For both types of font icons, you can specify the default font class to use when `fontSet` is not explicitly set by calling `MatIconRegistry.setDefaultFontSetClass`." />
+      <item value="Fonts can also display icons by defining a CSS class for each icon glyph, which typically uses a `:before` selector to cause the icon to appear. [FontAwesome](https://fortawesome.github.io/Font-Awesome/examples/) uses this approach to display its icons. To use such a font, set the `fontSet` input to the font's CSS class (either the class itself or an alias registered with `MatIconRegistry.registerFontClassAlias`), and set the `fontIcon` input to the class for the specific icon to show." />
+      <item value="Font icons with CSS" />
+      <item value="By default, `&lt;mat-icon&gt;` expects the [Material icons font](http://google.github.io/material-design-icons/#icon-font-for-the-web). (You will still need to include the HTML to load the font and its CSS, as described in the link). You can specify a different font by setting the `fontSet` input to either the CSS class to apply to use the desired font, or to an alias previously registered with `MatIconRegistry.registerFontClassAlias`." />
+      <item value="Font icons with ligatures" />
+      <item value="`MatIconRegistry` is an injectable service that allows you to associate icon names with SVG URLs, HTML strings and to define aliases for CSS font classes. Its methods are discussed below and listed in the API summary." />
+      <item value="By default, the grid-list assumes that it will be used in a purely decorative fashion and thus sets no roles, ARIA attributes, or keyboard shortcuts. This is equivalent to having a sequence of `&lt;div&gt;` elements on the page. Any interactive content within the grid-list should be given an appropriate accessibility treatment based on the specific workflow of your application." />
+      <item value="### Tile headers and footers" />
+      <item value="more rows will simply be added for it the tile to fill" />
+      <item value="Adding tiles that span multiple rows or columns" />
+      <item value="Setting the gutter size" />
       <item value="Other components that can act as a form field control include `&lt;mat-select&gt;`, `&lt;mat-chip-list&gt;`, and any custom form field controls you've created." />
       <item value="Troubleshooting" />
       <item value="We recommend a specificity of at least 1 element + 1 class" />
@@ -30,32 +51,11 @@
       <item value="`&lt;mat-chip-list&gt;` displays a list of values as individual, keyboard accessible, chips." />
       <item value="While the `indeterminate` property of the checkbox is true, it will render as indeterminate regardless of the `checked` value. Any interaction with the checkbox by a user (i.e., clicking) will remove the indeterminate state." />
       <item value="### Indeterminate state" />
-      <item value="Depending on how cards are used, it may be appropriate to apply a `tabindex` to the `&lt;mat-card&gt;` element. If cards are a primary mechanism through which user interact with the application, `tabindex=&quot;0&quot;` is appropriate. If attention can be sent to the card, but it's not part of the document flow, `tabindex=&quot;-1&quot;` is appropriate." />
-      <item value="A role is not necessary when the card is used as a purely decorative container that does not convey a meaningful grouping of related content for a single subject. In these cases, the content of the card should follow standard practices for document content." />
-      <item value="There are several ARIA roles that communicate that a portion of the UI represents some semantically meaningful whole. Depending on what the content of the card means to your application, [`role=&quot;group&quot;`][0], [`role=&quot;region&quot;`][1], or [one of the landmark roles][2] should typically be applied to the `&lt;mat-card&gt;` element." />
-      <item value="landmarks" />
-      <item value="In addition to the aforementioned sections, `&lt;mat-card-header&gt;` gives the ability to add a rich header to a card. This header can contain:" />
-      <item value="### Exclusive selection vs. multiple selection" />
-      <item value="According to the Material design spec button text has to be capitalized, however we have opted not to capitalize buttons automatically via `text-transform: uppercase`, because it can cause issues in certain locales. It is also worth noting that using ALL CAPS in the text itself causes issues for screen-readers, which will read the text character-by-character. We leave the decision of how to approach this to the consuming app." />
-      <item value="It is also worth noting that using ALL CAPS in the text itself causes issues for screen-readers, which will read the text character-by-character. We leave the decision of how to approach this to the consuming app." />
-      <item value="capitalization" />
-      <item value="Circular button with a transparent background, meant to contain an icon" />
-      <item value="Rectangular contained button w/" />
-      <item value="&lt;p translation-result&gt;方形&lt;/p&gt;&lt;p translation-origin=&quot;off&quot;&gt;Rectangular contained button w/ elevation &lt;/p&gt;" />
-      <item value="contained" />
-      <item value="Rectangular text button w/ no elevation" />
-      <item value="Native `&lt;button&gt;` and `&lt;a&gt;` elements are always used in order to provide the most straightforward and accessible experience for users. A `&lt;button&gt;` element should be used whenever some _action_ is performed. An `&lt;a&gt;` element should be used whenever the user will _navigate_ to another view." />
-      <item value="ripples" />
-      <item value="By default, the bottom sheet has `role=&quot;dialog&quot;` on the root element and can be labelled using the `ariaLabel` property on the `MatBottomSheetConfig`." />
-      <item value="Badges can be colored in terms of the current theme using the `matBadgeColor` property to set the background color to `primary`, `accent`, or `warn`." />
-      <item value="The overlap of the badge in relation to its inner contents can also be defined&#10;using the `matBadgeOverlap` tag. Typically, you want the badge to overlap an icon and not a text phrase. By default it will overlap." />
-      <item value="Badges are small status descriptors for UI elements. A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to&#10;another object." />
-      <item value="Badges are small status descriptors for UI elements. A badge consists of a small circle, typically containing a number or other short set of characters, that appears in proximity to another object." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="94" />
-        <entry key="ENGLISH" value="96" />
+        <entry key="CHINESE" value="115" />
+        <entry key="ENGLISH" value="117" />
       </map>
     </option>
   </component>
