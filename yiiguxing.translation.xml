@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Error messages can be shown under the form field underline by adding `mat-error` elements inside the form field. Errors are hidden initially and will be displayed on invalid form fields after the user has interacted with the element or the parent form has been submitted. Since the errors occupy the same space as the hints, the hints are hidden when the errors are shown." />
+      <item value="Hint labels are specified in one of two ways: either by using the `hintLabel` property of `&lt;mat-form-field&gt;`, or by adding a `&lt;mat-hint&gt;` element inside the form field. When adding a hint via the `hintLabel` property, it will be treated as the start hint. Hints added via the `&lt;mat-hint&gt;` hint element can be added to either side by setting the `align` property on `&lt;mat-hint&gt;` to either `start` or `end`. Attempting to add multiple hints to the same side will raise an error." />
+      <item value="Hint labels are additional descriptive text that appears below the form field's underline. A `&lt;mat-form-field&gt;` can have up to two hint labels; one start-aligned (left in an LTR language, right in RTL), and one end-aligned." />
+      <item value="The `floatLabel` property of `&lt;mat-form-field&gt;` can be used to change this default floating behavior. It can set to `never` to hide the label instead of float it when text is present in the form field control. It can be set to `always` to float the label even when no text is present in the form field control. It can also be set to `auto` to restore the default behavior." />
       <item value="The floating label is a text label displayed on top of the form field control when the control does not contain any text. By default, when text is present the floating label floats above the form field control. The label for a form field can be specified by adding a `mat-label` element." />
       <item value="There are a couple differences to be aware of between the `legacy` appearance and the newer `standard`, `fill`, and `outline` appearances. The `matPrefix` and `matSuffix` elements are center aligned by default for the newer appearances. The Material Design spec shows this as being the standard way to align prefix and suffix icons in the newer appearance variants. We do not recommend using text prefix and suffixes in the new variants because the label and input do not have the same alignment. It is therefore impossible to align the prefix or suffix in a way that looks good when compared with both the label and input text." />
       <item value="The `mat-form-field` supports 4 different appearance variants which can be set via the `appearance` input. The `legacy` appearance is the default style that the `mat-form-field` has traditionally had. It shows the input box with an underline underneath it. The `standard` appearance is a slightly updated version of the `legacy` appearance that has spacing that is more consistent with the `fill` and `outline` appearances. The `fill` appearance displays the form field with a filled background box in addition to the underline. Finally the `outline` appearance shows the form field with a border all the way around, not just an underline." />
@@ -47,15 +51,11 @@
       <item value="optimal" />
       <item value="\*For optimal accessibility, you may want to consider adding text guidance on the page to explain filter criteria. This is especially helpful for screenreader users if you're using a non-standard filter that doesn't limit matches to the beginning of the string." />
       <item value="Next, create the autocomplete panel and the options displayed inside it. Each option should be defined by an `mat-option` tag. Set each option's value property to whatever you'd like the value of the text input to be upon that option's selection." />
-      <item value="Next, create the autocomplete panel and the options displayed inside it. Each option should be&#10;defined by an `mat-option` tag. Set each option's value property to whatever you'd like the value&#10;of the text input to be upon that option's selection." />
-      <item value="It is possible to use template-driven forms instead, if you prefer." />
-      <item value="It is possible to use template-driven forms instead," />
-      <item value="Tools for implementing common application features." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="87" />
-        <entry key="ENGLISH" value="89" />
+        <entry key="CHINESE" value="90" />
+        <entry key="ENGLISH" value="92" />
       </map>
     </option>
   </component>
