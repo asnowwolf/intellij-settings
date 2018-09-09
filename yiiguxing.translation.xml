@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="By default, each dialog has `role=&quot;dialog&quot;` on the root element. The role can be changed to `alertdialog` via the `MatDialogConfig` when opening." />
+      <item value="The role can be changed to&#10;`alertdialog` via the `MatDialogConfig` when opening." />
       <item value="Components created via `MatDialog` can _inject_ `MatDialogRef` and use it to close the dialog in which they are contained. When closing, an optional result value can be provided. This result value is forwarded as the result of the `afterClosed` promise." />
       <item value="#### Watching the views for changes on selected years and months" />
       <item value="The month, year, or range of years that the calendar opens to is determined by first checking if any date is currently selected, if so it will open to the month or year containing that date. Otherwise it will open to the month or year containing today's date. This behavior can be overridden by using the `startAt` property of `&lt;mat-datepicker&gt;`. In this case the calendar will open to the month or year containing the `startAt` date." />
@@ -49,13 +51,11 @@
       <item value="Theming Angular Material" />
       <item value="Wraps input fields so they are displayed consistently." />
       <item value="Captures dates, agnostic about their internal representation." />
-      <item value="Captures boolean input with an optional indeterminate mode." />
-      <item value="Suggests relevant options as the user types." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="78" />
-        <entry key="ENGLISH" value="80" />
+        <entry key="CHINESE" value="80" />
+        <entry key="ENGLISH" value="82" />
       </map>
     </option>
   </component>
