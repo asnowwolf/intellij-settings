@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Inset dividers can also be added to provide the appearance of distinct elements in a list without cluttering content like avatar images or icons. Make sure to avoid adding an inset divider to the last element in a list, because it will overlap with the section divider." />
+      <item value="Dividers can be added to lists as a means of separating content into distinct sections." />
       <item value="Inset divider" />
       <item value="By default, each dialog has `role=&quot;dialog&quot;` on the root element. The role can be changed to `alertdialog` via the `MatDialogConfig` when opening." />
       <item value="The role can be changed to&#10;`alertdialog` via the `MatDialogConfig` when opening." />
@@ -49,13 +51,11 @@
       <item value="Buttons &amp; Indicators" />
       <item value="elevation" />
       <item value="typography" />
-      <item value="Theming Angular Material" />
-      <item value="Wraps input fields so they are displayed consistently." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="81" />
-        <entry key="ENGLISH" value="83" />
+        <entry key="CHINESE" value="82" />
+        <entry key="ENGLISH" value="84" />
       </map>
     </option>
   </component>
