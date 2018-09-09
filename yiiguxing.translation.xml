@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `mat-form-field` supports 4 different appearance variants which can be set via the `appearance` input. The `legacy` appearance is the default style that the `mat-form-field` has traditionally had. It shows the input box with an underline underneath it. The `standard` appearance is a slightly updated version of the `legacy` appearance that has spacing that is more consistent with the `fill` and `outline` appearances. The `fill` appearance displays the form field with a filled background box in addition to the underline. Finally the `outline` appearance shows the form field with a border all the way around, not just an underline." />
+      <item value="The `legacy` appearance is the default style that the `mat-form-field` has traditionally had." />
+      <item value="Form field appearance variants" />
       <item value="The expansion-panel aims to mimic the experience of the native `&lt;details&gt;` and `&lt;summary&gt;` elements. The expansion panel header has `role=&quot;button&quot;` and also the attribute `aria-controls` with the expansion panel's id as value." />
       <item value="Inset dividers can also be added to provide the appearance of distinct elements in a list without cluttering content like avatar images or icons. Make sure to avoid adding an inset divider to the last element in a list, because it will overlap with the section divider." />
       <item value="Dividers can be added to lists as a means of separating content into distinct sections." />
@@ -48,14 +51,11 @@
       <item value="Tools for implementing common application features." />
       <item value="Tools for displaying and interacting with tabular data." />
       <item value="Progress spinner" />
-      <item value="Badge" />
-      <item value="Buttons &amp; Indicators" />
-      <item value="elevation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="83" />
-        <entry key="ENGLISH" value="85" />
+        <entry key="CHINESE" value="86" />
+        <entry key="ENGLISH" value="88" />
       </map>
     </option>
   </component>
