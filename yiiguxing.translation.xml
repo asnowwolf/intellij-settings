@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="### Toggling the menu programmatically" />
+      <item value="By itself, the `&lt;mat-menu&gt;` element does not render anything. The menu is attached to and opened via application of the `matMenuTriggerFor` directive:" />
       <item value="If the list is used to present a list of non-interactive content items, then the list element should be given `role=&quot;list&quot;` and each list item should be given `role=&quot;listitem&quot;`." />
       <item value="By default, the list assumes that it will be used in a purely decorative fashion and thus sets no roles, ARIA attributes, or keyboard shortcuts. This is equivalent to having a sequence of `&lt;div&gt;` elements on the page. Any interactive content within the list should be given an appropriate accessibility treatment based on the specific workflow of your application." />
       <item value="#### Custom scenarios" />
@@ -49,13 +51,11 @@
       <item value="Other components that can act as a form field control include `&lt;mat-select&gt;`, `&lt;mat-chip-list&gt;`, and any custom form field controls you've created." />
       <item value="Troubleshooting" />
       <item value="We recommend a specificity of at least 1 element + 1 class" />
-      <item value="Custom content can be included before and after the input tag, as a prefix or suffix. It will be included within the visual container that wraps the form control as per the Material specification." />
-      <item value="If a form field can have more than one error state, it is up to the consumer to toggle which messages should be displayed. This can be done with CSS, `ngIf` or `ngSwitch`. Multiple error messages can be shown at the same time if desired, but the `&lt;mat-form-field&gt;` only reserves enough space to display one error message at a time. Ensuring that enough space is available to display multiple errors is up to the user." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="139" />
-        <entry key="ENGLISH" value="141" />
+        <entry key="CHINESE" value="141" />
+        <entry key="ENGLISH" value="143" />
       </map>
     </option>
   </component>
