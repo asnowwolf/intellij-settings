@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `&lt;mat-select&gt;` also supports all of the form directives from the core `FormsModule` (`NgModel`) and `ReactiveFormsModule` (`FormControl`, `FormGroup`, etc.) As with native `&lt;select&gt;`, `&lt;mat-select&gt;` also supports a `compareWith` function. (Additional information about using a custom `compareWith` function can be found in the [Angular forms documentation](https://angular.io/api/forms/SelectControlValueAccessor#caveat-option-selection))." />
       <item value="[Material Design spec](https://material.io/design/components/menus.html). It is designed to work inside of a [`&lt;mat-form-field&gt;`](https://material.angular.io/components/form-field/overview) element." />
       <item value="All radio-buttons with the same `name` comprise a set from which only one may be selected at a time." />
       <item value="Indicates that something is happening without conveying a discrete progress" />
@@ -50,12 +51,11 @@
       <item value="Icon sets allow grouping multiple icons into a single SVG file. This is done by creating a single root `&lt;svg&gt;` tag that contains multiple nested `&lt;svg&gt;` tags in its `&lt;defs&gt;` section. Each of these nested tags is identified with an `id` attribute. This `id` is used as the name of the icon." />
       <item value="vulnerabilities" />
       <item value="When an `mat-icon` component displays an SVG icon, it does so by directly inlining the SVG content into the page as a child of the component. (Rather than using an &lt;img&gt; tag or a div background image). This makes it easier to apply CSS styles to SVG icons. For example, the default color of the SVG content is the CSS [currentColor](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword) value. This makes SVG icons by default have the same color as surrounding text, and allows you to change the color by setting the &quot;color&quot; style on the `mat-icon` element." />
-      <item value="For both types of font icons, you can specify the default font class to use when `fontSet` is not explicitly set by calling `MatIconRegistry.setDefaultFontSetClass`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="152" />
-        <entry key="ENGLISH" value="153" />
+        <entry key="CHINESE" value="153" />
+        <entry key="ENGLISH" value="154" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
