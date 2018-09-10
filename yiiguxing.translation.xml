@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="All radio-buttons with the same `name` comprise a set from which only one may be selected at a time." />
+      <item value="Indicates that something is happening without conveying a discrete progress" />
       <item value="In &quot;query&quot; mode, the progress-bar renders as an inverted &quot;indeterminate&quot; bar. Once the response progress is available, the `mode` should be changed to determinate to convey the progress. In this mode the `value` property is ignored." />
       <item value="For situations where the user wants to indicate pre-loading (until the loading can actually be made), use the query indicator." />
       <item value="In &quot;buffer&quot; mode, `value` determines the progress of the primary bar while the `bufferValue` is used to show the additional buffering progress." />
@@ -49,13 +51,11 @@
       <item value="When an `mat-icon` component displays an SVG icon, it does so by directly inlining the SVG content into the page as a child of the component. (Rather than using an &lt;img&gt; tag or a div background image). This makes it easier to apply CSS styles to SVG icons. For example, the default color of the SVG content is the CSS [currentColor](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword) value. This makes SVG icons by default have the same color as surrounding text, and allows you to change the color by setting the &quot;color&quot; style on the `mat-icon` element." />
       <item value="For both types of font icons, you can specify the default font class to use when `fontSet` is not explicitly set by calling `MatIconRegistry.setDefaultFontSetClass`." />
       <item value="Fonts can also display icons by defining a CSS class for each icon glyph, which typically uses a `:before` selector to cause the icon to appear. [FontAwesome](https://fortawesome.github.io/Font-Awesome/examples/) uses this approach to display its icons. To use such a font, set the `fontSet` input to the font's CSS class (either the class itself or an alias registered with `MatIconRegistry.registerFontClassAlias`), and set the `fontIcon` input to the class for the specific icon to show." />
-      <item value="Font icons with CSS" />
-      <item value="By default, `&lt;mat-icon&gt;` expects the [Material icons font](http://google.github.io/material-design-icons/#icon-font-for-the-web). (You will still need to include the HTML to load the font and its CSS, as described in the link). You can specify a different font by setting the `fontSet` input to either the CSS class to apply to use the desired font, or to an alias previously registered with `MatIconRegistry.registerFontClassAlias`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="149" />
-        <entry key="ENGLISH" value="150" />
+        <entry key="CHINESE" value="151" />
+        <entry key="ENGLISH" value="152" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
