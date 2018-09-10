@@ -1,6 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="In &quot;query&quot; mode, the progress-bar renders as an inverted &quot;indeterminate&quot; bar. Once the response progress is available, the `mode` should be changed to determinate to convey the progress. In this mode the `value` property is ignored." />
+      <item value="For situations where the user wants to indicate pre-loading (until the loading can actually be made), use the query indicator." />
+      <item value="In &quot;buffer&quot; mode, `value` determines the progress of the primary bar while the `bufferValue` is used to show the additional buffering progress." />
+      <item value="Operations where the user wants to indicate some activity or loading from the server, use the buffer indicator." />
+      <item value="Indeterminate" />
+      <item value="Operations where the percentage of the operation complete is known should use the determinate indicator." />
+      <item value="indeterminate" />
+      <item value="determinate" />
+      <item value="`&lt;mat-progress-bar&gt;` is a horizontal progress-bar for indicating progress and activity." />
+      <item value="1. The label for the length of each page." />
       <item value="### Toggling the menu programmatically" />
       <item value="By itself, the `&lt;mat-menu&gt;` element does not render anything. The menu is attached to and opened via application of the `matMenuTriggerFor` directive:" />
       <item value="If the list is used to present a list of non-interactive content items, then the list element should be given `role=&quot;list&quot;` and each list item should be given `role=&quot;listitem&quot;`." />
@@ -41,21 +51,12 @@
       <item value="Fonts can also display icons by defining a CSS class for each icon glyph, which typically uses a `:before` selector to cause the icon to appear. [FontAwesome](https://fortawesome.github.io/Font-Awesome/examples/) uses this approach to display its icons. To use such a font, set the `fontSet` input to the font's CSS class (either the class itself or an alias registered with `MatIconRegistry.registerFontClassAlias`), and set the `fontIcon` input to the class for the specific icon to show." />
       <item value="Font icons with CSS" />
       <item value="By default, `&lt;mat-icon&gt;` expects the [Material icons font](http://google.github.io/material-design-icons/#icon-font-for-the-web). (You will still need to include the HTML to load the font and its CSS, as described in the link). You can specify a different font by setting the `fontSet` input to either the CSS class to apply to use the desired font, or to an alias previously registered with `MatIconRegistry.registerFontClassAlias`." />
-      <item value="Font icons with ligatures" />
-      <item value="`MatIconRegistry` is an injectable service that allows you to associate icon names with SVG URLs, HTML strings and to define aliases for CSS font classes. Its methods are discussed below and listed in the API summary." />
-      <item value="By default, the grid-list assumes that it will be used in a purely decorative fashion and thus sets no roles, ARIA attributes, or keyboard shortcuts. This is equivalent to having a sequence of `&lt;div&gt;` elements on the page. Any interactive content within the grid-list should be given an appropriate accessibility treatment based on the specific workflow of your application." />
-      <item value="### Tile headers and footers" />
-      <item value="more rows will simply be added for it the tile to fill" />
-      <item value="Adding tiles that span multiple rows or columns" />
-      <item value="Setting the gutter size" />
-      <item value="Other components that can act as a form field control include `&lt;mat-select&gt;`, `&lt;mat-chip-list&gt;`, and any custom form field controls you've created." />
-      <item value="Troubleshooting" />
-      <item value="We recommend a specificity of at least 1 element + 1 class" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="141" />
-        <entry key="ENGLISH" value="143" />
+        <entry key="CHINESE" value="149" />
+        <entry key="ENGLISH" value="150" />
+        <entry key="ITALIAN" value="1" />
       </map>
     </option>
   </component>
