@@ -1,6 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="### Simple lists" />
+      <item value="`&lt;mat-list&gt;` is a container component that wraps and formats a series of line items. As the base list component, it provides Material Design styling, but no behavior of its own." />
+      <item value="This error is thrown when you attempt to set an input's `type` property to a value that isn't supported by the `matInput` directive. If you need to use an unsupported input type with `&lt;mat-form-field&gt;` consider writing a [custom form field control](https://material.angular.io/guide/creating-a-custom-form-field-control) for it." />
+      <item value="### Troubleshooting" />
+      <item value="The CDK provides [utilities](https://material.angular.io/cdk/text-field/overview#monitoring-the-autofill-state-of-an-input) for detecting when an input becomes autofilled and changing the appearance of the autofilled state." />
+      <item value="### Responding to changes in the autofill state of an `&lt;input&gt;`" />
+      <item value="A global error state matcher can be specified by setting the `ErrorStateMatcher` provider. This applies to all inputs. For convenience, `ShowOnDirtyErrorStateMatcher` is available in order to globally cause input errors to show when the input is dirty and invalid." />
+      <item value="An `ErrorStateMatcher` must implement a single method `isErrorState` which takes the `FormControl` for this `matInput` as well as the parent form and returns a boolean indicating whether errors should be shown. (`true` indicating that they should be shown, and `false` indicating that they should not.)" />
+      <item value="The `&lt;mat-form-field&gt;` allows you to [associate error messages](https://material.angular.io/components/form-field/overview#error-messages) with your `matInput`. By default, these error messages are shown when the control is invalid and either the user has interacted with (touched) the element or the parent form has been submitted. If you wish to override this behavior (e.g. to show the error as soon as the invalid control is dirty or when a parent form group is invalid), you can use the `errorStateMatcher` property of the `matInput`. The property takes an instance of an `ErrorStateMatcher` object. An `ErrorStateMatcher` must implement a single method `isErrorState` which takes the `FormControl` for this `matInput` as well as the parent form and returns a boolean indicating whether errors should be shown. (`true` indicating that they should be shown, and `false` indicating that they should not.)" />
+      <item value="Changing when error messages are shown" />
+      <item value="It is used to give the user an additional hint about what they should type in the input." />
+      <item value="The placeholder is text shown when the `&lt;mat-form-field&gt;` label is floating but the input is empty." />
+      <item value="Add a `&lt;span&gt;` as an adjacent sibling to the `&lt;mat-icon&gt;` element with text that conveys the same information as the icon." />
+      <item value="When the presence of an icon communicates some information to the user whether as an indicator or by being inlined into a block of text, that information must also be made available to screen-readers. The most straightforward way to do this is to" />
       <item value="Icons alone are not interactive elements for screen-reader users; when the user would interact with some icon on the page, a more appropriate element should &quot;own&quot; the interaction:" />
       <item value="cosmetic" />
       <item value="By default icons in an RTL layout will look exactly the same as in LTR, however certain icons have to be [mirrored for RTL users](https://material.io/guidelines/usability/bidirectionality.html). If you want to mirror an icon only in an RTL layout, you can use the `mat-icon-rtl-mirror` CSS class." />
@@ -37,25 +51,11 @@
       <item value="The `legacy` appearance is the default style that the `mat-form-field` has traditionally had." />
       <item value="Form field appearance variants" />
       <item value="The expansion-panel aims to mimic the experience of the native `&lt;details&gt;` and `&lt;summary&gt;` elements. The expansion panel header has `role=&quot;button&quot;` and also the attribute `aria-controls` with the expansion panel's id as value." />
-      <item value="Inset dividers can also be added to provide the appearance of distinct elements in a list without cluttering content like avatar images or icons. Make sure to avoid adding an inset divider to the last element in a list, because it will overlap with the section divider." />
-      <item value="Dividers can be added to lists as a means of separating content into distinct sections." />
-      <item value="Inset divider" />
-      <item value="By default, each dialog has `role=&quot;dialog&quot;` on the root element. The role can be changed to `alertdialog` via the `MatDialogConfig` when opening." />
-      <item value="The role can be changed to&#10;`alertdialog` via the `MatDialogConfig` when opening." />
-      <item value="Components created via `MatDialog` can _inject_ `MatDialogRef` and use it to close the dialog in which they are contained. When closing, an optional result value can be provided. This result value is forwarded as the result of the `afterClosed` promise." />
-      <item value="#### Watching the views for changes on selected years and months" />
-      <item value="The month, year, or range of years that the calendar opens to is determined by first checking if any date is currently selected, if so it will open to the month or year containing that date. Otherwise it will open to the month or year containing today's date. This behavior can be overridden by using the `startAt` property of `&lt;mat-datepicker&gt;`. In this case the calendar will open to the month or year containing the `startAt` date." />
-      <item value="neutral" />
-      <item value="The `MatChipInput` directive can be used together with a chip-list to streamline the interaction between the two components. This directive adds chip-specific behaviors to the input element within `&lt;mat-form-field&gt;` for adding and removing chips. The `&lt;input&gt;` with `MatChipInput` can be placed inside or outside the chip-list element." />
-      <item value="Presents a list of items as a set of small, tactile entities." />
-      <item value="`&lt;mat-chip-list&gt;` displays a list of values as individual, keyboard accessible, chips." />
-      <item value="While the `indeterminate` property of the checkbox is true, it will render as indeterminate regardless of the `checked` value. Any interaction with the checkbox by a user (i.e., clicking) will remove the indeterminate state." />
-      <item value="### Indeterminate state" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="115" />
-        <entry key="ENGLISH" value="117" />
+        <entry key="CHINESE" value="129" />
+        <entry key="ENGLISH" value="131" />
       </map>
     </option>
   </component>
