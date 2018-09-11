@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="There are three properties that add date validation to the datepicker input. The first two are the `min` and `max` properties. In addition to enforcing validation on the input, these properties will disable all dates on the calendar popup before or after the respective values and prevent the user from advancing the calendar past the `month` or `year` (depending on current view) containing the `min` or `max` date." />
+      <item value="Depending on the `DateAdapter` being used, the datepicker may automatically deserialize certain date formats for you as well. For example, both the `NativeDateAdapter` and `MomentDateAdapter` allow [ISO 8601](https://tools.ietf.org/html/rfc3339) strings to be passed to the datepicker and automatically converted to the proper object type. This can be convenient when binding data directly from your backend to the datepicker. However, the datepicker will not accept date strings formatted in user format such as `&quot;1/2/2017&quot;` as this is ambiguous and will mean different things depending on the locale of the browser running the code." />
+      <item value="The type of values that the datepicker expects depends on the type of `DateAdapter` provided in your&#10;application. The `NativeDateAdapter`, for example, works directly with plain JavaScript `Date`&#10;objects. When using the `MomentDateAdapter`, however, the values will all be Moment.js instances.&#10;This use of the adapter pattern allows the datepicker component to work with any arbitrary date representation with a custom `DateAdapter`. See [_Choosing a date implementation_](#choosing-a-date-implementation-and-date-format-settings) for more information." />
+      <item value="Notice that the emitted value does not affect the current value in the connected `&lt;input&gt;`, which is only bound to the selection made in the `month` view. So if the end user closes the calendar after choosing a year in `multi-view` mode (by pressing the `ESC` key, for example), the selected year, emitted by `yearSelected` output, will not cause any change in the value of the date in the associated `&lt;input&gt;`." />
+      <item value="When a year or a month is selected in `multi-year` and `year` views respectively, the `yearSelected` and `monthSelected` outputs emit a normalized date representing the chosen year or month. By &quot;normalized&quot; we mean that the dates representing years will have their month set to January and their day set to the 1st. Dates representing months will have their day set to the 1st of the month. For example, if `&lt;mat-datepicker&gt;` is configured to work with javascript native Date objects, the `yearSelected` will emit `new Date(2017, 0, 1)` if the user selects 2017 in `multi-year` view. Similarly, `monthSelected` will emit `new Date(2017, 1, 1)` if the user selects **February** in `year` view and the current date value of the connected `&lt;input&gt;` was set to something like `new Date(2017, MM, dd)` when the calendar was opened (the month and day are irrelevant in this case)." />
       <item value="In order to facilitate easily styling the dropdown panel, `&lt;mat-select&gt;` has a `panelClass` property which can be used to apply additional CSS classes to the dropdown panel." />
       <item value="### Disabling the ripple effect" />
       <item value="The `&lt;mat-select&gt;` also supports all of the form directives from the core `FormsModule` (`NgModel`) and `ReactiveFormsModule` (`FormControl`, `FormGroup`, etc.) As with native `&lt;select&gt;`, `&lt;mat-select&gt;` also supports a `compareWith` function. (Additional information about using a custom `compareWith` function can be found in the [Angular forms documentation](https://angular.io/api/forms/SelectControlValueAccessor#caveat-option-selection))." />
@@ -46,16 +51,11 @@
       <item value="Icons alone are not interactive elements for screen-reader users; when the user would interact with some icon on the page, a more appropriate element should &quot;own&quot; the interaction:" />
       <item value="cosmetic" />
       <item value="By default icons in an RTL layout will look exactly the same as in LTR, however certain icons have to be [mirrored for RTL users](https://material.io/guidelines/usability/bidirectionality.html). If you want to mirror an icon only in an RTL layout, you can use the `mat-icon-rtl-mirror` CSS class." />
-      <item value="Bidirectionality" />
-      <item value="3. **Indicator**: the icon is not interactive, but it conveys some information, such as a status. This includes using the icon in place of text inside of a larger message." />
-      <item value="In thinking about accessibility, it is useful to place icon use into one of three categories:" />
-      <item value="pertaining" />
-      <item value="Icon sets allow grouping multiple icons into a single SVG file. This is done by creating a single root `&lt;svg&gt;` tag that contains multiple nested `&lt;svg&gt;` tags in its `&lt;defs&gt;` section. Each of these nested tags is identified with an `id` attribute. This `id` is used as the name of the icon." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="157" />
-        <entry key="ENGLISH" value="158" />
+        <entry key="CHINESE" value="162" />
+        <entry key="ENGLISH" value="163" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
