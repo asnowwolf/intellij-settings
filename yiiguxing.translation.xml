@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `&lt;mat-sidenav&gt;` an `&lt;mat-sidenav-content&gt;` should each be given an appropriate `role` attribute depending on the context in which they are used." />
+      <item value="To react to scrolling inside the `&lt;mat-sidenav-container&gt;`, you can get a hold of the underlying `CdkScrollable` instance through the `MatSidenavContainer`." />
       <item value="By default, Material will only measure and resize the drawer container in a few key moments (on open, on window resize, on mode change) in order to avoid layout thrashing, however there are cases where this can be problematic. If your app requires for a drawer to change its width while it is open, you can use the `autosize` option to tell Material to continue measuring it. Note that you should use this option **at your own risk**, because it could cause performance issues." />
       <item value="thrashing" />
       <item value="The `over` and `push` sidenav modes show a backdrop by default, while the `side` mode does not." />
@@ -49,13 +51,11 @@
       <item value="Indeterminate" />
       <item value="Operations where the percentage of the operation complete is known should use the determinate indicator." />
       <item value="indeterminate" />
-      <item value="determinate" />
-      <item value="`&lt;mat-progress-bar&gt;` is a horizontal progress-bar for indicating progress and activity." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="191" />
-        <entry key="ENGLISH" value="193" />
+        <entry key="CHINESE" value="193" />
+        <entry key="ENGLISH" value="195" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
