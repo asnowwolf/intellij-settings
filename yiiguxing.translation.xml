@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="However" />
       <item value="There are three properties that add date validation to the datepicker input. The first two are the `min` and `max` properties. In addition to enforcing validation on the input, these properties will disable all dates on the calendar popup before or after the respective values and prevent the user from advancing the calendar past the `month` or `year` (depending on current view) containing the `min` or `max` date." />
       <item value="Depending on the `DateAdapter` being used, the datepicker may automatically deserialize certain date formats for you as well. For example, both the `NativeDateAdapter` and `MomentDateAdapter` allow [ISO 8601](https://tools.ietf.org/html/rfc3339) strings to be passed to the datepicker and automatically converted to the proper object type. This can be convenient when binding data directly from your backend to the datepicker. However, the datepicker will not accept date strings formatted in user format such as `&quot;1/2/2017&quot;` as this is ambiguous and will mean different things depending on the locale of the browser running the code." />
       <item value="The type of values that the datepicker expects depends on the type of `DateAdapter` provided in your&#10;application. The `NativeDateAdapter`, for example, works directly with plain JavaScript `Date`&#10;objects. When using the `MomentDateAdapter`, however, the values will all be Moment.js instances.&#10;This use of the adapter pattern allows the datepicker component to work with any arbitrary date representation with a custom `DateAdapter`. See [_Choosing a date implementation_](#choosing-a-date-implementation-and-date-format-settings) for more information." />
@@ -50,12 +51,11 @@
       <item value="When the presence of an icon communicates some information to the user whether as an indicator or by being inlined into a block of text, that information must also be made available to screen-readers. The most straightforward way to do this is to" />
       <item value="Icons alone are not interactive elements for screen-reader users; when the user would interact with some icon on the page, a more appropriate element should &quot;own&quot; the interaction:" />
       <item value="cosmetic" />
-      <item value="By default icons in an RTL layout will look exactly the same as in LTR, however certain icons have to be [mirrored for RTL users](https://material.io/guidelines/usability/bidirectionality.html). If you want to mirror an icon only in an RTL layout, you can use the `mat-icon-rtl-mirror` CSS class." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="162" />
-        <entry key="ENGLISH" value="163" />
+        <entry key="CHINESE" value="163" />
+        <entry key="ENGLISH" value="164" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
