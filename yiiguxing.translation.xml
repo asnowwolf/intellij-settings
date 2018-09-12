@@ -1,6 +1,23 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="identical" />
+      <item value="You will also want to make sure that the `MAT_DATE_FORMATS` provided in your app are formats that can be understood by your date implementation. See [_Customizing the parse and display formats_](#customizing-the-parse-and-display-formats)for more information about `MAT_DATE_FORMATS`. &lt;!-- TODO(mmalerba): Add a guide about this --&gt;" />
+      <item value="accomplished" />
+      <item value="By default the `MomentDateAdapter` will creates dates in your time zone specific locale. You can change the default behaviour to parse dates as UTC by providing the `MAT_MOMENT_DATE_ADAPTER_OPTIONS` and setting it to `useUtc: true`." />
+      <item value="Because `DateAdapter` is a generic class, `MatDatepicker` and `MatDatepickerInput` also need to be made generic. When working with these classes (for example as a `ViewChild`) you should include the appropriate generic type that corresponds to the `DateAdapter` implementation you are using. For example:" />
+      <item value="Because `DateAdapter` is a generic class," />
+      <item value="*Please note: `MatNativeDateModule` is based off of the functionality available in JavaScript's native `Date` object, and is thus not suitable for many locales. One of the biggest shortcomings of the native `Date` object is the inability to set the parse format. We highly recommend using the `MomentDateAdapter` or a custom `DateAdapter` that works with the formatting/parsing library of your choice.*" />
+      <item value="The datepicker was built to be date implementation agnostic. This means that it can be made to work with a variety of different date implementations. However it also means that developers need to make sure to provide the appropriate pieces for the datepicker to work with their chosen implementation. The easiest way to ensure this is just to import one of the pre-made modules:" />
+      <item value="The datepicker was built to be date implementation agnostic. This means that it can be made to work" />
+      <item value="agnostic" />
+      <item value="By default, the `MAT_DATE_LOCALE` injection token will use the existing `LOCALE_ID` locale code from `@angular/core`. If you want to override it, you can provide a new value for the `MAT_DATE_LOCALE` token:" />
+      <item value="1. The date locale." />
+      <item value="#### Setting the locale code" />
+      <item value="2. The date implementation that the datepicker accepts." />
+      <item value="The datepicker normally opens as a popup under the input. However this is not ideal for touch devices that don't have as much screen real estate and need bigger click targets. For this reason `&lt;mat-datepicker&gt;` has a `touchUi` property that can be set to `true` in order to enable a more touch friendly UI where the calendar opens in a large dialog." />
+      <item value="vice-versa" />
+      <item value="Therefore" />
       <item value="However" />
       <item value="There are three properties that add date validation to the datepicker input. The first two are the `min` and `max` properties. In addition to enforcing validation on the input, these properties will disable all dates on the calendar popup before or after the respective values and prevent the user from advancing the calendar past the `month` or `year` (depending on current view) containing the `min` or `max` date." />
       <item value="Depending on the `DateAdapter` being used, the datepicker may automatically deserialize certain date formats for you as well. For example, both the `NativeDateAdapter` and `MomentDateAdapter` allow [ISO 8601](https://tools.ietf.org/html/rfc3339) strings to be passed to the datepicker and automatically converted to the proper object type. This can be convenient when binding data directly from your backend to the datepicker. However, the datepicker will not accept date strings formatted in user format such as `&quot;1/2/2017&quot;` as this is ambiguous and will mean different things depending on the locale of the browser running the code." />
@@ -34,28 +51,12 @@
       <item value="### Dense lists" />
       <item value="For lists that require multiple lines per item, annotate each line with an `matLine` attribute. Whichever heading tag is appropriate for your DOM hierarchy should be used (not necessarily `&lt;h3&gt;` as shown in the example)." />
       <item value="### Selection lists" />
-      <item value="Simple navigation lists can use the `mat-list-item` attribute on anchor tag elements directly:" />
-      <item value="### Simple lists" />
-      <item value="`&lt;mat-list&gt;` is a container component that wraps and formats a series of line items. As the base list component, it provides Material Design styling, but no behavior of its own." />
-      <item value="This error is thrown when you attempt to set an input's `type` property to a value that isn't supported by the `matInput` directive. If you need to use an unsupported input type with `&lt;mat-form-field&gt;` consider writing a [custom form field control](https://material.angular.io/guide/creating-a-custom-form-field-control) for it." />
-      <item value="### Troubleshooting" />
-      <item value="The CDK provides [utilities](https://material.angular.io/cdk/text-field/overview#monitoring-the-autofill-state-of-an-input) for detecting when an input becomes autofilled and changing the appearance of the autofilled state." />
-      <item value="### Responding to changes in the autofill state of an `&lt;input&gt;`" />
-      <item value="A global error state matcher can be specified by setting the `ErrorStateMatcher` provider. This applies to all inputs. For convenience, `ShowOnDirtyErrorStateMatcher` is available in order to globally cause input errors to show when the input is dirty and invalid." />
-      <item value="An `ErrorStateMatcher` must implement a single method `isErrorState` which takes the `FormControl` for this `matInput` as well as the parent form and returns a boolean indicating whether errors should be shown. (`true` indicating that they should be shown, and `false` indicating that they should not.)" />
-      <item value="The `&lt;mat-form-field&gt;` allows you to [associate error messages](https://material.angular.io/components/form-field/overview#error-messages) with your `matInput`. By default, these error messages are shown when the control is invalid and either the user has interacted with (touched) the element or the parent form has been submitted. If you wish to override this behavior (e.g. to show the error as soon as the invalid control is dirty or when a parent form group is invalid), you can use the `errorStateMatcher` property of the `matInput`. The property takes an instance of an `ErrorStateMatcher` object. An `ErrorStateMatcher` must implement a single method `isErrorState` which takes the `FormControl` for this `matInput` as well as the parent form and returns a boolean indicating whether errors should be shown. (`true` indicating that they should be shown, and `false` indicating that they should not.)" />
-      <item value="Changing when error messages are shown" />
-      <item value="It is used to give the user an additional hint about what they should type in the input." />
-      <item value="The placeholder is text shown when the `&lt;mat-form-field&gt;` label is floating but the input is empty." />
-      <item value="Add a `&lt;span&gt;` as an adjacent sibling to the `&lt;mat-icon&gt;` element with text that conveys the same information as the icon." />
-      <item value="When the presence of an icon communicates some information to the user whether as an indicator or by being inlined into a block of text, that information must also be made available to screen-readers. The most straightforward way to do this is to" />
-      <item value="Icons alone are not interactive elements for screen-reader users; when the user would interact with some icon on the page, a more appropriate element should &quot;own&quot; the interaction:" />
-      <item value="cosmetic" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="163" />
-        <entry key="ENGLISH" value="164" />
+        <entry key="CHINESE" value="180" />
+        <entry key="ENGLISH" value="181" />
+        <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
