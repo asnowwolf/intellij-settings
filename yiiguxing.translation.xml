@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="analogous" />
+      <item value="side content" />
+      <item value="alongside" />
+      <item value="Angular Material provides two sets of components designed to add collapsible side content (often navigation, though it can be any content) alongside some primary content. These are the sidenav and drawer components." />
+      <item value="#### Error: A MatDatepicker can only be associated with a single input" />
+      <item value="IDENTICAL" />
       <item value="identical" />
       <item value="You will also want to make sure that the `MAT_DATE_FORMATS` provided in your app are formats that can be understood by your date implementation. See [_Customizing the parse and display formats_](#customizing-the-parse-and-display-formats)for more information about `MAT_DATE_FORMATS`. &lt;!-- TODO(mmalerba): Add a guide about this --&gt;" />
       <item value="accomplished" />
@@ -45,17 +51,11 @@
       <item value="If the list is used to present a list of non-interactive content items, then the list element should be given `role=&quot;list&quot;` and each list item should be given `role=&quot;listitem&quot;`." />
       <item value="By default, the list assumes that it will be used in a purely decorative fashion and thus sets no roles, ARIA attributes, or keyboard shortcuts. This is equivalent to having a sequence of `&lt;div&gt;` elements on the page. Any interactive content within the list should be given an appropriate accessibility treatment based on the specific workflow of your application." />
       <item value="#### Custom scenarios" />
-      <item value="When the list-items navigate somewhere, `&lt;mat-nav-list&gt;` should be used with `&lt;a mat-list-item&gt;` elements as the list items. The nav-list will be rendered using `role=&quot;navigation&quot;` and can be given an `aria-label` to give context on the set of navigation options presented. Additional interactive content, such as buttons, should _not_ be added inside the anchors." />
-      <item value="The type of list used in any given situation depends on how the end-user will be interacting with the it." />
-      <item value="Lists are also available in &quot;dense layout&quot; mode, which shrinks the font size and height of the list to suit UIs that may need to display more information. To enable this mode, add a `dense` attribute to the main `mat-list` tag." />
-      <item value="### Dense lists" />
-      <item value="For lists that require multiple lines per item, annotate each line with an `matLine` attribute. Whichever heading tag is appropriate for your DOM hierarchy should be used (not necessarily `&lt;h3&gt;` as shown in the example)." />
-      <item value="### Selection lists" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="180" />
-        <entry key="ENGLISH" value="181" />
+        <entry key="CHINESE" value="185" />
+        <entry key="ENGLISH" value="186" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
