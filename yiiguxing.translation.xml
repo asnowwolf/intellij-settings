@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `tickInterval` can also be set to `auto` which will automatically choose the number of steps such that there is at least `30px` of space between ticks." />
+      <item value="By default, sliders do not show tick marks along the thumb track. This can be enabled using the tickInterval attribute. The value of tickInterval should be a number representing the number of steps between between ticks. For example a tickInterval of 3 with a step of 4 will draw tick marks at every 3 steps, which is the same as every 12 values." />
+      <item value="By default, sliders do not show tick marks along the thumb track. This can be enabled using the `tickInterval` attribute. The value of `tickInterval` should be a number representing the number of steps between between ticks. For example a `tickInterval` of `3` with a `step` of `4` will draw tick marks at every `3` steps, which is the same as every `12` values." />
+      <item value="By default, the value in the slider's thumb label will be the same as the model value, however this may end up being too large to fit into the label. If you want to control the value that is being displayed, you can do so using the `displayWith` input." />
+      <item value="discrete" />
+      <item value="An `invert` attribute is also available which can be specified to flip the axis that the thumb moves along. An inverted horizontal slider will have the minimum value on the right and the maximum value on the left, while an inverted vertical slider will have the minimum value on top and the maximum value on bottom." />
+      <item value="By default the minimum value of the slider is `0`, the maximum value is `100`, and the thumb moves in increments of `1`. These values can be changed by setting the `min`, `max`, and `step` attributes respectively. The initial value is set to the minimum value unless otherwise specified." />
+      <item value="_Note: the sliding behavior for this component requires that HammerJS is loaded on the page._" />
+      <item value="`&lt;mat-slider&gt;` allows for the selection of a value from a range via mouse, touch, or keyboard, similar to `&lt;input type=&quot;range&quot;&gt;`." />
       <item value="The `&lt;mat-sidenav&gt;` an `&lt;mat-sidenav-content&gt;` should each be given an appropriate `role` attribute depending on the context in which they are used." />
       <item value="To react to scrolling inside the `&lt;mat-sidenav-container&gt;`, you can get a hold of the underlying `CdkScrollable` instance through the `MatSidenavContainer`." />
       <item value="By default, Material will only measure and resize the drawer container in a few key moments (on open, on window resize, on mode change) in order to avoid layout thrashing, however there are cases where this can be problematic. If your app requires for a drawer to change its width while it is open, you can use the `autosize` option to tell Material to continue measuring it. Note that you should use this option **at your own risk**, because it could cause performance issues." />
@@ -42,20 +51,11 @@
       <item value="### Disabling the ripple effect" />
       <item value="The `&lt;mat-select&gt;` also supports all of the form directives from the core `FormsModule` (`NgModel`) and `ReactiveFormsModule` (`FormControl`, `FormGroup`, etc.) As with native `&lt;select&gt;`, `&lt;mat-select&gt;` also supports a `compareWith` function. (Additional information about using a custom `compareWith` function can be found in the [Angular forms documentation](https://angular.io/api/forms/SelectControlValueAccessor#caveat-option-selection))." />
       <item value="[Material Design spec](https://material.io/design/components/menus.html). It is designed to work inside of a [`&lt;mat-form-field&gt;`](https://material.angular.io/components/form-field/overview) element." />
-      <item value="All radio-buttons with the same `name` comprise a set from which only one may be selected at a time." />
-      <item value="Indicates that something is happening without conveying a discrete progress" />
-      <item value="In &quot;query&quot; mode, the progress-bar renders as an inverted &quot;indeterminate&quot; bar. Once the response progress is available, the `mode` should be changed to determinate to convey the progress. In this mode the `value` property is ignored." />
-      <item value="For situations where the user wants to indicate pre-loading (until the loading can actually be made), use the query indicator." />
-      <item value="In &quot;buffer&quot; mode, `value` determines the progress of the primary bar while the `bufferValue` is used to show the additional buffering progress." />
-      <item value="Operations where the user wants to indicate some activity or loading from the server, use the buffer indicator." />
-      <item value="Indeterminate" />
-      <item value="Operations where the percentage of the operation complete is known should use the determinate indicator." />
-      <item value="indeterminate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="193" />
-        <entry key="ENGLISH" value="195" />
+        <entry key="CHINESE" value="202" />
+        <entry key="ENGLISH" value="204" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
