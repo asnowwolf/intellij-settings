@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Only if the use-case of the toolbar match that of role=&quot;toolbar&quot;, the user should add the role and an appropriate label via `aria-label` or `aria-labelledby`." />
+      <item value="Generally, the toolbar is used as a header where `role=&quot;heading&quot;` would be appropriate." />
+      <item value="The toolbar does not perform any positioning of its content. This gives the user full power to position the content as it suits their application." />
+      <item value="Tab contents can be lazy loaded by declaring the body in a `ng-template` with the `matTabContent` attribute." />
+      <item value="If the tab contains several complex child components or the tab's contents rely on DOM calculations during initialization, it is advised to lazy load the tab's content." />
+      <item value="eagerly" />
+      <item value="The `tab-nav-bar` is not tied to any particular router; it works with normal `&lt;a&gt;` elements and uses the `active` property to determine which tab is currently active. The corresponding `&lt;router-outlet&gt;` can be placed anywhere in the view." />
+      <item value="While `&lt;mat-tab-group&gt;` is used to switch between views within a single route, `&lt;nav mat-tab-nav-bar&gt;` provides a tab-like UI for navigating between routes." />
       <item value="Angular Material tab set organize content into separate views where only one view can be visible at a time. Each tab's label is shown in the tab header and the active tab's label is designated with the animated ink bar. When the list of tab labels exceeds the width of the header, pagination controls appear to let the user scroll left and right across the labels." />
       <item value="Angular Material tabs organize content into separate views where only one view can be visible at a time. Each tab's label is shown in the tab header and the active tab's label is designated with the animated ink bar. When the list of tab labels exceeds the width of the header, pagination controls appear to let the user scroll left and right across the labels." />
       <item value="the content that can be expanded upon selection is given `role=&quot;tabpanel&quot;`" />
@@ -43,19 +51,11 @@
       <item value="alongside" />
       <item value="Angular Material provides two sets of components designed to add collapsible side content (often navigation, though it can be any content) alongside some primary content. These are the sidenav and drawer components." />
       <item value="#### Error: A MatDatepicker can only be associated with a single input" />
-      <item value="IDENTICAL" />
-      <item value="identical" />
-      <item value="You will also want to make sure that the `MAT_DATE_FORMATS` provided in your app are formats that can be understood by your date implementation. See [_Customizing the parse and display formats_](#customizing-the-parse-and-display-formats)for more information about `MAT_DATE_FORMATS`. &lt;!-- TODO(mmalerba): Add a guide about this --&gt;" />
-      <item value="accomplished" />
-      <item value="By default the `MomentDateAdapter` will creates dates in your time zone specific locale. You can change the default behaviour to parse dates as UTC by providing the `MAT_MOMENT_DATE_ADAPTER_OPTIONS` and setting it to `useUtc: true`." />
-      <item value="Because `DateAdapter` is a generic class, `MatDatepicker` and `MatDatepickerInput` also need to be made generic. When working with these classes (for example as a `ViewChild`) you should include the appropriate generic type that corresponds to the `DateAdapter` implementation you are using. For example:" />
-      <item value="Because `DateAdapter` is a generic class," />
-      <item value="*Please note: `MatNativeDateModule` is based off of the functionality available in JavaScript's native `Date` object, and is thus not suitable for many locales. One of the biggest shortcomings of the native `Date` object is the inability to set the parse format. We highly recommend using the `MomentDateAdapter` or a custom `DateAdapter` that works with the formatting/parsing library of your choice.*" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="228" />
-        <entry key="ENGLISH" value="230" />
+        <entry key="CHINESE" value="236" />
+        <entry key="ENGLISH" value="238" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
