@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Snack-bars that have an action available should not be given a `duration`, as to accomodate screen-reader users that want to navigate to the snack-bar element to activate the action. If the user has manually moved their focus within the snackbar, focus should be placed somewhere sensible based on the application context when the snack-bar is dismissed." />
       <item value="Utilities to respond to changes in LTR/RTL layout direction." />
       <item value="A configurable component for displaying tabular data." />
       <item value="Displays short actionable messages as an uninvasive alert." />
@@ -50,12 +51,11 @@
       <item value="1. The date locale." />
       <item value="#### Setting the locale code" />
       <item value="2. The date implementation that the datepicker accepts." />
-      <item value="The datepicker normally opens as a popup under the input. However this is not ideal for touch devices that don't have as much screen real estate and need bigger click targets. For this reason `&lt;mat-datepicker&gt;` has a `touchUi` property that can be set to `true` in order to enable a more touch friendly UI where the calendar opens in a large dialog." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="219" />
-        <entry key="ENGLISH" value="221" />
+        <entry key="CHINESE" value="220" />
+        <entry key="ENGLISH" value="222" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
