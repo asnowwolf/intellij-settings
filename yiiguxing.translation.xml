@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Finally, adjust the styling for the select column so that its overflow is not hidden. This allows the ripple effect to extend beyond the cell." />
+      <item value="incorporate" />
+      <item value="To override the default filtering behavior, a custom `filterPredicate` function can be set which takes a data object and filter string and returns true if the data object is considered a match." />
+      <item value="If you are using the `MatTableDataSource`, simply provide the filter string to the `MatTableDataSource`. The data source will reduce each row data to a serialized form and will filter out the row if it does not contain the filter string. By default, the row data reducing function will concatenate all the object values and convert them to lowercase." />
+      <item value="A general strategy is to add an input where users can type in a filter string and listen to this input to change what data is offered from the data source to the table." />
+      <item value="Angular Material does not provide a specific component to be used for filtering the `MatTable` since there is no single common approach to adding a filter UI to table data." />
+      <item value="By default, the `MatTableDataSource` sorts with the assumption that the sorted column's name matches the data property name that the column displays. For example, the following column definition is named `position`, which matches the name of the property displayed in the row cell." />
       <item value="slice" />
       <item value="To simplify the use case of having a table that can sort, paginate, and filter an array of data, the Angular Material library comes with a `MatTableDataSource` that has already implemented the logic of determining what rows should be rendered according to the current table state. To add these feature to the table, check out their respective sections below." />
       <item value="You'll notice that the table itself doesn't come out of the box with a lot of features, but expects that the table will be included in a composition of components that fills out its features." />
@@ -44,18 +51,11 @@
       <item value="Only presents one view at a time from a provided set of views." />
       <item value="Presents content as steps through which to progress." />
       <item value="Presents conventional lists of items." />
-      <item value="A styled container for pieces of itemized content." />
-      <item value="`MatSnackBar` is a service for displaying snack-bar notifications." />
-      <item value="The `tickInterval` can also be set to `auto` which will automatically choose the number of steps such that there is at least `30px` of space between ticks." />
-      <item value="By default, sliders do not show tick marks along the thumb track. This can be enabled using the tickInterval attribute. The value of tickInterval should be a number representing the number of steps between between ticks. For example a tickInterval of 3 with a step of 4 will draw tick marks at every 3 steps, which is the same as every 12 values." />
-      <item value="By default, sliders do not show tick marks along the thumb track. This can be enabled using the `tickInterval` attribute. The value of `tickInterval` should be a number representing the number of steps between between ticks. For example a `tickInterval` of `3` with a `step` of `4` will draw tick marks at every `3` steps, which is the same as every `12` values." />
-      <item value="By default, the value in the slider's thumb label will be the same as the model value, however this may end up being too large to fit into the label. If you want to control the value that is being displayed, you can do so using the `displayWith` input." />
-      <item value="discrete" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="252" />
-        <entry key="ENGLISH" value="254" />
+        <entry key="CHINESE" value="259" />
+        <entry key="ENGLISH" value="261" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
