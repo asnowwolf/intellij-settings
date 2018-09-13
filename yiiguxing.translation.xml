@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Angular Material tab set organize content into separate views where only one view can be visible at a time. Each tab's label is shown in the tab header and the active tab's label is designated with the animated ink bar. When the list of tab labels exceeds the width of the header, pagination controls appear to let the user scroll left and right across the labels." />
+      <item value="Angular Material tabs organize content into separate views where only one view can be visible at a time. Each tab's label is shown in the tab header and the active tab's label is designated with the animated ink bar. When the list of tab labels exceeds the width of the header, pagination controls appear to let the user scroll left and right across the labels." />
       <item value="the content that can be expanded upon selection is given `role=&quot;tabpanel&quot;`" />
       <item value="the content that can be expanded upon selection is given&#10;`role=&quot;tabpanel&quot;`" />
       <item value="Labels used by the stepper are provided through `MatStepperIntl`. Localization of these messages can be done by providing a subclass with translated values in your application root module." />
@@ -49,13 +51,11 @@
       <item value="Because `DateAdapter` is a generic class, `MatDatepicker` and `MatDatepickerInput` also need to be made generic. When working with these classes (for example as a `ViewChild`) you should include the appropriate generic type that corresponds to the `DateAdapter` implementation you are using. For example:" />
       <item value="Because `DateAdapter` is a generic class," />
       <item value="*Please note: `MatNativeDateModule` is based off of the functionality available in JavaScript's native `Date` object, and is thus not suitable for many locales. One of the biggest shortcomings of the native `Date` object is the inability to set the parse format. We highly recommend using the `MomentDateAdapter` or a custom `DateAdapter` that works with the formatting/parsing library of your choice.*" />
-      <item value="The datepicker was built to be date implementation agnostic. This means that it can be made to work with a variety of different date implementations. However it also means that developers need to make sure to provide the appropriate pieces for the datepicker to work with their chosen implementation. The easiest way to ensure this is just to import one of the pre-made modules:" />
-      <item value="The datepicker was built to be date implementation agnostic. This means that it can be made to work" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="226" />
-        <entry key="ENGLISH" value="228" />
+        <entry key="CHINESE" value="228" />
+        <entry key="ENGLISH" value="230" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
