@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the content that can be expanded upon selection is given `role=&quot;tabpanel&quot;`" />
+      <item value="the content that can be expanded upon selection is given&#10;`role=&quot;tabpanel&quot;`" />
+      <item value="Labels used by the stepper are provided through `MatStepperIntl`. Localization of these messages can be done by providing a subclass with translated values in your application root module." />
+      <item value="Note that you aren't limited to using the `mat-icon` component when providing custom icons." />
+      <item value="however" />
       <item value="Snack-bars that have an action available should not be given a `duration`, as to accomodate screen-reader users that want to navigate to the snack-bar element to activate the action. If the user has manually moved their focus within the snackbar, focus should be placed somewhere sensible based on the application context when the snack-bar is dismissed." />
       <item value="Utilities to respond to changes in LTR/RTL layout direction." />
       <item value="A configurable component for displaying tabular data." />
@@ -46,16 +51,11 @@
       <item value="*Please note: `MatNativeDateModule` is based off of the functionality available in JavaScript's native `Date` object, and is thus not suitable for many locales. One of the biggest shortcomings of the native `Date` object is the inability to set the parse format. We highly recommend using the `MomentDateAdapter` or a custom `DateAdapter` that works with the formatting/parsing library of your choice.*" />
       <item value="The datepicker was built to be date implementation agnostic. This means that it can be made to work with a variety of different date implementations. However it also means that developers need to make sure to provide the appropriate pieces for the datepicker to work with their chosen implementation. The easiest way to ensure this is just to import one of the pre-made modules:" />
       <item value="The datepicker was built to be date implementation agnostic. This means that it can be made to work" />
-      <item value="agnostic" />
-      <item value="By default, the `MAT_DATE_LOCALE` injection token will use the existing `LOCALE_ID` locale code from `@angular/core`. If you want to override it, you can provide a new value for the `MAT_DATE_LOCALE` token:" />
-      <item value="1. The date locale." />
-      <item value="#### Setting the locale code" />
-      <item value="2. The date implementation that the datepicker accepts." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="220" />
-        <entry key="ENGLISH" value="222" />
+        <entry key="CHINESE" value="226" />
+        <entry key="ENGLISH" value="228" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
