@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="jittery" />
+      <item value="Also, sticky positioning in Edge will appear shaky for special cases. For example, if the scrolling container has a complex box shadow and has sibling elements, the stuck cells will appear jittery. There is currently an [open issue with Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/17514118/) to resolve this." />
+      <item value="Note that on Safari mobile when using the flex-based table, a cell stuck in more than one direction will struggle to stay in the correct position as you scroll. For example, if a header row is stuck to the top and the first column is stuck, then the top-left-most cell will appear jittery as you scroll." />
       <item value="Finally, adjust the styling for the select column so that its overflow is not hidden. This allows the ripple effect to extend beyond the cell." />
       <item value="incorporate" />
       <item value="To override the default filtering behavior, a custom `filterPredicate` function can be set which takes a data object and filter string and returns true if the data object is considered a match." />
@@ -48,14 +51,11 @@
       <item value="A small value indicator that can be overlaid on another object." />
       <item value="A groupable on/off toggle for enabling and disabling options." />
       <item value="An interactive button with a range of presentation options." />
-      <item value="Only presents one view at a time from a provided set of views." />
-      <item value="Presents content as steps through which to progress." />
-      <item value="Presents conventional lists of items." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="259" />
-        <entry key="ENGLISH" value="261" />
+        <entry key="CHINESE" value="262" />
+        <entry key="ENGLISH" value="264" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
