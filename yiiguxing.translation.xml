@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="slice" />
+      <item value="To simplify the use case of having a table that can sort, paginate, and filter an array of data, the Angular Material library comes with a `MatTableDataSource` that has already implemented the logic of determining what rows should be rendered according to the current table state. To add these feature to the table, check out their respective sections below." />
       <item value="You'll notice that the table itself doesn't come out of the box with a lot of features, but expects that the table will be included in a composition of components that fills out its features." />
       <item value="The `MatTable` is focused on a single responsibility: efficiently render rows of data in a performant and accessible way." />
       <item value="For most real-world applications, providing the table a DataSource instance will be the best way to manage data. The DataSource is meant to serve a place to encapsulate any sorting, filtering, pagination, and data retrieval logic specific to the application." />
@@ -49,13 +51,11 @@
       <item value="By default, sliders do not show tick marks along the thumb track. This can be enabled using the `tickInterval` attribute. The value of `tickInterval` should be a number representing the number of steps between between ticks. For example a `tickInterval` of `3` with a `step` of `4` will draw tick marks at every `3` steps, which is the same as every `12` values." />
       <item value="By default, the value in the slider's thumb label will be the same as the model value, however this may end up being too large to fit into the label. If you want to control the value that is being displayed, you can do so using the `displayWith` input." />
       <item value="discrete" />
-      <item value="An `invert` attribute is also available which can be specified to flip the axis that the thumb moves along. An inverted horizontal slider will have the minimum value on the right and the maximum value on the left, while an inverted vertical slider will have the minimum value on top and the maximum value on bottom." />
-      <item value="By default the minimum value of the slider is `0`, the maximum value is `100`, and the thumb moves in increments of `1`. These values can be changed by setting the `min`, `max`, and `step` attributes respectively. The initial value is set to the minimum value unless otherwise specified." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="251" />
-        <entry key="ENGLISH" value="253" />
+        <entry key="CHINESE" value="252" />
+        <entry key="ENGLISH" value="254" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
