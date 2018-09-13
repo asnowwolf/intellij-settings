@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="You can use either the npm or yarn command-line tool to install packages. Use whichever is appropriate for your project in the examples below." />
       <item value="A `matTreeNodeToggle` can be added in the tree node template to expand/collapse the tree node. The toggle toggles the expand/collapse functions in `TreeControl` and is able to expand/collapse a tree node recursively by setting `[matTreeNodeToggleRecursive]` to `true`." />
       <item value="Toggle" />
       <item value="The `&lt;mat-tree&gt;` itself only deals with the rendering of a tree structure.&#10;Additional features can be built on top of the tree by adding behavior inside node templates (e.g., padding and toggle). Interactions that affect the rendered data (such as expand/collapse) should be propagated through the table's data source." />
@@ -50,12 +51,11 @@
       <item value="To react to scrolling inside the `&lt;mat-sidenav-container&gt;`, you can get a hold of the underlying `CdkScrollable` instance through the `MatSidenavContainer`." />
       <item value="By default, Material will only measure and resize the drawer container in a few key moments (on open, on window resize, on mode change) in order to avoid layout thrashing, however there are cases where this can be problematic. If your app requires for a drawer to change its width while it is open, you can use the `autosize` option to tell Material to continue measuring it. Note that you should use this option **at your own risk**, because it could cause performance issues." />
       <item value="thrashing" />
-      <item value="The `over` and `push` sidenav modes show a backdrop by default, while the `side` mode does not." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="243" />
-        <entry key="ENGLISH" value="245" />
+        <entry key="CHINESE" value="244" />
+        <entry key="ENGLISH" value="246" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
