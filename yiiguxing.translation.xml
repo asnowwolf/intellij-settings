@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="You'll notice that the table itself doesn't come out of the box with a lot of features, but expects that the table will be included in a composition of components that fills out its features." />
+      <item value="The `MatTable` is focused on a single responsibility: efficiently render rows of data in a performant and accessible way." />
       <item value="For most real-world applications, providing the table a DataSource instance will be the best way to manage data. The DataSource is meant to serve a place to encapsulate any sorting, filtering, pagination, and data retrieval logic specific to the application." />
       <item value="The simplest way to provide data to your table is by passing a data array. More complex use-cases may benefit from a more flexible approach involving an Observable stream or by encapsulating your data source logic into a `DataSource` class." />
       <item value="Directionality" />
@@ -49,13 +51,11 @@
       <item value="discrete" />
       <item value="An `invert` attribute is also available which can be specified to flip the axis that the thumb moves along. An inverted horizontal slider will have the minimum value on the right and the maximum value on the left, while an inverted vertical slider will have the minimum value on top and the maximum value on bottom." />
       <item value="By default the minimum value of the slider is `0`, the maximum value is `100`, and the thumb moves in increments of `1`. These values can be changed by setting the `min`, `max`, and `step` attributes respectively. The initial value is set to the minimum value unless otherwise specified." />
-      <item value="_Note: the sliding behavior for this component requires that HammerJS is loaded on the page._" />
-      <item value="`&lt;mat-slider&gt;` allows for the selection of a value from a range via mouse, touch, or keyboard, similar to `&lt;input type=&quot;range&quot;&gt;`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="249" />
-        <entry key="ENGLISH" value="251" />
+        <entry key="CHINESE" value="251" />
+        <entry key="ENGLISH" value="253" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
