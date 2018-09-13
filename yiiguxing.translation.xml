@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A `matTreeNodeToggle` can be added in the tree node template to expand/collapse the tree node. The toggle toggles the expand/collapse functions in `TreeControl` and is able to expand/collapse a tree node recursively by setting `[matTreeNodeToggleRecursive]` to `true`." />
+      <item value="Toggle" />
+      <item value="The `&lt;mat-tree&gt;` itself only deals with the rendering of a tree structure.&#10;Additional features can be built on top of the tree by adding behavior inside node templates (e.g., padding and toggle). Interactions that affect the rendered data (such as expand/collapse) should be propagated through the table's data source." />
+      <item value="Nested trees are easier to work with when hierarchical relationships are visually represented in ways that would be difficult to accomplish with flat nodes." />
+      <item value="variations" />
+      <item value="In a flat tree, the hierarchy is flattened; nodes are not rendered inside of each other, but instead are rendered as siblings in sequence. An instance of `TreeFlattener` is used to generate the flat list of items from hierarchical data. The &quot;level&quot; of each tree node is read through the `getLevel` method of the `TreeControl`; this level can be used to style the node such that it is indented to the appropriate level." />
+      <item value="similar" />
+      <item value="If a tooltip will only be shown manually via click, keypress, etc., then extra care should be taken such that the action behaves similarly for screen-reader users. One possible approach would be to use the `LiveAnnouncer` from the `cdk/a11y` package to announce the tooltip content on such an interaction." />
       <item value="Only if the use-case of the toolbar match that of role=&quot;toolbar&quot;, the user should add the role and an appropriate label via `aria-label` or `aria-labelledby`." />
       <item value="Generally, the toolbar is used as a header where `role=&quot;heading&quot;` would be appropriate." />
       <item value="The toolbar does not perform any positioning of its content. This gives the user full power to position the content as it suits their application." />
@@ -43,19 +51,11 @@
       <item value="By default, Material will only measure and resize the drawer container in a few key moments (on open, on window resize, on mode change) in order to avoid layout thrashing, however there are cases where this can be problematic. If your app requires for a drawer to change its width while it is open, you can use the `autosize` option to tell Material to continue measuring it. Note that you should use this option **at your own risk**, because it could cause performance issues." />
       <item value="thrashing" />
       <item value="The `over` and `push` sidenav modes show a backdrop by default, while the `side` mode does not." />
-      <item value="Sidenav appears side-by-side with the main content, shrinking the main content's width to make space for the sidenav." />
-      <item value="&lt;p translation-result&gt;侧边栏和主内容&lt;/p&gt;&lt;p translation-origin=&quot;off&quot;&gt;Sidenav appears side-by-side with the main content, shrinking the main content's width to make space for the sidenav.&lt;/p&gt;" />
-      <item value="backdrop" />
-      <item value="analogous" />
-      <item value="side content" />
-      <item value="alongside" />
-      <item value="Angular Material provides two sets of components designed to add collapsible side content (often navigation, though it can be any content) alongside some primary content. These are the sidenav and drawer components." />
-      <item value="#### Error: A MatDatepicker can only be associated with a single input" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="236" />
-        <entry key="ENGLISH" value="238" />
+        <entry key="CHINESE" value="243" />
+        <entry key="ENGLISH" value="245" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
