@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="In particular," />
       <item value="Dashboard" />
       <item value="If you run it will automatically install Angular Material for you and run the install schematic." />
       <item value="schematic" />
@@ -50,12 +51,11 @@
       <item value="similar" />
       <item value="If a tooltip will only be shown manually via click, keypress, etc., then extra care should be taken such that the action behaves similarly for screen-reader users. One possible approach would be to use the `LiveAnnouncer` from the `cdk/a11y` package to announce the tooltip content on such an interaction." />
       <item value="Only if the use-case of the toolbar match that of role=&quot;toolbar&quot;, the user should add the role and an appropriate label via `aria-label` or `aria-labelledby`." />
-      <item value="Generally, the toolbar is used as a header where `role=&quot;heading&quot;` would be appropriate." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="287" />
-        <entry key="ENGLISH" value="289" />
+        <entry key="CHINESE" value="288" />
+        <entry key="ENGLISH" value="290" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
