@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Some Angular Material components, specifically overlay-based ones like MatDialog, MatSnackbar, etc., do not exist as children of your component. Often they are injected elsewhere in the DOM. This is important to keep in mind, since even using high specificity and shadow-piercing selectors will not target elements that are not direct children of your component. Global styles are recommended for targeting such components." />
+      <item value="##### Selector specificity" />
+      <item value="Is the component a child of your component, or does it exist elsewhere in the DOM?" />
       <item value="2. Are your styles more specific than the defaults?" />
       <item value="In our case we'll just focus the first `&lt;input&gt;` if the user isn't about to click an `&lt;input&gt;` anyways." />
       <item value="This property allows us to specify a unique string for the type of control in form field. The `&lt;mat-form-field&gt;` will add an additional class based on this type that can be used to easily apply special styles to a `&lt;mat-form-field&gt;` that contains a specific type of control. In this example we'll use `my-tel-input` as our control type which will result in the form field adding the class `mat-form-field-my-tel-input`." />
@@ -48,14 +51,11 @@
       <item value="The `tab-nav-bar` is not tied to any particular router; it works with normal `&lt;a&gt;` elements and uses the `active` property to determine which tab is currently active. The corresponding `&lt;router-outlet&gt;` can be placed anywhere in the view." />
       <item value="While `&lt;mat-tab-group&gt;` is used to switch between views within a single route, `&lt;nav mat-tab-nav-bar&gt;` provides a tab-like UI for navigating between routes." />
       <item value="Angular Material tab set organize content into separate views where only one view can be visible at a time. Each tab's label is shown in the tab header and the active tab's label is designated with the animated ink bar. When the list of tab labels exceeds the width of the header, pagination controls appear to let the user scroll left and right across the labels." />
-      <item value="Angular Material tabs organize content into separate views where only one view can be visible at a time. Each tab's label is shown in the tab header and the active tab's label is designated with the animated ink bar. When the list of tab labels exceeds the width of the header, pagination controls appear to let the user scroll left and right across the labels." />
-      <item value="the content that can be expanded upon selection is given `role=&quot;tabpanel&quot;`" />
-      <item value="the content that can be expanded upon selection is given&#10;`role=&quot;tabpanel&quot;`" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="276" />
-        <entry key="ENGLISH" value="278" />
+        <entry key="CHINESE" value="279" />
+        <entry key="ENGLISH" value="281" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
