@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Angular Material's elevation classes and mixins allow you to add separation between elements along the z-axis. All material design elements have resting elevations. In addition, some elements may change their elevation in response to user interaction. The [Material Design spec](https://material.io/design/environment/elevation.html) explains how to best use elevation." />
+      <item value="elevation" />
+      <item value="Use a deprecated shadow-piercing descendant combinator to force styles to apply to all the child elements. Read more about this deprecated solution in the [Angular documentation](https://angular.io/guide/component-styles#deprecated-deep--and-ng-deep)." />
       <item value="Some Angular Material components, specifically overlay-based ones like MatDialog, MatSnackbar, etc., do not exist as children of your component. Often they are injected elsewhere in the DOM. This is important to keep in mind, since even using high specificity and shadow-piercing selectors will not target elements that are not direct children of your component. Global styles are recommended for targeting such components." />
       <item value="##### Selector specificity" />
       <item value="Is the component a child of your component, or does it exist elsewhere in the DOM?" />
@@ -48,14 +51,11 @@
       <item value="Tab contents can be lazy loaded by declaring the body in a `ng-template` with the `matTabContent` attribute." />
       <item value="If the tab contains several complex child components or the tab's contents rely on DOM calculations during initialization, it is advised to lazy load the tab's content." />
       <item value="eagerly" />
-      <item value="The `tab-nav-bar` is not tied to any particular router; it works with normal `&lt;a&gt;` elements and uses the `active` property to determine which tab is currently active. The corresponding `&lt;router-outlet&gt;` can be placed anywhere in the view." />
-      <item value="While `&lt;mat-tab-group&gt;` is used to switch between views within a single route, `&lt;nav mat-tab-nav-bar&gt;` provides a tab-like UI for navigating between routes." />
-      <item value="Angular Material tab set organize content into separate views where only one view can be visible at a time. Each tab's label is shown in the tab header and the active tab's label is designated with the animated ink bar. When the list of tab labels exceeds the width of the header, pagination controls appear to let the user scroll left and right across the labels." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="279" />
-        <entry key="ENGLISH" value="281" />
+        <entry key="CHINESE" value="283" />
+        <entry key="ENGLISH" value="285" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
