@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This property is used to indicate whether the label should be in the floating position. We'll use the same logic as `matInput` and float the placeholder when the input is focused or non-empty. Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
+      <item value="This property is used to indicate whether the label should be in the floating position. We'll&#10;use the same logic as `matInput` and float the placeholder when the input is focused or non-empty.&#10;Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
       <item value="id" />
       <item value="complete" />
       <item value="Because the `&lt;mat-form-field&gt;` uses the `OnPush` change detection strategy, we need to let it know when something happens in the form field control that may require the form field to run change detection. We do this via the `stateChanges` property. So far the only thing the form field needs to know about is when the value changes. We'll need to emit on the stateChanges stream when that happens, and as we continue flushing out these properties we'll likely find more places we need to emit. We should also make sure to complete `stateChanges` when our component is destroyed." />
@@ -49,13 +51,11 @@
       <item value="Labels used by the stepper are provided through `MatStepperIntl`. Localization of these messages can be done by providing a subclass with translated values in your application root module." />
       <item value="Note that you aren't limited to using the `mat-icon` component when providing custom icons." />
       <item value="however" />
-      <item value="Snack-bars that have an action available should not be given a `duration`, as to accomodate screen-reader users that want to navigate to the snack-bar element to activate the action. If the user has manually moved their focus within the snackbar, focus should be placed somewhere sensible based on the application context when the snack-bar is dismissed." />
-      <item value="Utilities to respond to changes in LTR/RTL layout direction." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="271" />
-        <entry key="ENGLISH" value="273" />
+        <entry key="CHINESE" value="273" />
+        <entry key="ENGLISH" value="275" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
