@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="Caddyfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="abc" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="PLAIN_TEXT" />
