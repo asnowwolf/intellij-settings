@@ -1,6 +1,24 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="`mat-typography-level-to-styles($config, $level)` - Mixin that takes in a configuration object and a typography level, and outputs a short-hand CSS `font` declaration." />
+      <item value="Angular Material includes typography utility mixins and functions that you can use to customize your own components" />
+      <item value="Angular Material includes typography utility mixins and functions that you can use to customize your&#10;own components:" />
+      <item value="Typography customization is an extension of Angular Material's Sass-based theming. Similar to creating a custom theme, you can create a custom **typography configuration**." />
+      <item value="host" />
+      <item value="The typography levels are collected into a typography config which is used to generate the CSS." />
+      <item value="Smaller body and hint text." />
+      <item value="Bolder body text." />
+      <item value="Typography is a way of arranging type to make text legible, readable, and appealing when displayed. Angular Material's typography is based on the guidelines from the [Material Design spec][1] and is arranged into typography levels. Each level has a `font-size`, `line-height` and `font-weight`. The available levels are:" />
+      <item value="legible" />
+      <item value="# Angular Material typography" />
+      <item value="This file should contain everything that is not affected by the theme like sizes, transitions..." />
+      <item value="When using `@mixin`, the theme file should only contain the definitions that are affected by the passed-in theme." />
+      <item value="Now you just have to call the `@mixin` function to apply the theme:" />
+      <item value="In order to style your own components with Angular Material's tooling, the component's styles must be defined with Sass." />
+      <item value="Once CSS variables (custom properties) are available in all the browsers we support, we will explore how to take advantage of them to make theming even simpler." />
+      <item value="ripples" />
+      <item value="You can include as many themes as you like in this manner. You can also `@include` the `angular-material-theme` in separate files and then lazily load them based on an end-user interaction (how to lazily load the CSS assets will vary based on your application)." />
       <item value="In particular," />
       <item value="Dashboard" />
       <item value="If you run it will automatically install Angular Material for you and run the install schematic." />
@@ -33,29 +51,11 @@
       <item value="A general strategy is to add an input where users can type in a filter string and listen to this input to change what data is offered from the data source to the table." />
       <item value="Angular Material does not provide a specific component to be used for filtering the `MatTable` since there is no single common approach to adding a filter UI to table data." />
       <item value="By default, the `MatTableDataSource` sorts with the assumption that the sorted column's name matches the data property name that the column displays. For example, the following column definition is named `position`, which matches the name of the property displayed in the row cell." />
-      <item value="slice" />
-      <item value="To simplify the use case of having a table that can sort, paginate, and filter an array of data, the Angular Material library comes with a `MatTableDataSource` that has already implemented the logic of determining what rows should be rendered according to the current table state. To add these feature to the table, check out their respective sections below." />
-      <item value="You'll notice that the table itself doesn't come out of the box with a lot of features, but expects that the table will be included in a composition of components that fills out its features." />
-      <item value="The `MatTable` is focused on a single responsibility: efficiently render rows of data in a performant and accessible way." />
-      <item value="For most real-world applications, providing the table a DataSource instance will be the best way to manage data. The DataSource is meant to serve a place to encapsulate any sorting, filtering, pagination, and data retrieval logic specific to the application." />
-      <item value="The simplest way to provide data to your table is by passing a data array. More complex use-cases may benefit from a more flexible approach involving an Observable stream or by encapsulating your data source logic into a `DataSource` class." />
-      <item value="Directionality" />
-      <item value="# Angular Material bi-directionality" />
-      <item value="You can use either the npm or yarn command-line tool to install packages. Use whichever is appropriate for your project in the examples below." />
-      <item value="A `matTreeNodeToggle` can be added in the tree node template to expand/collapse the tree node. The toggle toggles the expand/collapse functions in `TreeControl` and is able to expand/collapse a tree node recursively by setting `[matTreeNodeToggleRecursive]` to `true`." />
-      <item value="Toggle" />
-      <item value="The `&lt;mat-tree&gt;` itself only deals with the rendering of a tree structure.&#10;Additional features can be built on top of the tree by adding behavior inside node templates (e.g., padding and toggle). Interactions that affect the rendered data (such as expand/collapse) should be propagated through the table's data source." />
-      <item value="Nested trees are easier to work with when hierarchical relationships are visually represented in ways that would be difficult to accomplish with flat nodes." />
-      <item value="variations" />
-      <item value="In a flat tree, the hierarchy is flattened; nodes are not rendered inside of each other, but instead are rendered as siblings in sequence. An instance of `TreeFlattener` is used to generate the flat list of items from hierarchical data. The &quot;level&quot; of each tree node is read through the `getLevel` method of the `TreeControl`; this level can be used to style the node such that it is indented to the appropriate level." />
-      <item value="similar" />
-      <item value="If a tooltip will only be shown manually via click, keypress, etc., then extra care should be taken such that the action behaves similarly for screen-reader users. One possible approach would be to use the `LiveAnnouncer` from the `cdk/a11y` package to announce the tooltip content on such an interaction." />
-      <item value="Only if the use-case of the toolbar match that of role=&quot;toolbar&quot;, the user should add the role and an appropriate label via `aria-label` or `aria-labelledby`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="288" />
-        <entry key="ENGLISH" value="290" />
+        <entry key="CHINESE" value="308" />
+        <entry key="ENGLISH" value="310" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
