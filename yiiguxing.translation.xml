@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="In our case we'll just focus the first `&lt;input&gt;` if the user isn't about to click an `&lt;input&gt;` anyways." />
+      <item value="This property allows us to specify a unique string for the type of control in form field. The `&lt;mat-form-field&gt;` will add an additional class based on this type that can be used to easily apply special styles to a `&lt;mat-form-field&gt;` that contains a specific type of control. In this example we'll use `my-tel-input` as our control type which will result in the form field adding the class `mat-form-field-my-tel-input`." />
       <item value="This property is used to indicate whether the label should be in the floating position. We'll use the same logic as `matInput` and float the placeholder when the input is focused or non-empty. Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
       <item value="This property is used to indicate whether the label should be in the floating position. We'll&#10;use the same logic as `matInput` and float the placeholder when the input is focused or non-empty.&#10;Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
       <item value="id" />
@@ -49,13 +51,11 @@
       <item value="the content that can be expanded upon selection is given `role=&quot;tabpanel&quot;`" />
       <item value="the content that can be expanded upon selection is given&#10;`role=&quot;tabpanel&quot;`" />
       <item value="Labels used by the stepper are provided through `MatStepperIntl`. Localization of these messages can be done by providing a subclass with translated values in your application root module." />
-      <item value="Note that you aren't limited to using the `mat-icon` component when providing custom icons." />
-      <item value="however" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="273" />
-        <entry key="ENGLISH" value="275" />
+        <entry key="CHINESE" value="275" />
+        <entry key="ENGLISH" value="277" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
