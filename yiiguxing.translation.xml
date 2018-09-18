@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure." />
+      <item value="&quot;organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.&quot;" />
       <item value="The Angular CLI outputs the client-side code in the `dist` directory by default, so you modify the `outputPath` for the __build__ target in the `angular.json` to keep the client-side build outputs separate from the server-side code. The client-side build output will be served by the Express server." />
       <item value="A Universal app is distributed in two parts: the server-side code that serves up the initial application, and the client-side code that's loaded in dynamically." />
       <item value="`mat-typography-level-to-styles($config, $level)` - Mixin that takes in a configuration object and a typography level, and outputs a short-hand CSS `font` declaration." />
@@ -49,13 +51,11 @@
       <item value="Finally, adjust the styling for the select column so that its overflow is not hidden. This allows the ripple effect to extend beyond the cell." />
       <item value="incorporate" />
       <item value="To override the default filtering behavior, a custom `filterPredicate` function can be set which takes a data object and filter string and returns true if the data object is considered a match." />
-      <item value="If you are using the `MatTableDataSource`, simply provide the filter string to the `MatTableDataSource`. The data source will reduce each row data to a serialized form and will filter out the row if it does not contain the filter string. By default, the row data reducing function will concatenate all the object values and convert them to lowercase." />
-      <item value="A general strategy is to add an input where users can type in a filter string and listen to this input to change what data is offered from the data source to the table." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="310" />
-        <entry key="ENGLISH" value="312" />
+        <entry key="CHINESE" value="313" />
+        <entry key="ENGLISH" value="315" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
