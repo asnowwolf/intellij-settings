@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The built-in browser DOM APIs don't automatically protect you from security vulnerabilities. For example, `document`, the node available through `ElementRef`, and many third-party APIs contain unsafe methods. In the same way, if you interact with other libraries that manipulate the DOM, you likely won't have the same automatic sanitization as with Angular interpolations. Avoid directly interacting with the DOM and instead use Angular templates where possible." />
       <item value="Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure." />
       <item value="&quot;organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.&quot;" />
       <item value="The Angular CLI outputs the client-side code in the `dist` directory by default, so you modify the `outputPath` for the __build__ target in the `angular.json` to keep the client-side build outputs separate from the server-side code. The client-side build output will be served by the Express server." />
@@ -50,12 +51,11 @@
       <item value="Note that on Safari mobile when using the flex-based table, a cell stuck in more than one direction will struggle to stay in the correct position as you scroll. For example, if a header row is stuck to the top and the first column is stuck, then the top-left-most cell will appear jittery as you scroll." />
       <item value="Finally, adjust the styling for the select column so that its overflow is not hidden. This allows the ripple effect to extend beyond the cell." />
       <item value="incorporate" />
-      <item value="To override the default filtering behavior, a custom `filterPredicate` function can be set which takes a data object and filter string and returns true if the data object is considered a match." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="313" />
-        <entry key="ENGLISH" value="315" />
+        <entry key="CHINESE" value="315" />
+        <entry key="ENGLISH" value="317" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
