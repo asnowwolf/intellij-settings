@@ -45,7 +45,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="now" value="$now$" toReformat="false" toShortenFQNames="true">
+  <template name="now" value="$now$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="now" expression="date(&quot;yyyy-MM-dd HH:mm:ss&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
