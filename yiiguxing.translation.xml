@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A getter provides easy access to the aliases in the form array instance compared to repeating the `profileForm.get()` method to get each instance. The form array instance represents an undefined number of controls in an array. It's convenient to access a control through a getter, and this approach is easy to repeat for additional controls." />
+      <item value="* Use the `patchValue()` method to replace any properties defined in the object that have changed in the form model." />
       <item value="The built-in browser DOM APIs don't automatically protect you from security vulnerabilities. For example, `document`, the node available through `ElementRef`, and many third-party APIs contain unsafe methods. In the same way, if you interact with other libraries that manipulate the DOM, you likely won't have the same automatic sanitization as with Angular interpolations. Avoid directly interacting with the DOM and instead use Angular templates where possible." />
       <item value="Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure." />
       <item value="&quot;organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.&quot;" />
@@ -49,12 +51,10 @@
       <item value="jittery" />
       <item value="Also, sticky positioning in Edge will appear shaky for special cases. For example, if the scrolling container has a complex box shadow and has sibling elements, the stuck cells will appear jittery. There is currently an [open issue with Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/17514118/) to resolve this." />
       <item value="Note that on Safari mobile when using the flex-based table, a cell stuck in more than one direction will struggle to stay in the correct position as you scroll. For example, if a header row is stuck to the top and the first column is stuck, then the top-left-most cell will appear jittery as you scroll." />
-      <item value="Finally, adjust the styling for the select column so that its overflow is not hidden. This allows the ripple effect to extend beyond the cell." />
-      <item value="incorporate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="315" />
+        <entry key="CHINESE" value="316" />
         <entry key="ENGLISH" value="317" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
