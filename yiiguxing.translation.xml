@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Use the `animate()` function to define the length, delay, and easing of a transition, and to designate the style function for defining styles while transitions are taking place. You can also use the `animate()` function to define the `keyframes()` function for multi-step animations. These definitions are placed in the second argument of the `animate()` function." />
+      <item value="To make the change less abrupt, we need to define an animation *transition* to specify the changes that occur between one state and another over a period of time. The `transition()` function accepts two arguments: the first argument accepts an expression that defines the direction between two transition states, and the second argument accepts an `animate()` function." />
+      <item value="In Angular, you can set multiple styles without any animation. However, without further refinement, the button instantly transforms with no fade, no shrinkage, or other visible indicator that a change is occurring." />
+      <item value="Let's see how Angular's `state()` function works with the `style⁣­(⁠)` function to set CSS style attributes. In this code snippet, multiple style attributes are set at the same time for the state. In the `open` state, the button has a height of 200 pixels, an opacity of 1, and a background color of yellow." />
+      <item value="In HTML, these attributes are set using ordinary CSS styles such as color and opacity. In Angular, use the `style()` function to specify a set of CSS styles for use with animations. You can collect a set of styles in an animation state, and give the state a name, such as `open` or `closed`." />
       <item value="Prerequisites" />
       <item value="Angular's animation system is built on CSS functionality, which means you can animate any property that the browser considers animatable. This includes positions, sizes, transforms, colors, borders, and more. The W3C maintains a list of animatable properties on its [CSS Transitions](https://www.w3.org/TR/css-transitions-1/) page." />
       <item value="Typically, animations involve multiple style *transformations* over time. An HTML element can move, change color, grow or shrink, fade, or slide off the page. These changes can occur simultaneously or sequentially. You can control the timing of each transformation." />
@@ -46,16 +51,11 @@
       <item value="##### Selector specificity" />
       <item value="Is the component a child of your component, or does it exist elsewhere in the DOM?" />
       <item value="2. Are your styles more specific than the defaults?" />
-      <item value="In our case we'll just focus the first `&lt;input&gt;` if the user isn't about to click an `&lt;input&gt;` anyways." />
-      <item value="This property allows us to specify a unique string for the type of control in form field. The `&lt;mat-form-field&gt;` will add an additional class based on this type that can be used to easily apply special styles to a `&lt;mat-form-field&gt;` that contains a specific type of control. In this example we'll use `my-tel-input` as our control type which will result in the form field adding the class `mat-form-field-my-tel-input`." />
-      <item value="This property is used to indicate whether the label should be in the floating position. We'll use the same logic as `matInput` and float the placeholder when the input is focused or non-empty. Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
-      <item value="This property is used to indicate whether the label should be in the floating position. We'll&#10;use the same logic as `matInput` and float the placeholder when the input is focused or non-empty.&#10;Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
-      <item value="id" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="320" />
-        <entry key="ENGLISH" value="321" />
+        <entry key="CHINESE" value="321" />
+        <entry key="ENGLISH" value="323" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
