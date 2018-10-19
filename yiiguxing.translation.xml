@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Prerequisites" />
+      <item value="Angular's animation system is built on CSS functionality, which means you can animate any property that the browser considers animatable. This includes positions, sizes, transforms, colors, borders, and more. The W3C maintains a list of animatable properties on its [CSS Transitions](https://www.w3.org/TR/css-transitions-1/) page." />
+      <item value="Typically, animations involve multiple style *transformations* over time. An HTML element can move, change color, grow or shrink, fade, or slide off the page. These changes can occur simultaneously or sequentially. You can control the timing of each transformation." />
+      <item value="* Good animations intuitively call the user's attention to where it is needed." />
+      <item value="* Motion greatly enhances the user experience, so animations give users a chance to detect the application's response to their actions." />
+      <item value="* Without animations, web page transitions can seem abrupt and jarring." />
+      <item value="Animation provides the illusion of motion: HTML elements change styling over time. Well-designed animations can make your application more fun and easier to use, but they aren't just cosmetic. Animations can improve your app and user experience in a number of ways:" />
+      <item value="* Access the `ViewContainerRef` of an element by placing a `Directive` injected * with `ViewContainerRef` on the element, or use a `ViewChild` query." />
       <item value="A getter provides easy access to the aliases in the form array instance compared to repeating the `profileForm.get()` method to get each instance. The form array instance represents an undefined number of controls in an array. It's convenient to access a control through a getter, and this approach is easy to repeat for additional controls." />
       <item value="* Use the `patchValue()` method to replace any properties defined in the object that have changed in the form model." />
       <item value="The built-in browser DOM APIs don't automatically protect you from security vulnerabilities. For example, `document`, the node available through `ElementRef`, and many third-party APIs contain unsafe methods. In the same way, if you interact with other libraries that manipulate the DOM, you likely won't have the same automatic sanitization as with Angular interpolations. Avoid directly interacting with the DOM and instead use Angular templates where possible." />
@@ -43,19 +51,11 @@
       <item value="This property is used to indicate whether the label should be in the floating position. We'll use the same logic as `matInput` and float the placeholder when the input is focused or non-empty. Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
       <item value="This property is used to indicate whether the label should be in the floating position. We'll&#10;use the same logic as `matInput` and float the placeholder when the input is focused or non-empty.&#10;Since the placeholder will be overlapping our control when when it's not floating, we should hide the `–` characters when it's not floating." />
       <item value="id" />
-      <item value="complete" />
-      <item value="Because the `&lt;mat-form-field&gt;` uses the `OnPush` change detection strategy, we need to let it know when something happens in the form field control that may require the form field to run change detection. We do this via the `stateChanges` property. So far the only thing the form field needs to know about is when the value changes. We'll need to emit on the stateChanges stream when that happens, and as we continue flushing out these properties we'll likely find more places we need to emit. We should also make sure to complete `stateChanges` when our component is destroyed." />
-      <item value="robust" />
-      <item value="It is possible to create custom form field controls that can be used inside `&lt;mat-form-field&gt;`. This can be useful if you need to create a component that shares a lot of common behavior with a form field, but adds some additional logic." />
-      <item value="Creating a custom form field control" />
-      <item value="jittery" />
-      <item value="Also, sticky positioning in Edge will appear shaky for special cases. For example, if the scrolling container has a complex box shadow and has sibling elements, the stuck cells will appear jittery. There is currently an [open issue with Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/17514118/) to resolve this." />
-      <item value="Note that on Safari mobile when using the flex-based table, a cell stuck in more than one direction will struggle to stay in the correct position as you scroll. For example, if a header row is stuck to the top and the first column is stuck, then the top-left-most cell will appear jittery as you scroll." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="316" />
-        <entry key="ENGLISH" value="317" />
+        <entry key="CHINESE" value="320" />
+        <entry key="ENGLISH" value="321" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
