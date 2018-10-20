@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="For elements entering or leaving a page (inserted or removed from the DOM), you can make the animations conditional. For example, use `*ngIf` with the animation trigger in the HTML template." />
+      <item value="In this example, when the `isOpen` expression evaluates to a defined state of `open` or `closed`, it notifies the trigger `openClose` of a state change. Then it's up to the `openClose` code to handle the state change and kick off a state change animation." />
       <item value="The `trigger()` function describes the property name to watch for changes. When a change occurs, the trigger initiates the actions included in its definition. These actions can be transitions or other functions, as we'll see later on." />
       <item value="* Use `transition()` to define intermediate styles, which create the illusion of motion during the animation." />
       <item value="This example adds a state transition from the `closed` state to the `open` state with a 0.5 second transition animation arc." />
@@ -49,13 +51,11 @@
       <item value="This file should contain everything that is not affected by the theme like sizes, transitions..." />
       <item value="When using `@mixin`, the theme file should only contain the definitions that are affected by the passed-in theme." />
       <item value="Now you just have to call the `@mixin` function to apply the theme:" />
-      <item value="In order to style your own components with Angular Material's tooling, the component's styles must be defined with Sass." />
-      <item value="Once CSS variables (custom properties) are available in all the browsers we support, we will explore how to take advantage of them to make theming even simpler." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="331" />
-        <entry key="ENGLISH" value="333" />
+        <entry key="CHINESE" value="332" />
+        <entry key="ENGLISH" value="334" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
