@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Allows animations on child components to be run within the same timeframe as the parent." />
+      <item value="Produces a reusable animation that can be invoked from elsewhere. Used together with &lt;code&gt;useAnimation()&lt;/code&gt;." />
+      <item value="Staggers the starting time for animations for multiple elements." />
+      <item value="Specifies a group of animation steps (&lt;em&gt;inner animations&lt;/em&gt;) to be run in parallel. Animation continues only after all inner animation steps have completed. Used within &lt;code&gt;sequence()&lt;/code&gt; or &lt;code&gt;transition().&lt;/code&gt;" />
+      <item value="Allows a sequential change between styles within a specified time interval. Use within &lt;code&gt;animate()&lt;/code&gt;. Can include multiple &lt;code&gt;style()&lt;/code&gt; calls within each &lt;code&gt;keyframe()&lt;/code&gt;. Uses array syntax." />
+      <item value="Creates a named set of CSS styles that should be applied on successful transition to a given state. The state can then be referenced by name within other animation functions." />
+      <item value="Kicks off the animation and serves as a container for all other animation function calls. HTML template binds to &lt;code&gt;triggerName&lt;/code&gt;. Use the first argument to declare a unique trigger name. Uses array syntax." />
+      <item value="The functional API provided by the `@angular/animations` module provides a domain-specific language (DSL) for creating and controlling animations in Angular applications. See the [API reference](api/animations) for a complete listing and syntax details of the core functions and related data structures." />
       <item value="For elements entering or leaving a page (inserted or removed from the DOM), you can make the animations conditional. For example, use `*ngIf` with the animation trigger in the HTML template." />
       <item value="In this example, when the `isOpen` expression evaluates to a defined state of `open` or `closed`, it notifies the trigger `openClose` of a state change. Then it's up to the `openClose` code to handle the state change and kick off a state change animation." />
       <item value="The `trigger()` function describes the property name to watch for changes. When a change occurs, the trigger initiates the actions included in its definition. These actions can be transitions or other functions, as we'll see later on." />
@@ -43,19 +51,11 @@
       <item value="Typography customization is an extension of Angular Material's Sass-based theming. Similar to creating a custom theme, you can create a custom **typography configuration**." />
       <item value="host" />
       <item value="The typography levels are collected into a typography config which is used to generate the CSS." />
-      <item value="Smaller body and hint text." />
-      <item value="Bolder body text." />
-      <item value="Typography is a way of arranging type to make text legible, readable, and appealing when displayed. Angular Material's typography is based on the guidelines from the [Material Design spec][1] and is arranged into typography levels. Each level has a `font-size`, `line-height` and `font-weight`. The available levels are:" />
-      <item value="legible" />
-      <item value="# Angular Material typography" />
-      <item value="This file should contain everything that is not affected by the theme like sizes, transitions..." />
-      <item value="When using `@mixin`, the theme file should only contain the definitions that are affected by the passed-in theme." />
-      <item value="Now you just have to call the `@mixin` function to apply the theme:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="332" />
-        <entry key="ENGLISH" value="334" />
+        <entry key="CHINESE" value="339" />
+        <entry key="ENGLISH" value="341" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
