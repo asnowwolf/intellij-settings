@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `animate()` function (second argument of the transition function) accepts the `timings` and `styles` input parameters." />
+      <item value="By default, all validators are run after every form value change. With synchronous validators, this will not likely have a noticeable impact on application performance. However, it's common for async validators to perform some kind of HTTP request to validate the control. Dispatching an HTTP request after every keystroke could put a strain on the backend API, and should be avoided if possible." />
+      <item value="After some time passes, the observable chain completes and the async validation is done. The `pending` flag is set to `false`, and the form validity is updated." />
+      <item value="Here we decided that `isAlterEgoTaken()` error is treated as a successful validation, because failure to make a validation request does not necessarily mean that the alter ego is invalid. You could handle the error differently and return the `ValidationError` object instead." />
+      <item value="The `isAlterEgoTaken()` method dispatches an HTTP request that checks if the alter ego is available, and returns `Observable&lt;boolean&gt;` as the result. We pipe the response through the `map` operator and transform it into a validation result. As always, we return `null` if the form is valid, and `ValidationErrors` if it is not. We make sure to handle any potential errors with the `catchError` operator." />
+      <item value="To validate the potential alter ego, we need to consult a central database of all currently enlisted heroes. The process is asynchronous, so we need a special validator for that." />
+      <item value="In the following section, validation is performed asynchronously to ensure that our heroes pick an alter ego that is not already taken. New heroes are constantly enlisting and old heroes are leaving the service. That means that we do not have the list of available alter egos ahead of time." />
+      <item value="A common UI pattern is to show a spinner while the async validation is being performed. The following example presents how to achieve this with template-driven forms:" />
+      <item value="It is important to note that the asynchronous validation happens after the synchronous validation, and is performed only if the synchronous validation is successful. This check allows forms to avoid potentially expensive async validation processes such as an HTTP request if more basic validation methods fail." />
       <item value="Use the `animate()` function to define the length, delay, and easing of a transition, and to designate the style function for defining styles while transitions are taking place. You can also use the `animate()` function to define the `keyframes()` function for multi-step animations. These definitions are placed in the second argument of the `animate()` function." />
       <item value="To make the change less abrupt, we need to define an animation *transition* to specify the changes that occur between one state and another over a period of time. The `transition()` function accepts two arguments: the first argument accepts an expression that defines the direction between two transition states, and the second argument accepts an `animate()` function." />
       <item value="In Angular, you can set multiple styles without any animation. However, without further refinement, the button instantly transforms with no fade, no shrinkage, or other visible indicator that a change is occurring." />
@@ -42,20 +51,11 @@
       <item value="In particular," />
       <item value="Dashboard" />
       <item value="If you run it will automatically install Angular Material for you and run the install schematic." />
-      <item value="schematic" />
-      <item value="Since an elevation shadow consists of multiple shadow components of varying opacities, the `$opacity` argument of the mixin is considered a factor by which to scale these initial values rather than an absolute value." />
-      <item value="Angular Material's elevation classes and mixins allow you to add separation between elements along the z-axis. All material design elements have resting elevations. In addition, some elements may change their elevation in response to user interaction. The [Material Design spec](https://material.io/design/environment/elevation.html) explains how to best use elevation." />
-      <item value="elevation" />
-      <item value="Use a deprecated shadow-piercing descendant combinator to force styles to apply to all the child elements. Read more about this deprecated solution in the [Angular documentation](https://angular.io/guide/component-styles#deprecated-deep--and-ng-deep)." />
-      <item value="Some Angular Material components, specifically overlay-based ones like MatDialog, MatSnackbar, etc., do not exist as children of your component. Often they are injected elsewhere in the DOM. This is important to keep in mind, since even using high specificity and shadow-piercing selectors will not target elements that are not direct children of your component. Global styles are recommended for targeting such components." />
-      <item value="##### Selector specificity" />
-      <item value="Is the component a child of your component, or does it exist elsewhere in the DOM?" />
-      <item value="2. Are your styles more specific than the defaults?" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="321" />
-        <entry key="ENGLISH" value="323" />
+        <entry key="CHINESE" value="324" />
+        <entry key="ENGLISH" value="326" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
