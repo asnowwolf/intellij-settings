@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `trigger()` function describes the property name to watch for changes. When a change occurs, the trigger initiates the actions included in its definition. These actions can be transitions or other functions, as we'll see later on." />
+      <item value="* Use `transition()` to define intermediate styles, which create the illusion of motion during the animation." />
+      <item value="This example adds a state transition from the `closed` state to the `open` state with a 0.5 second transition animation arc." />
+      <item value="Natural easing curves" />
+      <item value="* Wait for 100ms, run for 200ms. Use a deceleration curve to start out fast and slowly decelerate to a resting point: `'0.2s 100ms ease-out'`" />
       <item value="The `animate()` function (second argument of the transition function) accepts the `timings` and `styles` input parameters." />
       <item value="By default, all validators are run after every form value change. With synchronous validators, this will not likely have a noticeable impact on application performance. However, it's common for async validators to perform some kind of HTTP request to validate the control. Dispatching an HTTP request after every keystroke could put a strain on the backend API, and should be avoided if possible." />
       <item value="After some time passes, the observable chain completes and the async validation is done. The `pending` flag is set to `false`, and the form validity is updated." />
@@ -46,16 +51,11 @@
       <item value="Now you just have to call the `@mixin` function to apply the theme:" />
       <item value="In order to style your own components with Angular Material's tooling, the component's styles must be defined with Sass." />
       <item value="Once CSS variables (custom properties) are available in all the browsers we support, we will explore how to take advantage of them to make theming even simpler." />
-      <item value="ripples" />
-      <item value="You can include as many themes as you like in this manner. You can also `@include` the `angular-material-theme` in separate files and then lazily load them based on an end-user interaction (how to lazily load the CSS assets will vary based on your application)." />
-      <item value="In particular," />
-      <item value="Dashboard" />
-      <item value="If you run it will automatically install Angular Material for you and run the install schematic." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="324" />
-        <entry key="ENGLISH" value="326" />
+        <entry key="CHINESE" value="331" />
+        <entry key="ENGLISH" value="333" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
