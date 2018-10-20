@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="You can use this type of provider to substitute an *alternative implementation* for a common or default class. The alternative implementation could, for example, implement a different strategy, extend the default class, or emulate the behavior of the real class in a test case." />
+      <item value="The second specifies a literal string resource to use for the `TITLE` token. The `TITLE` provider token is *not* a class, but is instead a special kind of provider lookup key called an [injection token](guide/dependency-injection-in-action#injection-token), represented by an `InjectionToken` instance." />
+      <item value="* The first provides an existing instance of the `Hero` class to use for the `Hero` token, rather than requiring the injector to create a new instance with `new` or use its own cached instance. Here, the token is the class itself." />
       <item value="The code behind it customizes how and where the DI framework provides dependencies.&#10;The use cases illustrate different ways to use the [*provide* object literal](guide/dependency-injection-providers#provide) to associate a definition object with a DI token." />
       <item value="A dependency can't always be created by the default method of instantiating a class.&#10;You learned about some other methods in [Dependency Providers](guide/dependency-injection-providers). The following `HeroOfTheMonthComponent` example demonstrates many of the alternatives and why you need them.&#10;It's visually simple: a few properties and the logs produced by a logger." />
       <item value="A new injector has no providers.&#10;Angular initializes the injectors it creates with a set of preferred providers.&#10;You have to configure providers for your own app-specific dependencies." />
@@ -48,14 +51,11 @@
       <item value="Supported binary operator" />
       <item value="It helps to think of the AOT compiler as having two phases: a code analysis phase in which it simply records a representation of the source; and a code generation phase in which the compiler's `StaticReflector` handles the interpretation as well as places restrictions on what it interprets." />
       <item value="Angular metadata tells Angular how to construct instances of your application classes and interact with them at runtime.&#10;The Angular **AOT compiler** extracts **metadata** to interpret the parts of the application that Angular is supposed to manage." />
-      <item value="AOT compiles HTML templates and components into JavaScript files long before they are served to the client.&#10;With no templates to read and no risky client-side HTML or JavaScript evaluation,&#10;there are fewer opportunities for injection attacks." />
-      <item value="This guide explains how to specify metadata and apply available compiler options to compile your applications efficiently using the AOT compiler." />
-      <item value="efficient" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="374" />
-        <entry key="ENGLISH" value="376" />
+        <entry key="CHINESE" value="377" />
+        <entry key="ENGLISH" value="379" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
