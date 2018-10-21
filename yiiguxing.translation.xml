@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="You can configure providers for different injectors in the injector hierarchy. An internal platform-level injector is shared by all running apps. The `AppModule` injector is the root of an app-wide injector hierarchy, and within an NgModule, directive-level injectors follow the structure of the component hierarchy." />
+      <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server. When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server.&#10;When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
       <item value="When you are designing and developing applications, you typically use `ng serve` to build your app for fast, local, iterative development. When you are ready to deploy, however, you must use the `ng build` command to build the app and deploy the build artifacts elsewhere." />
       <item value="## Building and serving for deployment" />
@@ -49,13 +51,11 @@
       <item value="Injectors are inherited, which means that if a given injector can't resolve a dependency, it asks the parent injector to resolve it. A component can get services from its own injector, from the injectors of its component ancestors, from the injector of its parent NgModule, or from the `root` injector." />
       <item value="A provider can be the service class itself, so that the injector can use `new` to create an instance.&#10;You might also define more than one class to provide the same service in different ways, and configure different injectors with different providers." />
       <item value="The injector is responsible for creating service instances and injecting them into classes like `HeroListComponent`. You rarely create an Angular injector yourself. Angular creates injectors for you as it executes the app, starting with the _root injector_ that it creates during the [bootstrap process](guide/bootstrapping)." />
-      <item value="The class we have created provides a service. The `@Injectable()` decorator marks it as a service that can be injected, but Angular can't actually inject it anywhere until you configure an Angular [dependency injector](guide/glossary#injector) with a [provider](guide/glossary#provider) of that service." />
-      <item value="The `@Injectable()` is an essential ingredient in every Angular service definition. The rest of the class has been written to expose a `getHeroes` method that returns the same mock data as before. (A real app would probably get its data asynchronously from a remote server, but we'll ignore that to focus on the mechanics of injecting the service.)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="400" />
-        <entry key="ENGLISH" value="402" />
+        <entry key="CHINESE" value="401" />
+        <entry key="ENGLISH" value="403" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
