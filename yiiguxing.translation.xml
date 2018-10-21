@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server.&#10;When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
+      <item value="When you are designing and developing applications, you typically use `ng serve` to build your app for fast, local, iterative development. When you are ready to deploy, however, you must use the `ng build` command to build the app and deploy the build artifacts elsewhere." />
+      <item value="## Building and serving for deployment" />
+      <item value="But on the shared or production server, you might serve the app from a subfolder.&#10;For example, when the URL to load the app is something like `http://www.mysite.com/my/app/`,&#10;the subfolder is `my/app/` and you should add `&lt;base href=&quot;/my/app/&quot;&gt;` to the server version of the `index.html`." />
       <item value="In development, you typically start the server in the folder that holds `index.html`.&#10;That's the root folder and you'd add `&lt;base href=&quot;/&quot;&gt;` near the top of `index.html` because `/` is the root of the app." />
       <item value="The HTML [_&amp;lt;base href=&quot;...&quot;/&amp;gt;_](/guide/router) specifies a base path for resolving relative URLs to assets such as images, scripts, and style sheets. For example, given the `&lt;base href=&quot;/my/app/&quot;&gt;`, the browser resolves a URL such as `some/place/foo.jpg` into a server request for `my/app/some/place/foo.jpg`. During navigation, the Angular router uses the _base href_ as the base path to component, template, and module files." />
       <item value="Run the explorer to generate a graphical representation of one of the bundles.&#10;The following example displays the graph for the _main_ bundle." />
@@ -47,10 +51,6 @@
       <item value="The injector is responsible for creating service instances and injecting them into classes like `HeroListComponent`. You rarely create an Angular injector yourself. Angular creates injectors for you as it executes the app, starting with the _root injector_ that it creates during the [bootstrap process](guide/bootstrapping)." />
       <item value="The class we have created provides a service. The `@Injectable()` decorator marks it as a service that can be injected, but Angular can't actually inject it anywhere until you configure an Angular [dependency injector](guide/glossary#injector) with a [provider](guide/glossary#provider) of that service." />
       <item value="The `@Injectable()` is an essential ingredient in every Angular service definition. The rest of the class has been written to expose a `getHeroes` method that returns the same mock data as before. (A real app would probably get its data asynchronously from a remote server, but we'll ignore that to focus on the mechanics of injecting the service.)" />
-      <item value="It is possible to define the component first with the help of the `forwardRef()` method as explained in this [blog post](http://blog.thoughtram.io/angular/2015/09/03/forward-references-in-angular-2.html)." />
-      <item value="If you do combine a component and service in the same file, it is important to define the service first, and then the component. If you define the component before the service, you get a run-time null reference error." />
-      <item value="Having multiple classes in the same file can be confusing. We generally recommend that you define components and services in separate files." />
-      <item value="The DI framework lets you supply data to a component from an injectable _service_ class, defined in its own file. To demonstrate, we'll create an injectable service class that provides a list of heroes, and register that class as a provider of that service." />
     </histories>
     <option name="languageScores">
       <map>
