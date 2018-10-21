@@ -1,6 +1,17 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Dive deeper into the capabilities and advanced feature of the Angular DI system in the following pages:" />
+      <item value="`@Inject()` and `@Optional()` are _parameter decorators_. They alter the way the DI framework provides a dependency, by annotating the dependency parameter on the constructor of the class that requires the dependency." />
+      <item value="When a component or service declares a dependency, the class constructor takes that dependency as a parameter. You can tell Angular that the dependency is optional by annotating the constructor parameter with `@Optional()`." />
+      <item value="`HeroService` *requires* a logger, but what if it could get by without one?" />
+      <item value="The behavior is similar when you write a constructor that requires an injected class-based dependency.&#10;When you define a constructor parameter with the `HeroService` class type, Angular knows to inject the service associated with that `HeroService` class token:" />
+      <item value="In simple examples, the dependency value is an *instance*, and&#10;the class *type* serves as its own lookup key.&#10;Here you get a `HeroService` directly from the injector by supplying the `HeroService` type as the token:" />
+      <item value="The decorator requirement is imposed by TypeScript. TypeScript normally discards parameter type information when it [transpiles](guide/glossary#transpile) the code to JavaScript. TypeScript preserves this information if the class has a decorator and the `emitDecoratorMetadata` compiler option is set `true` in TypeScript's `tsconfig.json` configuration file. The CLI configures `tsconfig.json` with `emitDecoratorMetadata: true`." />
+      <item value="When Angular creates a class whose constructor has parameters, it looks for type and injection metadata about those parameters so that it can inject the correct service.&#10;If Angular can't find that parameter information, it throws an error. Angular can only find the parameter information _if the class has a decorator of some kind_.&#10;The `@Injectable()` decorator is the standard decorator for service classes." />
+      <item value="Notice that the `Logger` service also has the `@Injectable()` decorator, even though it might not need its own dependencies. In fact, the `@Injectable()` decorator is **required for all services**." />
+      <item value="Here is the revised `HeroService` that injects `Logger`, side by side with the previous service for comparison." />
+      <item value="Service can have their own dependencies. `HeroService` is very simple and doesn't have any dependencies of its own. Suppose, however, that you want it to report its activities through a logging service. You can apply the same *constructor injection* pattern, adding a constructor that takes a `Logger` parameter." />
       <item value="Designing a class with dependency injection makes the class easier to test.&#10;Listing dependencies as constructor parameters may be all you need to test application parts effectively." />
       <item value="For example, Angular can inject `HeroListComponent` with both the `HeroService` provided in `HeroComponent` and the `UserService` provided in `AppModule`." />
       <item value="Thanks to [injector inheritance](guide/hierarchical-dependency-injection), you can still inject application-wide services into these components. A component's injector is a child of its parent component's injector, and a descendent of its parent's parent's injector, and so on all the way back to the application's _root_ injector. Angular can inject a service provided by any injector in that lineage." />
@@ -40,22 +51,11 @@
       <item value="* The first provides an existing instance of the `Hero` class to use for the `Hero` token, rather than requiring the injector to create a new instance with `new` or use its own cached instance. Here, the token is the class itself." />
       <item value="The code behind it customizes how and where the DI framework provides dependencies.&#10;The use cases illustrate different ways to use the [*provide* object literal](guide/dependency-injection-providers#provide) to associate a definition object with a DI token." />
       <item value="A dependency can't always be created by the default method of instantiating a class.&#10;You learned about some other methods in [Dependency Providers](guide/dependency-injection-providers). The following `HeroOfTheMonthComponent` example demonstrates many of the alternatives and why you need them.&#10;It's visually simple: a few properties and the logs produced by a logger." />
-      <item value="A new injector has no providers.&#10;Angular initializes the injectors it creates with a set of preferred providers.&#10;You have to configure providers for your own app-specific dependencies." />
-      <item value="Angular usually handles this transaction by specifying a constructor parameter and its type." />
-      <item value="Using the `@Self` decorator, the injector only looks at the component's injector for its providers. The `@SkipSelf` decorator allows you to skip the local injector and look up in the hierarchy to find a provider that satisfies this dependency. The `sessionStorageService` instance interacts with the `BrowserStorageService` using the `sessionStorage` browser API, while the `localStorageService` skips the local injector and uses the root `BrowserStorageService` that uses the `localStorage` browswer API." />
-      <item value="Providers can also be scoped by injector through constructor parameter decorators. The following example overrides the `BROWSER_STORAGE` token in the `Component` class `providers` with the `sessionStorage` browser API. The same `BrowserStorageService` is injected twice in the constructor, decorated with `@Self` and `@SkipSelf` to define which injector handles the provider dependency." />
-      <item value="The `factory` function returns the `localStorage` property that is attached to the browser window object. The `Inject` decorator is a constructor parameter used to specify a custom provider of a dependency. This custom provider can now be overridden during testing with a mock API of `localStorage` instead of interactive with real browser APIs." />
-      <item value="Using a custom provider allows you to provide a concrete implementation for implicit dependencies, such as built-in browser APIs. The following example uses an `InjectionToken` to provide the [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) browser API as a dependency in the `BrowserStorageService`." />
-      <item value="The following example covers this second case." />
-      <item value="In some cases, you need to limit the search or accommodate a missing dependency. You can modify Angular's search behavior with the `@Host` and `@Optional` qualifying decorators on a service-valued parameter of the component's constructor." />
-      <item value="When a class requires a dependency, that dependency is added to the constructor as a parameter. When Angular needs to instantiate the class, it calls upon the DI framework to supply the dependency. By default, the DI framework searches for a provider in the injector hierarchy, starting at the component's local injector of the component, and if necessary bubbling up through the injector tree until it reaches the root injector." />
-      <item value="Tells the compiler to generate all the possible generated files even if they are empty. This option is `false` by default. This is an option used by the Bazel build rules and is needed to simplify how Bazel rules track file dependencies. It is not recommended to use this option outside of the Bazel rules." />
-      <item value="This option tells the compiler whether to remove blank text nodes from compiled templates. As of v6, this option is `false` by default, which results in smaller emitted template factory modules." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="388" />
-        <entry key="ENGLISH" value="390" />
+        <entry key="CHINESE" value="394" />
+        <entry key="ENGLISH" value="396" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
