@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* [Building and Serving](guide/build): Learn to define different build and proxy server configurations for your project, such as development, staging, and production." />
       <item value="Add the `&lt;base&gt;` element just after the `&lt;head&gt;` tag. If the `app` folder is the application root, as it is for this application, set the `href` value in **`index.html`** *exactly* as shown here." />
       <item value="Add the `&lt;base&gt;` element just after the `&lt;head&gt;` tag.&#10;If the `app` folder is the application root, as it is for this application, set the `href` value in **`index.html`** *exactly* as shown here." />
       <item value="After the Tutorial and Architecture guide, you'll be ready to continue exploring Angular on your own through the other guides and references in this documentation set, focusing on the features most important for your apps." />
@@ -50,12 +51,11 @@
       <item value="But on the shared or production server, you might serve the app from a subfolder.&#10;For example, when the URL to load the app is something like `http://www.mysite.com/my/app/`,&#10;the subfolder is `my/app/` and you should add `&lt;base href=&quot;/my/app/&quot;&gt;` to the server version of the `index.html`." />
       <item value="In development, you typically start the server in the folder that holds `index.html`.&#10;That's the root folder and you'd add `&lt;base href=&quot;/&quot;&gt;` near the top of `index.html` because `/` is the root of the app." />
       <item value="The HTML [_&amp;lt;base href=&quot;...&quot;/&amp;gt;_](/guide/router) specifies a base path for resolving relative URLs to assets such as images, scripts, and style sheets. For example, given the `&lt;base href=&quot;/my/app/&quot;&gt;`, the browser resolves a URL such as `some/place/foo.jpg` into a server request for `my/app/some/place/foo.jpg`. During navigation, the Angular router uses the _base href_ as the base path to component, template, and module files." />
-      <item value="Run the explorer to generate a graphical representation of one of the bundles.&#10;The following example displays the graph for the _main_ bundle." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="425" />
-        <entry key="ENGLISH" value="428" />
+        <entry key="CHINESE" value="427" />
+        <entry key="ENGLISH" value="430" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
