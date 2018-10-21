@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="After the Tutorial and Architecture guide, you'll be ready to continue exploring Angular on your own through the other guides and references in this documentation set, focusing on the features most important for your apps." />
+      <item value="* The [Architecture guide](guide/architecture &quot;Architecture guide&quot;) describes key concepts such as modules, components, services, and dependency injection (DI). It provides a foundation for more in-depth guides about specific Angular concepts and features." />
+      <item value="The [Tour of Heroes tutorial](tutorial &quot;Tour of Heroes tutorial&quot;) provides additional hands-on learning. It walks you through the steps to build an app that helps a staffing agency manage a group of superhero employees. It has many of the features you'd expect to find in a data-driven application:" />
+      <item value="Now that you've seen the essentials of an Angular app and the Angular CLI, continue with these other introductory materials:" />
+      <item value="## Final code review" />
       <item value="Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that are available as [npm packages](https://docs.npmjs.com/getting-started/what-is-npm). To download and install npm packages, you must have an npm package manager." />
       <item value="This guide takes less than 30 minutes to complete. At the end of this guide&amp;mdash;as part of final code review&amp;mdash;there is a link to download a copy of the final application code. (If you don't execute the commands in this guide, you can still download the final application code.)" />
       <item value="This guide shows you how to build and run a simple Angular app. You'll use the [Angular CLI tool](cli &quot;CLI command reference&quot;) to accelerate development, while adhering to the [Style Guide](guide/styleguide &quot;Angular style guide&quot;) recommendations that benefit _every_ Angular project." />
@@ -46,16 +51,11 @@
       <item value="Run the explorer to generate a graphical representation of one of the bundles.&#10;The following example displays the graph for the _main_ bundle." />
       <item value="### Inspect the bundles" />
       <item value="The [WebPageTest](https://www.webpagetest.org/) tool is another good choice&#10;that can also help verify that your deployment was successful." />
-      <item value="You can make better decisions about what to optimize and how when you have a clear and accurate understanding of what's making the application slow. The cause may not be what you think it is. You can waste a lot of time and money optimizing something that has no tangible benefit or even makes the app slower. You should measure the app's actual behavior when running in the environments that are important to you. The &lt;a href=&quot;https://developers.google.com/web/tools/chrome-devtools/network-performance/understanding-resource-timing&quot; title=&quot;Chrome DevTools Network Performance&quot;&gt; Chrome DevTools Network Performance page&lt;/a&gt; is a good place to start learning about measuring performance." />
-      <item value="### Measure performance" />
-      <item value="The bundling configuration must take lazy loading into consideration.&#10;Because lazy-loaded modules aren't imported in JavaScript, bundlers exclude them by default.&#10;Bundlers don't know about the router configuration and can't create separate bundles for lazy-loaded modules. You would have to create these bundles manually." />
-      <item value="If you mean to lazy-load a module, be careful not import it in a file that's eagerly loaded when the app starts (such as the root `AppModule`). If you do that, the module will be loaded immediately." />
-      <item value="#### Don't eagerly import something from a lazy-loaded module" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="420" />
-        <entry key="ENGLISH" value="423" />
+        <entry key="CHINESE" value="423" />
+        <entry key="ENGLISH" value="426" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
