@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Designing a class with dependency injection makes the class easier to test.&#10;Listing dependencies as constructor parameters may be all you need to test application parts effectively." />
       <item value="For example, Angular can inject `HeroListComponent` with both the `HeroService` provided in `HeroComponent` and the `UserService` provided in `AppModule`." />
       <item value="Thanks to [injector inheritance](guide/hierarchical-dependency-injection), you can still inject application-wide services into these components. A component's injector is a child of its parent component's injector, and a descendent of its parent's parent's injector, and so on all the way back to the application's _root_ injector. Angular can inject a service provided by any injector in that lineage." />
       <item value="Child modules and component injectors are independent of each other, and create their own separate instances of the provided services. When Angular destroys an NgModule or component instance, it also destroys that injector and that injector's service instances." />
@@ -50,7 +51,6 @@
       <item value="When a class requires a dependency, that dependency is added to the constructor as a parameter. When Angular needs to instantiate the class, it calls upon the DI framework to supply the dependency. By default, the DI framework searches for a provider in the injector hierarchy, starting at the component's local injector of the component, and if necessary bubbling up through the injector tree until it reaches the root injector." />
       <item value="Tells the compiler to generate all the possible generated files even if they are empty. This option is `false` by default. This is an option used by the Bazel build rules and is needed to simplify how Bazel rules track file dependencies. It is not recommended to use this option outside of the Bazel rules." />
       <item value="This option tells the compiler whether to remove blank text nodes from compiled templates. As of v6, this option is `false` by default, which results in smaller emitted template factory modules." />
-      <item value="The Angular template compiler transforms code that is used, or could be used, in an annotation to allow it to be imported from template factory modules. See [metadata rewriting](#metadata-rewriting) for more information." />
     </histories>
     <option name="languageScores">
       <map>
