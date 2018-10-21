@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="You can limit the scope of an injected service to a *branch* of the application hierarchy by providing that service *at the sub-root component for that branch*. This example shows how to make a different instance of `HeroService` available to `HeroesBaseComponent` by adding it to the `providers` array of the `@Component()` decorator of the sub-component." />
+      <item value="When Angular creates `AppComponent`, the DI framework creates an instance of `LoggerService` and starts to create `UserContextService`.&#10;`UserContextService` also needs `LoggerService`, which the framework already has, so the framework can provide the same instance. `UserContextService` also needs `UserService`, which the framework has yet to create. `UserService` has no further dependencies, so the framework can simply use `new` to instantiate the class and provide the instance to the `UserContextService` constructor." />
+      <item value="`UserContext` in turn depends on both `LoggerService` and `UserService`, another service that gathers information about a particular user." />
+      <item value="`UserContext` in turn depends on both `LoggerService` and&#10;`UserService`, another service that gathers information about a particular user." />
       <item value="* [Building and Serving](guide/build): Learn to define different build and proxy server configurations for your project, such as development, staging, and production." />
       <item value="Add the `&lt;base&gt;` element just after the `&lt;head&gt;` tag. If the `app` folder is the application root, as it is for this application, set the `href` value in **`index.html`** *exactly* as shown here." />
       <item value="Add the `&lt;base&gt;` element just after the `&lt;head&gt;` tag.&#10;If the `app` folder is the application root, as it is for this application, set the `href` value in **`index.html`** *exactly* as shown here." />
@@ -47,15 +51,11 @@
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server. When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server.&#10;When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
       <item value="When you are designing and developing applications, you typically use `ng serve` to build your app for fast, local, iterative development. When you are ready to deploy, however, you must use the `ng build` command to build the app and deploy the build artifacts elsewhere." />
-      <item value="## Building and serving for deployment" />
-      <item value="But on the shared or production server, you might serve the app from a subfolder.&#10;For example, when the URL to load the app is something like `http://www.mysite.com/my/app/`,&#10;the subfolder is `my/app/` and you should add `&lt;base href=&quot;/my/app/&quot;&gt;` to the server version of the `index.html`." />
-      <item value="In development, you typically start the server in the folder that holds `index.html`.&#10;That's the root folder and you'd add `&lt;base href=&quot;/&quot;&gt;` near the top of `index.html` because `/` is the root of the app." />
-      <item value="The HTML [_&amp;lt;base href=&quot;...&quot;/&amp;gt;_](/guide/router) specifies a base path for resolving relative URLs to assets such as images, scripts, and style sheets. For example, given the `&lt;base href=&quot;/my/app/&quot;&gt;`, the browser resolves a URL such as `some/place/foo.jpg` into a server request for `my/app/some/place/foo.jpg`. During navigation, the Angular router uses the _base href_ as the base path to component, template, and module files." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="427" />
-        <entry key="ENGLISH" value="430" />
+        <entry key="CHINESE" value="428" />
+        <entry key="ENGLISH" value="431" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
