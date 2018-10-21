@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If you comment out the `@Host()` decorator, Angular walks up the injector ancestor tree until it finds the logger at the `AppComponent` level. The logger logic kicks in and the hero display updates with the &quot;!!!&quot; marker to indicate that the logger was found." />
       <item value="You can limit the scope of an injected service to a *branch* of the application hierarchy by providing that service *at the sub-root component for that branch*. This example shows how to make a different instance of `HeroService` available to `HeroesBaseComponent` by adding it to the `providers` array of the `@Component()` decorator of the sub-component." />
       <item value="When Angular creates `AppComponent`, the DI framework creates an instance of `LoggerService` and starts to create `UserContextService`.&#10;`UserContextService` also needs `LoggerService`, which the framework already has, so the framework can provide the same instance. `UserContextService` also needs `UserService`, which the framework has yet to create. `UserService` has no further dependencies, so the framework can simply use `new` to instantiate the class and provide the instance to the `UserContextService` constructor." />
       <item value="`UserContext` in turn depends on both `LoggerService` and `UserService`, another service that gathers information about a particular user." />
@@ -50,12 +51,11 @@
       <item value="You can configure providers for different injectors in the injector hierarchy. An internal platform-level injector is shared by all running apps. The `AppModule` injector is the root of an app-wide injector hierarchy, and within an NgModule, directive-level injectors follow the structure of the component hierarchy." />
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server. When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server.&#10;When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
-      <item value="When you are designing and developing applications, you typically use `ng serve` to build your app for fast, local, iterative development. When you are ready to deploy, however, you must use the `ng build` command to build the app and deploy the build artifacts elsewhere." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="428" />
-        <entry key="ENGLISH" value="431" />
+        <entry key="CHINESE" value="429" />
+        <entry key="ENGLISH" value="432" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
