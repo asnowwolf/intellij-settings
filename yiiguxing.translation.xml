@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This configuration tells Angular that the app's root injector is responsible for creating an instance of `HeroService` by invoking its constructor, and for making that instance available across the application." />
+      <item value="The `@Injectable()` decorator identifies every service class. The `providedIn` metadata option for a service class configures a specific injector (typically `root`) to use the decorated class as a provider of the service. When an injectable class provides its own service to the `root` injector, the service is available anywhere the class is imported." />
+      <item value="In our sample app, `HeroComponent` is created when the application starts and is never destroyed, so the `HeroService` instance created for `HeroComponent` lives for the life of the app. If you want to restrict `HeroService` access to `HeroComponent` and its nested `HeroListComponent`, provide `HeroService` at the component level, in `HeroComponent` metadata." />
+      <item value="Use the `@NgModule()` `provides` option if a module is [lazy loaded](guide/lazy-loading-ngmodules). The module's own injector is configured with the provider when that module is loaded, and Angular can inject the corresponding services in any class it creates in that module. If you use the `@Injectable()` option `providedIn: MyLazyloadModule`, the provider could be shaken out at compile time, if it is not used anywhere else in the app." />
+      <item value="Learn more about dependency resolution through the injector hierarchy: [What you always wanted to know about Angular Dependency Injection tree](https://blog.angularindepth.com/angular-dependency-injection-and-tree-shakeable-tokens-4588a8f70d5d)" />
+      <item value="You're likely to inject `UserService` in many places throughout the app and will want to inject the same service instance every time. Providing `UserService` through the `root` injector is a good choice, and is the default that the [Angular CLI](cli) uses when you generate a service for your app." />
       <item value="You can configure providers for different injectors in the injector hierarchy. An internal platform-level injector is shared by all running apps. The `AppModule` injector is the root of an app-wide injector hierarchy, and within an NgModule, directive-level injectors follow the structure of the component hierarchy." />
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server. When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server.&#10;When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
@@ -45,17 +51,11 @@
       <item value="`HeroService` must provided in some parent injector. The code in `HeroListComponent` doesn't depend on where `HeroService` comes from.&#10;If you decided to provide `HeroService` in `AppModule`, `HeroListComponent` wouldn't change." />
       <item value="Of course, `HeroListComponent` should do something with the injected `HeroService`.&#10;Here's the revised component, making use of the injected service, side-by-side with the previous version for comparison." />
       <item value="You can tell Angular to inject a dependency in a component's constructor by specifying a **constructor parameter with the dependency type**. Here's the `HeroListComponent` constructor, asking for the `HeroService` to be injected." />
-      <item value="In order for `HeroListComponent` to get heroes from `HeroService`, it needs to ask for `HeroService` to be injected, rather than creating it's own `HeroService` instance with `new`." />
-      <item value="Components are directives, and the `providers` option is inherited from `@Directive()`. You can also configure providers for directives and pipes at the same level as the component." />
-      <item value="The `@Injectable()` decorator has the `providedIn` metadata option, where you can specify the provider of the decorated service class with the `root` injector, or with the injector for a specific NgModule." />
-      <item value="Injectors are inherited, which means that if a given injector can't resolve a dependency, it asks the parent injector to resolve it. A component can get services from its own injector, from the injectors of its component ancestors, from the injector of its parent NgModule, or from the `root` injector." />
-      <item value="A provider can be the service class itself, so that the injector can use `new` to create an instance.&#10;You might also define more than one class to provide the same service in different ways, and configure different injectors with different providers." />
-      <item value="The injector is responsible for creating service instances and injecting them into classes like `HeroListComponent`. You rarely create an Angular injector yourself. Angular creates injectors for you as it executes the app, starting with the _root injector_ that it creates during the [bootstrap process](guide/bootstrapping)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="401" />
-        <entry key="ENGLISH" value="403" />
+        <entry key="CHINESE" value="403" />
+        <entry key="ENGLISH" value="405" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
