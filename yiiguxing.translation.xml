@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="**Note:** The 'heroes' string inside the factory refers to the AngularJS `HeroesService`.&#10;It is common in AngularJS apps to choose a service name for the token, for example &quot;heroes&quot;,&#10;and append the &quot;Service&quot; suffix to create the class name." />
       <item value="The constructor uses the `@Optional()` directive to prepend the origin to `heroesUrl` _if it exists_." />
       <item value="To run a production build of your app with Universal on your local system, use the following command." />
       <item value="Now let's create a few handy scripts to help us do all of this in the future.&#10;You can add these in the `&quot;server&quot;` section of the Angular configuration file, `angular.json`." />
@@ -50,7 +51,6 @@
       <item value="Consider a Car component that depends on several services.&#10;Suppose you configured the root injector (marked as A) with _generic_ providers for&#10;`CarService`, `EngineService` and `TiresService`." />
       <item value="Library developers can create schematics that enable the CLI to generate their published libraries.&#10;For more information, see [devkit documentation](https://www.npmjs.com/package/@angular-devkit/schematics)." />
       <item value="Angular provides a set of schematics for use with the CLI. See the [Angular CLI command reference](cli). The [`ng add`](cli/add) command runs schematics as part of adding a library to your project. The [`ng generate`](cli/generate) command runs schematics to create apps, libraries, and Angular code constructs." />
-      <item value="A scaffolding library that defines how to generate or transform a programming project by creating, modifying, refactoring, or moving files and code. The Angular [CLI](guide/glossary#cli) uses schematics to generate and modify [Angular projects](guide/glossary#project) and parts of projects." />
     </histories>
     <option name="languageScores">
       <map>
