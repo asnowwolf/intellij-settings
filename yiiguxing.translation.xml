@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Active route links cascade down through each level of the route tree, so parent and child router links can be active at the same time. To override this behavior, you can bind to the `[routerLinkActiveOptions]` input binding with the `{ exact: true }` expression. By using `{ exact: true }`, a given `RouterLink` will only be active if its URL is an exact match to the current URL." />
+      <item value="The template expression to the right of the equals (=) contains a space-delimited string of CSS classes that the Router will add when this link is active (and remove when the link is inactive). You set the `RouterLinkActive` directive to a string of classes such as `[routerLinkActive]=&quot;'active fluffy'&quot;` or bind it to a component property that returns such a string." />
+      <item value="On each anchor tag, you see a [property binding](guide/template-syntax#property-binding) to the `RouterLinkActive` directive that look like `routerLinkActive=&quot;...&quot;`." />
+      <item value="The `RouterLinkActive` directive toggles css classes for active `RouterLink` bindings based on the current `RouterState`." />
+      <item value="Compare using the form builder to creating the instances manually." />
       <item value="The form control assigned to `name` is displayed when the component is added to a template." />
       <item value="For more details about how to create scripts to generate an app in multiple languages and how to set up Apache 2 to serve them from different subdirectories, read [this tutorial by Philippe Martin](https://medium.com/@feloy/deploying-an-i18n-angular-app-with-angular-cli-fc788f17e358#.1xq4iy6fp)." />
       <item value="When you use the CLI `build` or `serve` command to build your application for different locales, change the output path using the `--outputPath` command option (along with the i18n-specific command options), so that the translation files are saved to different locations. When you are serving a locale-specific version from a subdirectory, you can also change the base URL used by your app by specifying the `--baseHref` option." />
@@ -46,16 +51,11 @@
       <item value="For example, the guide sample includes a `VillainsListComponent` that displays a list of villains.&#10;It gets those villains from a `VillainsService`." />
       <item value="If you only register providers with the root injector at the top level (typically the root `AppModule`), the tree of injectors appears to be flat.&#10;All requests bubble up to the root injector, whether you configured it with the `bootstrapModule` method, or registered all providers with `root` in their own services." />
       <item value="See an [example](guide/dependency-injection-in-action#qualify-dependency-lookup) of using `@Host` together with `@Optional`, another parameter decorator that lets you handle the null case if no provider is found." />
-      <item value="You can cap the bubbling by adding the `@Host()` parameter decorator on the dependant-service parameter in a component's constructor. The hunt for providers stops at the injector for the host element of the component." />
-      <item value="If you have registered a provider for the same DI token at different levels, the first one Angular encounters is the one it uses to provide the dependency. If, for example, a provider is registered locally in the component that needs a service, Angular doesn't look for another provider of the same service." />
-      <item value="Components are a special type of directive, and the `providers` property of `@Component()` is inherited from `@Directive()`. Directives can also have dependencies, and you can configure providers in their `@Directive()` metadata. When you configure a provider for a component or directive using the `providers` property, that provider belongs to the injector for the anchor DOM element. Components and directives on the same element share an injector." />
-      <item value="The following example is a revised `HeroesComponent` that specifies `HeroService` in its `providers` array. `HeroService` can provide heroes to instances of this component, or to any child component instances." />
-      <item value="Here is an example of the case where the component router configuration includes a non-default [location strategy](guide/router#location-strategy) by listing its provider in the `providers` list of the `AppModule`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="436" />
-        <entry key="ENGLISH" value="439" />
+        <entry key="CHINESE" value="439" />
+        <entry key="ENGLISH" value="443" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
