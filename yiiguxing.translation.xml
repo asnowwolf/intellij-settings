@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="For details about changes between versions, and information about updating from previous releases, see the Releases tab on GitHub: https://github.com/angular/angular-cli/releases" />
+      <item value="The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications. You can use the tool directly in a command shell, or indirectly through an interactive UI such as [Angular Console](https://angularconsole.com)." />
       <item value="* The first parameter of `navigate()` is a delta to be applied to the current URL or the one provided in the `relativeTo` property of the second parameter (the `NavigationExtras`)." />
       <item value="* Since `navigateByUrl()` takes an absolute URL as the first parameter, it will not apply any delta to the current URL and ignores any properties in the second parameter (the `NavigationExtras`) that would change the provided URL." />
       <item value="The reconfigured `BrowserModule` to import into the app's root `AppModule`." />
@@ -49,13 +51,11 @@
       <item value="Generate a _guard_ that checks for the presence of a `canDeactivate()` method in a component&amp;mdash;any component." />
       <item value="Although the admin dashboard `RouterLink` only contains a relative slash without an additional URL segment, it is considered a match to any route within the admin feature area. You only want the `Dashboard` link to be active when the user visits that route. Adding an additional binding to the `Dashboard` routerLink,`[routerLinkActiveOptions]=&quot;{ exact: true }&quot;`, marks the `./` link as active when the user navigates to the `/admin` URL and not when navigating to any of the child routes." />
       <item value="The `@routeAnimation` property is bound to the `getAnimationData` with the provided `routerOutlet` reference, so you'll need to define that function in the `AppComponent`. The `getAnimationData` function returns the animation property from the `data` provided through the `ActivatedRoute`. The `animation` property matches the `transition` names you used in the `slideDownAnimation` defined in `animations.ts`." />
-      <item value="* Defines one *transition* when switching back and forth from the `heroes` and `hero` routes to ease the component in from the left of the screen as it enters the application view (`:enter`), the other to animate the component to the right as it leaves the application view (`:leave`)." />
-      <item value="* Update the relative path import to the `message.service` in the `hero.service.ts` file." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="459" />
-        <entry key="ENGLISH" value="463" />
+        <entry key="CHINESE" value="461" />
+        <entry key="ENGLISH" value="465" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
