@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Adding a service worker to an Angular application is one of the steps for turning an application into a [Progressive Web App](https://developers.google.com/web/progressive-web-apps/) (also known as a PWA)." />
+      <item value="Update the `goToHeroes()` method in the `hero-detail.component.ts` to navigate back to `/superheroes` with the optional route parameters." />
+      <item value="If it doesn't return a valid `Crisis`, return an empty `Observable`, canceling the previous in-flight navigation to the `CrisisDetailComponent` and navigate the user back to the `CrisisListComponent`. The update resolver service looks like this:" />
+      <item value="The `CrisisService.getCrisis` method returns an observable, in order to prevent the route from loading until the data is fetched. The `Router` guards require an observable to `complete`, meaning it has emitted all of its values. You use the `take` operator with an argument of `1` to ensure that the Observable completes after retrieving the first value from the Observable returned by the `getCrisis` method." />
+      <item value="Generate a _guard_ that checks for the presence of a `canDeactivate()` method in a component&amp;mdash;any component." />
+      <item value="Although the admin dashboard `RouterLink` only contains a relative slash without an additional URL segment, it is considered a match to any route within the admin feature area. You only want the `Dashboard` link to be active when the user visits that route. Adding an additional binding to the `Dashboard` routerLink,`[routerLinkActiveOptions]=&quot;{ exact: true }&quot;`, marks the `./` link as active when the user navigates to the `/admin` URL and not when navigating to any of the child routes." />
       <item value="The `@routeAnimation` property is bound to the `getAnimationData` with the provided `routerOutlet` reference, so you'll need to define that function in the `AppComponent`. The `getAnimationData` function returns the animation property from the `data` provided through the `ActivatedRoute`. The `animation` property matches the `transition` names you used in the `slideDownAnimation` defined in `animations.ts`." />
       <item value="* Defines one *transition* when switching back and forth from the `heroes` and `hero` routes to ease the component in from the left of the screen as it enters the application view (`:enter`), the other to animate the component to the right as it leaves the application view (`:leave`)." />
       <item value="* Update the relative path import to the `message.service` in the `hero.service.ts` file." />
@@ -45,17 +51,11 @@
       <item value="Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that are available as [npm packages](https://docs.npmjs.com/getting-started/what-is-npm). To download and install npm packages, you must have an npm package manager." />
       <item value="This guide takes less than 30 minutes to complete. At the end of this guide&amp;mdash;as part of final code review&amp;mdash;there is a link to download a copy of the final application code. (If you don't execute the commands in this guide, you can still download the final application code.)" />
       <item value="This guide shows you how to build and run a simple Angular app. You'll use the [Angular CLI tool](cli &quot;CLI command reference&quot;) to accelerate development, while adhering to the [Style Guide](guide/styleguide &quot;Angular style guide&quot;) recommendations that benefit _every_ Angular project." />
-      <item value="Welcome to Angular! Angular helps you build modern applications for the web, mobile, or desktop." />
-      <item value="It also creates the following workspace and starter project files:" />
-      <item value="The Angular CLI installs the necessary Angular `npm` packages and other dependencies. This can take a few minutes." />
-      <item value="The `ng new` command prompts you for information about features to include in the initial app project. Accept the defaults by pressing the Enter or Return key." />
-      <item value="Ensure that you are not already in an Angular workspace folder. For example, if you have previously created the Getting Started workspace, change to the parent of that folder." />
-      <item value="You develop apps in the context of an Angular [workspace](guide/glossary#workspace). A workspace contains the files for one or more [projects](guide/glossary#project). A project is the set of files that comprise an app, a library, or end-to-end (e2e) tests. For this tutorial, you will create a new workspace." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="444" />
-        <entry key="ENGLISH" value="448" />
+        <entry key="CHINESE" value="445" />
+        <entry key="ENGLISH" value="449" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
