@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Invoke the tool on the command line through the `ng` executable. Online help is available on the command line. Enter the following to list commands or options for a given command (such as [generate](cli/generate)) with a short description." />
       <item value="For details about changes between versions, and information about updating from previous releases, see the Releases tab on GitHub: https://github.com/angular/angular-cli/releases" />
       <item value="The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications. You can use the tool directly in a command shell, or indirectly through an interactive UI such as [Angular Console](https://angularconsole.com)." />
       <item value="* The first parameter of `navigate()` is a delta to be applied to the current URL or the one provided in the `relativeTo` property of the second parameter (the `NavigationExtras`)." />
@@ -50,12 +51,11 @@
       <item value="The `CrisisService.getCrisis` method returns an observable, in order to prevent the route from loading until the data is fetched. The `Router` guards require an observable to `complete`, meaning it has emitted all of its values. You use the `take` operator with an argument of `1` to ensure that the Observable completes after retrieving the first value from the Observable returned by the `getCrisis` method." />
       <item value="Generate a _guard_ that checks for the presence of a `canDeactivate()` method in a component&amp;mdash;any component." />
       <item value="Although the admin dashboard `RouterLink` only contains a relative slash without an additional URL segment, it is considered a match to any route within the admin feature area. You only want the `Dashboard` link to be active when the user visits that route. Adding an additional binding to the `Dashboard` routerLink,`[routerLinkActiveOptions]=&quot;{ exact: true }&quot;`, marks the `./` link as active when the user navigates to the `/admin` URL and not when navigating to any of the child routes." />
-      <item value="The `@routeAnimation` property is bound to the `getAnimationData` with the provided `routerOutlet` reference, so you'll need to define that function in the `AppComponent`. The `getAnimationData` function returns the animation property from the `data` provided through the `ActivatedRoute`. The `animation` property matches the `transition` names you used in the `slideDownAnimation` defined in `animations.ts`." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="461" />
-        <entry key="ENGLISH" value="465" />
+        <entry key="CHINESE" value="462" />
+        <entry key="ENGLISH" value="466" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
