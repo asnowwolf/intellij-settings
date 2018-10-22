@@ -1,6 +1,26 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The constructor uses the `@Optional()` directive to prepend the origin to `heroesUrl` _if it exists_." />
+      <item value="To run a production build of your app with Universal on your local system, use the following command." />
+      <item value="Now let's create a few handy scripts to help us do all of this in the future.&#10;You can add these in the `&quot;server&quot;` section of the Angular configuration file, `angular.json`." />
+      <item value="Set up a webpack configuration to handle the Node Express `server.ts` file and serve your application." />
+      <item value="The following simple example implements a bare-bones Node Express server to fire everything up. (Note that this is for demonstration only. In a real production environment, you need to set up additional authentication and security.)" />
+      <item value="This technique gives you complete flexibility. For convenience, you can also use the `@nguniversal/express-engine` tool that has some built-in features." />
+      <item value="To build a server bundle for your application, use the `ng run` command, with the format `projectName#serverTarget`. In our example, there are now two targets configured, `&quot;build&quot;` and `&quot;server&quot;`." />
+      <item value="Add a section for `&quot;angularCompilerOptions&quot;` and set `&quot;entryModule&quot;` to point to your `AppServerModule` instance. Use the format `importPath#symbolName`. In this example, the entry module is `app/app.server.module#AppServerModule`." />
+      <item value="Create a module named `AppServerModule` to act as the root module when running on the server. This example places it alongside `app.module.ts` in a file named `app.server.module.ts`. The new module imports everything from the root `AppModule`, and adds `ServerModule`. It also adds `ModuleMapLoaderModule` to help make lazy-loaded routes possible during server-side renders with the Angular CLI." />
+      <item value="Make your `AppModule` compatible with Universal by adding `.withServerTransition()` and an application ID to your `BrowserModule` import in `src/app/app.module.ts`." />
+      <item value="When a browser makes an HTTP request, the server can make assumptions about cookies, XSRF headers, and so on. For example, the browser automatically sends authentication cookies for the current user. Angular Universal can't forward these credentials to a separate data server. If your server handles HTTP requests, you'll have to add your own security plumbing." />
+      <item value="HTTP requests issued from a browser app aren't the same as those issued by the Universal app on the server.&#10;Universal HTTP requests have different security requirements" />
+      <item value="To see a working version of an app with server-side rendering, clone the [Angular Universal starter](https://github.com/angular/universal-starter)." />
+      <item value="**Note:** The [Universal tutorial](#the-example) below walks you through the steps using the Tour of Heroes sample app, and goes into more detail about what you can do and why you might want to do it." />
+      <item value="The following sections go into each of these main steps in more detail." />
+      <item value="1. Prepare your app by modifying both the app code and its configuration." />
+      <item value="Before your app can be rendered on a server, you must make changes in the app itself, and also set up the server." />
+      <item value="To make a Universal app, install the `platform-server` package, which provides server implementations of the DOM, `XMLHttpRequest`, and other low-level features that don't rely on a browser. Compile the client application with the `platform-server` module (instead of the `platform-browser` module) and run the resulting Universal app on a web server." />
+      <item value="_Any_ web server technology can serve a Universal app as long as it can call Universal's `renderModuleFactory()` function. The principles and decision points discussed here apply to any web server technology." />
+      <item value="A Universal web server responds to application page requests with static HTML rendered by the [Universal template engine](#universal-engine). The server receives and responds to HTTP requests from clients (usually browsers), and serves static assets such as scripts, CSS, and images.&#10;It may respond to data requests, either directly or as a proxy to a separate data server." />
       <item value="Adding a service worker to an Angular application is one of the steps for turning an application into a [Progressive Web App](https://developers.google.com/web/progressive-web-apps/) (also known as a PWA)." />
       <item value="Update the `goToHeroes()` method in the `hero-detail.component.ts` to navigate back to `/superheroes` with the optional route parameters." />
       <item value="If it doesn't return a valid `Crisis`, return an empty `Observable`, canceling the previous in-flight navigation to the `CrisisDetailComponent` and navigate the user back to the `CrisisListComponent`. The update resolver service looks like this:" />
@@ -31,31 +51,11 @@
       <item value="Library developers can create schematics that enable the CLI to generate their published libraries.&#10;For more information, see [devkit documentation](https://www.npmjs.com/package/@angular-devkit/schematics)." />
       <item value="Angular provides a set of schematics for use with the CLI. See the [Angular CLI command reference](cli). The [`ng add`](cli/add) command runs schematics as part of adding a library to your project. The [`ng generate`](cli/generate) command runs schematics to create apps, libraries, and Angular code constructs." />
       <item value="A scaffolding library that defines how to generate or transform a programming project by creating, modifying, refactoring, or moving files and code. The Angular [CLI](guide/glossary#cli) uses schematics to generate and modify [Angular projects](guide/glossary#project) and parts of projects." />
-      <item value="Observables can deliver single or multiple values of any type to subscribers, either synchronously (as a function delivers a value to its caller) or on a schedule. A subscriber receives notification of new values as they are produced and notification of either normal completion or error completion." />
-      <item value="The documentation generally refers to *elements* (`ElementRef` instances), as distinct from *DOM elements*&#10;(which can be accessed directly if necessary)." />
-      <item value="Constructors should do little more than initialize variables.&#10;This rule makes the component safe to construct under test without fear that it will do something dramatic like talk to the server.&#10;That's why you call the `HeroService` from within the `ngOnInit` rather than the constructor." />
-      <item value="Constructors should do little more than initialize variables. This rule makes the component safe to construct under test without fear that it will do something dramatic like talk to the server. That's why you call the `HeroService` from within the `ngOnInit` rather than the constructor." />
-      <item value="If you comment out the `@Host()` decorator, Angular walks up the injector ancestor tree until it finds the logger at the `AppComponent` level. The logger logic kicks in and the hero display updates with the &quot;!!!&quot; marker to indicate that the logger was found." />
-      <item value="You can limit the scope of an injected service to a *branch* of the application hierarchy by providing that service *at the sub-root component for that branch*. This example shows how to make a different instance of `HeroService` available to `HeroesBaseComponent` by adding it to the `providers` array of the `@Component()` decorator of the sub-component." />
-      <item value="When Angular creates `AppComponent`, the DI framework creates an instance of `LoggerService` and starts to create `UserContextService`.&#10;`UserContextService` also needs `LoggerService`, which the framework already has, so the framework can provide the same instance. `UserContextService` also needs `UserService`, which the framework has yet to create. `UserService` has no further dependencies, so the framework can simply use `new` to instantiate the class and provide the instance to the `UserContextService` constructor." />
-      <item value="`UserContext` in turn depends on both `LoggerService` and `UserService`, another service that gathers information about a particular user." />
-      <item value="`UserContext` in turn depends on both `LoggerService` and&#10;`UserService`, another service that gathers information about a particular user." />
-      <item value="* [Building and Serving](guide/build): Learn to define different build and proxy server configurations for your project, such as development, staging, and production." />
-      <item value="Add the `&lt;base&gt;` element just after the `&lt;head&gt;` tag. If the `app` folder is the application root, as it is for this application, set the `href` value in **`index.html`** *exactly* as shown here." />
-      <item value="Add the `&lt;base&gt;` element just after the `&lt;head&gt;` tag.&#10;If the `app` folder is the application root, as it is for this application, set the `href` value in **`index.html`** *exactly* as shown here." />
-      <item value="After the Tutorial and Architecture guide, you'll be ready to continue exploring Angular on your own through the other guides and references in this documentation set, focusing on the features most important for your apps." />
-      <item value="* The [Architecture guide](guide/architecture &quot;Architecture guide&quot;) describes key concepts such as modules, components, services, and dependency injection (DI). It provides a foundation for more in-depth guides about specific Angular concepts and features." />
-      <item value="The [Tour of Heroes tutorial](tutorial &quot;Tour of Heroes tutorial&quot;) provides additional hands-on learning. It walks you through the steps to build an app that helps a staffing agency manage a group of superhero employees. It has many of the features you'd expect to find in a data-driven application:" />
-      <item value="Now that you've seen the essentials of an Angular app and the Angular CLI, continue with these other introductory materials:" />
-      <item value="## Final code review" />
-      <item value="Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that are available as [npm packages](https://docs.npmjs.com/getting-started/what-is-npm). To download and install npm packages, you must have an npm package manager." />
-      <item value="This guide takes less than 30 minutes to complete. At the end of this guide&amp;mdash;as part of final code review&amp;mdash;there is a link to download a copy of the final application code. (If you don't execute the commands in this guide, you can still download the final application code.)" />
-      <item value="This guide shows you how to build and run a simple Angular app. You'll use the [Angular CLI tool](cli &quot;CLI command reference&quot;) to accelerate development, while adhering to the [Style Guide](guide/styleguide &quot;Angular style guide&quot;) recommendations that benefit _every_ Angular project." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="445" />
-        <entry key="ENGLISH" value="449" />
+        <entry key="CHINESE" value="449" />
+        <entry key="ENGLISH" value="453" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
