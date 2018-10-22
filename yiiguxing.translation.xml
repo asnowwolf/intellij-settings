@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Constructors should do little more than initialize variables.&#10;This rule makes the component safe to construct under test without fear that it will do something dramatic like talk to the server.&#10;That's why you call the `HeroService` from within the `ngOnInit` rather than the constructor." />
       <item value="If you comment out the `@Host()` decorator, Angular walks up the injector ancestor tree until it finds the logger at the `AppComponent` level. The logger logic kicks in and the hero display updates with the &quot;!!!&quot; marker to indicate that the logger was found." />
       <item value="You can limit the scope of an injected service to a *branch* of the application hierarchy by providing that service *at the sub-root component for that branch*. This example shows how to make a different instance of `HeroService` available to `HeroesBaseComponent` by adding it to the `providers` array of the `@Component()` decorator of the sub-component." />
       <item value="When Angular creates `AppComponent`, the DI framework creates an instance of `LoggerService` and starts to create `UserContextService`.&#10;`UserContextService` also needs `LoggerService`, which the framework already has, so the framework can provide the same instance. `UserContextService` also needs `UserService`, which the framework has yet to create. `UserService` has no further dependencies, so the framework can simply use `new` to instantiate the class and provide the instance to the `UserContextService` constructor." />
@@ -50,12 +51,11 @@
       <item value="You're likely to inject `UserService` in many places throughout the app and will want to inject the same service instance every time. Providing `UserService` through the `root` injector is a good choice, and is the default that the [Angular CLI](cli) uses when you generate a service for your app." />
       <item value="You can configure providers for different injectors in the injector hierarchy. An internal platform-level injector is shared by all running apps. The `AppModule` injector is the root of an app-wide injector hierarchy, and within an NgModule, directive-level injectors follow the structure of the component hierarchy." />
       <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server. When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
-      <item value="The `ng serve` command builds, watches, and serves the application from local memory, using a local development server.&#10;When you have deployed your app to another server, however, you might still want to serve the app so that you can continue to see changes that you make in it. You can do this by adding the `--watch` option to the `ng build` command." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="429" />
-        <entry key="ENGLISH" value="432" />
+        <entry key="CHINESE" value="430" />
+        <entry key="ENGLISH" value="433" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
