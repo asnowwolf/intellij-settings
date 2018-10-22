@@ -1,6 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The [ng generate](cli/generate) and [ng add](cli/add) commands take as an argument the artifact or library to be generated or added to the current project. In addition to any general options, each artifact or library defines its own options in a *schematic*. Schematic options are supplied to the command in the same format as immediate command options." />
+      <item value="Allowed values are given with each enumerated option description, with the default value in **bold**." />
+      <item value="Boolean options have two forms: `--thisOption` sets the flag, `--noThisOption` clears it. If neither option is supplied, the flag remains in its default state, as listed in the reference documentation." />
+      <item value="Typically, the name of a generated artifact can be given as an argument to the command or specified with the --name option." />
+      <item value="option names are prefixed with a double dash (--). option aliases are prefixed with a single dash (-). arguments are not prefixed. for example: `ng build my-app -c production`" />
+      <item value="See the [complete schema](https://github.com/angular/angular-cli/wiki/angular-workspace) for `angular.json`." />
+      <item value="The [ng config](cli/config) command lets you set and retrieve configuration values from the command line, or you can edit the `angular.json` file directly." />
+      <item value="A single workspace configuration file, `angular.json`, is created at the top level of the workspace. This is where you can set workspace-wide defaults, and specify configurations to use when the CLI builds a project for different targets." />
+      <item value="When you use the [ng serve](cli/serve) command to build an app and serve it locally, the server automatically rebuilds the app and reloads the page when you change any of the source files." />
+      <item value="You can edit the generated files directly, or add to and modify them using CLI commands. Use the [ng generate](cli/generate) command to add new files for additional components and services, and code for new pipes, directives, and so on. Commands such as [add](cli/add) and [generate](cli/generate), which create or operate on apps and libraries, must be executed from within a workspace or project folder." />
+      <item value="A newly generated app contains the source files for a root module, with a root component and template. Each app has a `src` folder that contains the logic, data, and assets." />
+      <item value="The [ng new](cli/new) command creates an *Angular workspace* folder and generates a new app skeleton. A workspace can contain multiple apps and libraries. The initial app created by the [ng new](cli/new) command is at the top level of the workspace. When you generate an additional app or library in a workspace, it goes into a `projects/` subfolder." />
+      <item value="The [ng new](cli/new) command creates an *Angular workspace* folder and generates a new app skeleton. A workspace can contain multiple apps and libraries.&#10;The initial app created by the [ng new](cli/new) command is at the top level of the workspace. When you generate an additional app or library in a workspace, it goes into a `projects/` subfolder." />
+      <item value="To create, build, and serve a new, basic Angular project on a development server, go to the parent directory of your new workspace use the following commands:" />
       <item value="Invoke the tool on the command line through the `ng` executable. Online help is available on the command line. Enter the following to list commands or options for a given command (such as [generate](cli/generate)) with a short description." />
       <item value="For details about changes between versions, and information about updating from previous releases, see the Releases tab on GitHub: https://github.com/angular/angular-cli/releases" />
       <item value="The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications. You can use the tool directly in a command shell, or indirectly through an interactive UI such as [Angular Console](https://angularconsole.com)." />
@@ -37,25 +51,11 @@
       <item value="Make your `AppModule` compatible with Universal by adding `.withServerTransition()` and an application ID to your `BrowserModule` import in `src/app/app.module.ts`." />
       <item value="When a browser makes an HTTP request, the server can make assumptions about cookies, XSRF headers, and so on. For example, the browser automatically sends authentication cookies for the current user. Angular Universal can't forward these credentials to a separate data server. If your server handles HTTP requests, you'll have to add your own security plumbing." />
       <item value="HTTP requests issued from a browser app aren't the same as those issued by the Universal app on the server.&#10;Universal HTTP requests have different security requirements" />
-      <item value="To see a working version of an app with server-side rendering, clone the [Angular Universal starter](https://github.com/angular/universal-starter)." />
-      <item value="**Note:** The [Universal tutorial](#the-example) below walks you through the steps using the Tour of Heroes sample app, and goes into more detail about what you can do and why you might want to do it." />
-      <item value="The following sections go into each of these main steps in more detail." />
-      <item value="1. Prepare your app by modifying both the app code and its configuration." />
-      <item value="Before your app can be rendered on a server, you must make changes in the app itself, and also set up the server." />
-      <item value="To make a Universal app, install the `platform-server` package, which provides server implementations of the DOM, `XMLHttpRequest`, and other low-level features that don't rely on a browser. Compile the client application with the `platform-server` module (instead of the `platform-browser` module) and run the resulting Universal app on a web server." />
-      <item value="_Any_ web server technology can serve a Universal app as long as it can call Universal's `renderModuleFactory()` function. The principles and decision points discussed here apply to any web server technology." />
-      <item value="A Universal web server responds to application page requests with static HTML rendered by the [Universal template engine](#universal-engine). The server receives and responds to HTTP requests from clients (usually browsers), and serves static assets such as scripts, CSS, and images.&#10;It may respond to data requests, either directly or as a proxy to a separate data server." />
-      <item value="Adding a service worker to an Angular application is one of the steps for turning an application into a [Progressive Web App](https://developers.google.com/web/progressive-web-apps/) (also known as a PWA)." />
-      <item value="Update the `goToHeroes()` method in the `hero-detail.component.ts` to navigate back to `/superheroes` with the optional route parameters." />
-      <item value="If it doesn't return a valid `Crisis`, return an empty `Observable`, canceling the previous in-flight navigation to the `CrisisDetailComponent` and navigate the user back to the `CrisisListComponent`. The update resolver service looks like this:" />
-      <item value="The `CrisisService.getCrisis` method returns an observable, in order to prevent the route from loading until the data is fetched. The `Router` guards require an observable to `complete`, meaning it has emitted all of its values. You use the `take` operator with an argument of `1` to ensure that the Observable completes after retrieving the first value from the Observable returned by the `getCrisis` method." />
-      <item value="Generate a _guard_ that checks for the presence of a `canDeactivate()` method in a component&amp;mdash;any component." />
-      <item value="Although the admin dashboard `RouterLink` only contains a relative slash without an additional URL segment, it is considered a match to any route within the admin feature area. You only want the `Dashboard` link to be active when the user visits that route. Adding an additional binding to the `Dashboard` routerLink,`[routerLinkActiveOptions]=&quot;{ exact: true }&quot;`, marks the `./` link as active when the user navigates to the `/admin` URL and not when navigating to any of the child routes." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="462" />
-        <entry key="ENGLISH" value="466" />
+        <entry key="CHINESE" value="469" />
+        <entry key="ENGLISH" value="473" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
