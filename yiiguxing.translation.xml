@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The sample routing application does not include routing by default. When you use the [Angular CLI](cli) to create a project that will use routing, set the `--routing` option for the project or app, and for each NgModule. When you create or initialize a new project (using the CLI [`ng new`](cli/new) command) or a new app (using the [`ng generate app`](cli/generate) command), specify the `--routing` option. This tells the CLI to include the `@angular/router` npm package and create a file named `app-routing.module.ts`. You can then use routing in any NgModule that you add to the project or app. For example, the following command generates an NgModule that can use routing." />
+      <item value="### Integrate routing with your app" />
+      <item value="**Note:** The `RouterModule.forRoot` method is a pattern used to register application-wide providers. Read more about application-wide providers in the [Singleton services](guide/singleton-services#forroot) guide." />
+      <item value="In order to use the Router, you must first register the `RouterModule` from the `@angular/router` package. Define an array of routes, `appRoutes`, and pass them to the `RouterModule.forRoot()` method. It returns a module, containing the configured `Router` service provider, plus other providers that the routing library requires. Once the application is bootstrapped, the `Router` performs the initial navigation based on the current browser URL." />
+      <item value="The first configuration defines an array of two routes with simple paths leading to the `CrisisListComponent` and `HeroListComponent`. Generate the `CrisisList` and `HeroList` components." />
       <item value="Active route links cascade down through each level of the route tree, so parent and child router links can be active at the same time. To override this behavior, you can bind to the `[routerLinkActiveOptions]` input binding with the `{ exact: true }` expression. By using `{ exact: true }`, a given `RouterLink` will only be active if its URL is an exact match to the current URL." />
       <item value="The template expression to the right of the equals (=) contains a space-delimited string of CSS classes that the Router will add when this link is active (and remove when the link is inactive). You set the `RouterLinkActive` directive to a string of classes such as `[routerLinkActive]=&quot;'active fluffy'&quot;` or bind it to a component property that returns such a string." />
       <item value="On each anchor tag, you see a [property binding](guide/template-syntax#property-binding) to the `RouterLinkActive` directive that look like `routerLinkActive=&quot;...&quot;`." />
@@ -46,16 +51,11 @@
       <item value="To set up your development environment, follow these instructions in [Getting Started](guide/quickstart):" />
       <item value="You begin by creating an initial application using the Angular CLI. Throughout this tutorial, you’ll modify and extend that starter application to create the Tour of Heroes app." />
       <item value="Another reason to re-provide a service at another level is to substitute a _ more specialized _ implementation of that service, deeper in the component tree." />
-      <item value="Another reason to re-provide a service at another level is to substitute a _more specialized_ implementation of that service, deeper in the component tree." />
-      <item value="If you provide `VillainsService` in the root `AppModule` (where you registered the `HeroesService`), that would make the `VillainsService` available everywhere in the application, including the _Hero_ workflows. If you later modified the `VillainsService`, you could break something in a hero component somewhere. Providing the service in the root `AppModule` creates that risk." />
-      <item value="For example, the guide sample includes a `VillainsListComponent` that displays a list of villains.&#10;It gets those villains from a `VillainsService`." />
-      <item value="If you only register providers with the root injector at the top level (typically the root `AppModule`), the tree of injectors appears to be flat.&#10;All requests bubble up to the root injector, whether you configured it with the `bootstrapModule` method, or registered all providers with `root` in their own services." />
-      <item value="See an [example](guide/dependency-injection-in-action#qualify-dependency-lookup) of using `@Host` together with `@Optional`, another parameter decorator that lets you handle the null case if no provider is found." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="439" />
-        <entry key="ENGLISH" value="443" />
+        <entry key="CHINESE" value="442" />
+        <entry key="ENGLISH" value="446" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
