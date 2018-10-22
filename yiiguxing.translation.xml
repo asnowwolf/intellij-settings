@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Preparing text in component templates for translation." />
+      <item value="Consider a Car component that depends on several services.&#10;Suppose you configured the root injector (marked as A) with _generic_ providers for&#10;`CarService`, `EngineService` and `TiresService`." />
       <item value="Library developers can create schematics that enable the CLI to generate their published libraries.&#10;For more information, see [devkit documentation](https://www.npmjs.com/package/@angular-devkit/schematics)." />
       <item value="Angular provides a set of schematics for use with the CLI. See the [Angular CLI command reference](cli). The [`ng add`](cli/add) command runs schematics as part of adding a library to your project. The [`ng generate`](cli/generate) command runs schematics to create apps, libraries, and Angular code constructs." />
       <item value="A scaffolding library that defines how to generate or transform a programming project by creating, modifying, refactoring, or moving files and code. The Angular [CLI](guide/glossary#cli) uses schematics to generate and modify [Angular projects](guide/glossary#project) and parts of projects." />
@@ -49,8 +51,6 @@
       <item value="You can configure a provider at the module level using the `providedIn` metadata option for a non-root NgModule, in order to limit the scope of the provider to that module.&#10;This is the equivalent of specifying the non-root module in the `@Injectable()` metadata, except that the service provided this way is not tree-shakable." />
       <item value="This is generally no different from configuring the injector of the NgModule itself, except that the service is tree-shakable if the NgModule doesn't use it. It can be useful for a library that offers a particular service that some components *might* want to inject optionally, and leave it up to the app whether to provide the service." />
       <item value="Providing a service with the app's root injector is a typical case, and the CLI sets up this kind of a provider automatically for you when generating a new service. However, you might not always want to provide your service at the root level. You might, for instance, want users to explicitly opt-in to using the service." />
-      <item value="This configuration tells Angular that the app's root injector is responsible for creating an instance of `HeroService` by invoking its constructor, and for making that instance available across the application." />
-      <item value="The `@Injectable()` decorator identifies every service class. The `providedIn` metadata option for a service class configures a specific injector (typically `root`) to use the decorated class as a provider of the service. When an injectable class provides its own service to the `root` injector, the service is available anywhere the class is imported." />
     </histories>
     <option name="languageScores">
       <map>
