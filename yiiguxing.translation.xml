@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="For more details about how to create scripts to generate an app in multiple languages and how to set up Apache 2 to serve them from different subdirectories, read [this tutorial by Philippe Martin](https://medium.com/@feloy/deploying-an-i18n-angular-app-with-angular-cli-fc788f17e358#.1xq4iy6fp)." />
+      <item value="When you use the CLI `build` or `serve` command to build your application for different locales, change the output path using the `--outputPath` command option (along with the i18n-specific command options), so that the translation files are saved to different locations. When you are serving a locale-specific version from a subdirectory, you can also change the base URL used by your app by specifying the `--baseHref` option." />
+      <item value="When you use the CLI `build` or `serve` command to build your application for different locales, change the output path using the `--outputPath` command option (along with the i18n-specific command options), so that the translation files are saved to different locations.&#10;When you are serving a locale-specific version from a subdirectory, you can also change the base URL used by your app by specifying the `--baseHref` option." />
       <item value="* Preparing text in component templates for translation." />
       <item value="Consider a Car component that depends on several services.&#10;Suppose you configured the root injector (marked as A) with _generic_ providers for&#10;`CarService`, `EngineService` and `TiresService`." />
       <item value="Library developers can create schematics that enable the CLI to generate their published libraries.&#10;For more information, see [devkit documentation](https://www.npmjs.com/package/@angular-devkit/schematics)." />
@@ -48,14 +51,11 @@
       <item value="The following example is a revised `HeroesComponent` that specifies `HeroService` in its `providers` array. `HeroService` can provide heroes to instances of this component, or to any child component instances." />
       <item value="Here is an example of the case where the component router configuration includes a non-default [location strategy](guide/router#location-strategy) by listing its provider in the `providers` list of the `AppModule`." />
       <item value="You generally don't need to specify `AppModule` with `providedIn`, because the app's `root` injector is the `AppModule` injector. However, if you configure a app-wide provider in the`@NgModule()` metadata for `AppModule`, it overrides one configured for `root` in the `@Injectable()` metadata. You can do this to configure a non-default provider of a service that is shared with multiple apps." />
-      <item value="You can configure a provider at the module level using the `providedIn` metadata option for a non-root NgModule, in order to limit the scope of the provider to that module.&#10;This is the equivalent of specifying the non-root module in the `@Injectable()` metadata, except that the service provided this way is not tree-shakable." />
-      <item value="This is generally no different from configuring the injector of the NgModule itself, except that the service is tree-shakable if the NgModule doesn't use it. It can be useful for a library that offers a particular service that some components *might* want to inject optionally, and leave it up to the app whether to provide the service." />
-      <item value="Providing a service with the app's root injector is a typical case, and the CLI sets up this kind of a provider automatically for you when generating a new service. However, you might not always want to provide your service at the root level. You might, for instance, want users to explicitly opt-in to using the service." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="433" />
-        <entry key="ENGLISH" value="436" />
+        <entry key="CHINESE" value="435" />
+        <entry key="ENGLISH" value="438" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
