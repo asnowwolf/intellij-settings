@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The following shows the new and the old implementations side-by-side." />
+      <item value="To resolve this, we give the `HeroService` constructor a boolean flag to control display of secret heroes." />
+      <item value="Let's say you don't want to inject `UserService` directly into `HeroService`, because you don't want to complicate that service with security-sensitive information." />
+      <item value="In cases like this you can use a *factory provider*.&#10;Factory providers can also be useful when creating an instance of a dependency from a third-party library that wasn't designed to work with DI." />
+      <item value="For example, you might need information that changes repeatedly in the course of the browser session.&#10;Also, your injectable service might not have independent access to the source of the information." />
+      <item value="Although the `AppConfig` interface plays no role in dependency injection,&#10;it supports typing of the configuration object within the class." />
+      <item value="The type parameter, while optional, conveys the dependency's type to developers and tooling.&#10;The token description is another developer aid." />
       <item value="Apps often define configuration objects with lots of small facts, like the title of the application or the address of a web API endpoint. These configuration objects aren't always instances of a class. They can be object literals, as shown in the following example." />
       <item value="The following provider object uses the `useValue` key to associate the variable with the `Logger` token." />
       <item value="The following code defines a variable that creates such an object to play the logger role." />
@@ -44,18 +51,11 @@
       <item value="User input triggers DOM events. Angular listens to those events with event bindings that funnel updated values back into your app's components and models." />
       <item value="Define the `heroesUrl` of the form `:base/:collectionName` with the address of the heroes resource on the server. Here `base` is the resource to which requests are made, and `collectionName` is the heroes data object in the `in-memory-data-service.ts`." />
       <item value="This `getHeroes` returns the sliced list of heroes at positions 1 and 5, returning only four of the Top Heroes (2nd, 3rd, 4th, and 5th)." />
-      <item value="The command scaffolds the following:" />
-      <item value="**Note:** The 'heroes' string inside the factory refers to the AngularJS `HeroesService`.&#10;It is common in AngularJS apps to choose a service name for the token, for example &quot;heroes&quot;,&#10;and append the &quot;Service&quot; suffix to create the class name." />
-      <item value="The constructor uses the `@Optional()` directive to prepend the origin to `heroesUrl` _if it exists_." />
-      <item value="To run a production build of your app with Universal on your local system, use the following command." />
-      <item value="Now let's create a few handy scripts to help us do all of this in the future.&#10;You can add these in the `&quot;server&quot;` section of the Angular configuration file, `angular.json`." />
-      <item value="Set up a webpack configuration to handle the Node Express `server.ts` file and serve your application." />
-      <item value="The following simple example implements a bare-bones Node Express server to fire everything up. (Note that this is for demonstration only. In a real production environment, you need to set up additional authentication and security.)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="477" />
-        <entry key="ENGLISH" value="481" />
+        <entry key="CHINESE" value="481" />
+        <entry key="ENGLISH" value="485" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
