@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Tree-shaking doesn't work here because Angular can't decide to exclude one chunk of code (the provider definition for the service within the module factory) based on whether another chunk of code (the service class) is used. To make services tree-shakable, the information about how to construct an instance of the service (the provider definition) needs to be a part of the service class itself." />
+      <item value="The following example of non-tree-shakable providers in Angular configures a service provider for the injector of an NgModule." />
+      <item value="Ideally, if an application isn't injecting a service, it shouldn't be included in the final output. However, Angular has to be able to identify at build time whether the service will be required or not. Because it's always possible to inject a service directly using `injector.get(Service)`, Angular can't identify all of the places in your code where this injection could happen, so it has no choice but to include the service in the injector. Thus, services provided at the NgModule or component level are not tree-shakable." />
+      <item value="Tree shaking refers to a compiler option that removes code from the final bundle if that code not referenced in an application. When providers are tree-shakable, the Angular compiler removes the associated services from the final output when it determines that they are not used in your application. This significantly reduces the size of your bundles." />
+      <item value="Multiple providers can be associated with a single token in other areas as well." />
       <item value="The following shows the new and the old implementations side-by-side." />
       <item value="To resolve this, we give the `HeroService` constructor a boolean flag to control display of secret heroes." />
       <item value="Let's say you don't want to inject `UserService` directly into `HeroService`, because you don't want to complicate that service with security-sensitive information." />
@@ -46,16 +51,11 @@
       <item value="Techniques and practices for testing an Angular app." />
       <item value="Learn why and how to use the Ahead-of-Time (AOT) compiler." />
       <item value="Explanation of npm packages installed into a project by default." />
-      <item value="Install the Angular QuickStart seed for faster, more efficient development on your machine." />
-      <item value="Upgrading for Performance" />
-      <item value="User input triggers DOM events. Angular listens to those events with event bindings that funnel updated values back into your app's components and models." />
-      <item value="Define the `heroesUrl` of the form `:base/:collectionName` with the address of the heroes resource on the server. Here `base` is the resource to which requests are made, and `collectionName` is the heroes data object in the `in-memory-data-service.ts`." />
-      <item value="This `getHeroes` returns the sliced list of heroes at positions 1 and 5, returning only four of the Top Heroes (2nd, 3rd, 4th, and 5th)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="481" />
-        <entry key="ENGLISH" value="485" />
+        <entry key="CHINESE" value="486" />
+        <entry key="ENGLISH" value="490" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
