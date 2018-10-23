@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The class-provider syntax is a shorthand expression that expands into a provider configuration, defined by the [`Provider` interface](api/core/Provider). The following code snippets shows how a class that is given as the `providers` value is expanded into a full provider object." />
+      <item value="* You can provide a substitute class." />
+      <item value="You can, however, configure an injector with an alternative provider, in order to deliver some other object that provides the needed logging functionality. For instance:" />
       <item value="The [ng generate](cli/generate) and [ng add](cli/add) commands take as an argument the artifact or library to be generated or added to the current project. In addition to any general options, each artifact or library defines its own options in a *schematic*. Schematic options are supplied to the command in the same format as immediate command options." />
       <item value="Allowed values are given with each enumerated option description, with the default value in **bold**." />
       <item value="Boolean options have two forms: `--thisOption` sets the flag, `--noThisOption` clears it. If neither option is supplied, the flag remains in its default state, as listed in the reference documentation." />
@@ -48,14 +51,11 @@
       <item value="To build a server bundle for your application, use the `ng run` command, with the format `projectName#serverTarget`. In our example, there are now two targets configured, `&quot;build&quot;` and `&quot;server&quot;`." />
       <item value="Add a section for `&quot;angularCompilerOptions&quot;` and set `&quot;entryModule&quot;` to point to your `AppServerModule` instance. Use the format `importPath#symbolName`. In this example, the entry module is `app/app.server.module#AppServerModule`." />
       <item value="Create a module named `AppServerModule` to act as the root module when running on the server. This example places it alongside `app.module.ts` in a file named `app.server.module.ts`. The new module imports everything from the root `AppModule`, and adds `ServerModule`. It also adds `ModuleMapLoaderModule` to help make lazy-loaded routes possible during server-side renders with the Angular CLI." />
-      <item value="Make your `AppModule` compatible with Universal by adding `.withServerTransition()` and an application ID to your `BrowserModule` import in `src/app/app.module.ts`." />
-      <item value="When a browser makes an HTTP request, the server can make assumptions about cookies, XSRF headers, and so on. For example, the browser automatically sends authentication cookies for the current user. Angular Universal can't forward these credentials to a separate data server. If your server handles HTTP requests, you'll have to add your own security plumbing." />
-      <item value="HTTP requests issued from a browser app aren't the same as those issued by the Universal app on the server.&#10;Universal HTTP requests have different security requirements" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="469" />
-        <entry key="ENGLISH" value="473" />
+        <entry key="CHINESE" value="472" />
+        <entry key="ENGLISH" value="476" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
