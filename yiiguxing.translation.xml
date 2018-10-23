@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Apps often define configuration objects with lots of small facts, like the title of the application or the address of a web API endpoint. These configuration objects aren't always instances of a class. They can be object literals, as shown in the following example." />
+      <item value="The following provider object uses the `useValue` key to associate the variable with the `Logger` token." />
+      <item value="The following code defines a variable that creates such an object to play the logger role." />
+      <item value="When the old component logs a message with `OldLogger`, you want the singleton instance of `NewLogger` to handle it instead. In this case, the dependency injector should inject that singleton instance when a component asks for either the new or the old logger. `OldLogger` should be an *alias* for `NewLogger`." />
       <item value="The class-provider syntax is a shorthand expression that expands into a provider configuration, defined by the [`Provider` interface](api/core/Provider). The following code snippets shows how a class that is given as the `providers` value is expanded into a full provider object." />
       <item value="* You can provide a substitute class." />
       <item value="You can, however, configure an injector with an alternative provider, in order to deliver some other object that provides the needed logging functionality. For instance:" />
@@ -47,15 +51,11 @@
       <item value="Now let's create a few handy scripts to help us do all of this in the future.&#10;You can add these in the `&quot;server&quot;` section of the Angular configuration file, `angular.json`." />
       <item value="Set up a webpack configuration to handle the Node Express `server.ts` file and serve your application." />
       <item value="The following simple example implements a bare-bones Node Express server to fire everything up. (Note that this is for demonstration only. In a real production environment, you need to set up additional authentication and security.)" />
-      <item value="This technique gives you complete flexibility. For convenience, you can also use the `@nguniversal/express-engine` tool that has some built-in features." />
-      <item value="To build a server bundle for your application, use the `ng run` command, with the format `projectName#serverTarget`. In our example, there are now two targets configured, `&quot;build&quot;` and `&quot;server&quot;`." />
-      <item value="Add a section for `&quot;angularCompilerOptions&quot;` and set `&quot;entryModule&quot;` to point to your `AppServerModule` instance. Use the format `importPath#symbolName`. In this example, the entry module is `app/app.server.module#AppServerModule`." />
-      <item value="Create a module named `AppServerModule` to act as the root module when running on the server. This example places it alongside `app.module.ts` in a file named `app.server.module.ts`. The new module imports everything from the root `AppModule`, and adds `ServerModule`. It also adds `ModuleMapLoaderModule` to help make lazy-loaded routes possible during server-side renders with the Angular CLI." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="472" />
-        <entry key="ENGLISH" value="476" />
+        <entry key="CHINESE" value="477" />
+        <entry key="ENGLISH" value="481" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
