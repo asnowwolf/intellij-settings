@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Here is a component with an input field for a single control implemented using reactive forms." />
+      <item value="Reactive and template-driven forms both use a form model to track value changes between Angular forms and form input elements. The examples below show how the form model is defined and created." />
+      <item value="How these control instances are created and managed with reactive and template-driven forms is introduced in the [form model setup](#setup-the-form-model) section below and detailed further in the [data flow section](#data-flow-in-forms) of this guide." />
       <item value="This guide provides information to help you decide which approach works best for your situation. It introduces the common building blocks used by both approaches. It also summarizes the key differences between the two approaches, and demonstrates those differences in the context of setup, data flow, and testing." />
       <item value="**Template-driven forms** are useful for adding a simple form to an app, such as an email list signup form. They are easy to add to an app, but they do not scale as well as reactive forms. If you have very basic form requirements and logic that can be managed solely in the template, use template-driven forms." />
       <item value="**Reactive forms** are more robust: they are more scalable, reusable, and testable. If forms are a key part of your application, or you're already using reactive patterns for building your application, use reactive forms." />
@@ -48,14 +51,11 @@
       <item value="With the `ngUpgrade` library in Angular you can upgrade an existing AngularJS app incrementally by building a hybrid app where you can run both frameworks side-by-side. In these hybrid apps you can mix and match AngularJS and Angular components and services and have them interoperate seamlessly. That means you don't have to do the upgrade work all at once as there is a natural coexistence between the two frameworks during the transition period." />
       <item value="Before discussing how you can use `downgradeModule()` to create hybrid apps, there are things that you can do to ease the upgrade process even before you begin upgrading. Because the steps are the same regardless of how you upgrade, refer to the [Preparation](guide/upgrade#preparation) section of [Upgrading from AngularJS](guide/upgrade)." />
       <item value="This guide describes some of the built-in tools for efficiently migrating AngularJS projects over to the Angular platform, one piece at a time. It is very similar to [Upgrading from AngularJS](guide/upgrade) with the exception that this one uses the {@link downgradeModule downgradeModule()} helper function instead of the {@link UpgradeModule UpgradeModule} class. This affects how the app is bootstrapped and how change detection is propagated between the two frameworks. It allows you to upgrade incrementally while improving the speed of your hybrid apps and leveraging the latest of Angular in AngularJS apps early in the process of upgrading." />
-      <item value="Here's a revised version that defaults to `parent` but also accepts an optional second parameter for a different parent class interface." />
-      <item value="You can extract that logic into a helper function like the following." />
-      <item value="Writing variations of the same parent *alias provider* gets old quickly, especially this awful mouthful with a [*forwardRef*](guide/dependency-injection-in-action#forwardref)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="556" />
-        <entry key="ENGLISH" value="560" />
+        <entry key="CHINESE" value="557" />
+        <entry key="ENGLISH" value="561" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
