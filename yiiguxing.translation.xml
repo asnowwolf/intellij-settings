@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This guide provides information to help you decide which approach works best for your situation. It introduces the common building blocks used by both approaches. It also summarizes the key differences between the two approaches, and demonstrates those differences in the context of setup, data flow, and testing." />
+      <item value="**Template-driven forms** are useful for adding a simple form to an app, such as an email list signup form. They are easy to add to an app, but they do not scale as well as reactive forms. If you have very basic form requirements and logic that can be managed solely in the template, use template-driven forms." />
+      <item value="**Reactive forms** are more robust: they are more scalable, reusable, and testable. If forms are a key part of your application, or you're already using reactive patterns for building your application, use reactive forms." />
+      <item value="Reactive and template-driven forms differ, however, in how they do the work of processing and managing forms and form data. Each offers different advantages." />
+      <item value="Angular provides two different approaches to handling user input through forms: reactive and template-driven. Both capture user input events from the view, validate the user input, create a form model and data model to update, and provide a way to track changes." />
+      <item value="Handling user input with forms is the cornerstone of many common applications. Applications use forms to enable users log in, to update a profile, to enter sensitive information, and to perform many other data-entry tasks." />
       <item value="Using `downgradeModule()` is a good option for hybrid apps when you want to keep the AngularJS and Angular parts less coupled. You can still mix and match components and services from both frameworks, but you might need to manually propagate change detection. In return, `downgradeModule()` offers more control and better performance." />
       <item value="It does not require you to change how you bootstrap your AngularJS app." />
       <item value="It improves performance by avoiding unnecessary change detection runs while giving the developer greater ability to customize." />
@@ -45,17 +51,11 @@
       <item value="Here's a revised version that defaults to `parent` but also accepts an optional second parameter for a different parent class interface." />
       <item value="You can extract that logic into a helper function like the following." />
       <item value="Writing variations of the same parent *alias provider* gets old quickly, especially this awful mouthful with a [*forwardRef*](guide/dependency-injection-in-action#forwardref)." />
-      <item value="`AlexComponent` *should* implement `Parent` as a matter of proper style.&#10;It doesn't in this example *only* to demonstrate that the code will compile and run without the interface." />
-      <item value="Doing so adds clarity to the code. But it's not technically necessary.&#10;Although `AlexComponent` has a `name` property, as required by its `Base` class, its class signature doesn't mention `Parent`." />
-      <item value="A component that could serve as a parent *should* implement the class interface as the `AliceComponent` does." />
-      <item value="You [learned earlier](guide/dependency-injection-in-action#class-interface) that a class interface is an abstract class used as an interface rather than as a base class." />
-      <item value="It tells the injector to start its search for a `Parent` dependency in a component *above* itself, which *is* what parent means." />
-      <item value="`@SkipSelf` is essential for two reasons:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="554" />
-        <entry key="ENGLISH" value="558" />
+        <entry key="CHINESE" value="556" />
+        <entry key="ENGLISH" value="560" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
