@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="In order to start using any `upgrade/static` APIs, you still need to load the Angular framework as you would in a normal Angular app. You can see how this can be done with SystemJS by following the instructions in the [Setup](guide/setup) guide, selectively copying code from the [QuickStart github repository](https://github.com/angular/quickstart)." />
+      <item value="As you might have guessed, you don't need to change anything in the way you bootstrap your existing AngularJS app. Unlike `UpgradeModule`&amp;mdash;which requires some extra steps&amp;mdash; `downgradeModule()` is able to take care of bootstrapping the Angular module, as long as you provide the recipe." />
+      <item value="You use Angular for a feature that is not critical for the initial rendering of the app and you can afford a small delay in favor of better initial load performance." />
+      <item value="You use Angular for features that are only visible to specific types of users; for example, logged-in users, administrators, or VIP members. You don't need to load Angular until a user is authenticated." />
+      <item value="A few examples are:" />
       <item value="You could go a step further and not even download the code for the Angular part of the app to the user's browser until it is needed. This is especially useful when you use Angular on parts of the hybrid app that are not necessary for the initial rendering or that the user doesn't reach." />
       <item value="Another key difference between `downgradeModule()` and `UpgradeModule` is that the latter requires you to instantiate both the AngularJS and Angular modules up-front. This means that you have to pay the cost of instantiating the Angular part of the app, even if you don't use any Angular assets until later. `downgradeModule()` is again less aggressive. It will only instantiate the Angular part when it is required for the first time; that is, as soon as it needs to create a downgraded component." />
       <item value="#### Instantiating the Angular module on-demand" />
@@ -46,16 +51,11 @@
       <item value="The app probably defines more than a dozen financial instrument components.&#10;If you're lucky, they all implement the same base class whose API your `NewsComponent` understands." />
       <item value="A re-usable component might be a child of multiple components. Imagine a component for rendering breaking news about a financial instrument. For business reasons, this news component makes frequent calls directly into its parent instrument as changing market data streams by." />
       <item value="What if you *don't* know the concrete parent component class?" />
-      <item value="Notice that even though the [@Optional](guide/dependency-injection-in-action#optional) qualifier is there for safety, the &lt;live-example name=&quot;dependency-injection-in-action&quot;&gt;&lt;/live-example&gt; confirms that the `alex` parameter is set." />
-      <item value="*Cathy* reports whether or not she has access to *Alex*&#10;after injecting an `AlexComponent` into her constructor:" />
-      <item value="You use standard class injection to acquire a parent component whose type you know." />
-      <item value="### Find a parent component of known type" />
-      <item value="This section describes some techniques for doing that." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="537" />
-        <entry key="ENGLISH" value="541" />
+        <entry key="CHINESE" value="542" />
+        <entry key="ENGLISH" value="546" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
