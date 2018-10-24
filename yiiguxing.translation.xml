@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="`downgradeModule()`, on the other side, avoids explicitly triggering change detection unless it knows the other part of the app is interested in the changes. For example, if a downgraded component defines an `@Input()`, chances are that the app needs to be aware when that value changes. Thus, `downgradeComponent()` automatically triggers change detection on that component." />
       <item value="The [Change Detection](guide/upgrade#change-detection) section of [Upgrading from AngularJS](guide/upgrade) only applies to apps that use `UpgradeModule`. Though you handle change detection differently with `downgradeModule()`, which is the focus of this guide, reading the [Change Detection](guide/upgrade#change-detection) section provides helpful context for what follows." />
       <item value="Regardless of whether you choose `downgradeModule()` or `UpgradeModule`, the basic principles of upgrading, the mental model behind hybrid apps, and how you use the {@link upgrade/static upgrade/static} utilities remain the same. For more information, see the [How `ngUpgrade` Works](guide/upgrade#how-ngupgrade-works) section of [Upgrading from AngularJS](guide/upgrade)." />
       <item value="With the `ngUpgrade` library in Angular you can upgrade an existing AngularJS app incrementally by building a hybrid app where you can run both frameworks side-by-side. In these hybrid apps you can mix and match AngularJS and Angular components and services and have them interoperate seamlessly. That means you don't have to do the upgrade work all at once as there is a natural coexistence between the two frameworks during the transition period." />
@@ -50,12 +51,11 @@
       <item value="To resolve this, we give the `HeroService` constructor a boolean flag to control display of secret heroes." />
       <item value="Let's say you don't want to inject `UserService` directly into `HeroService`, because you don't want to complicate that service with security-sensitive information." />
       <item value="In cases like this you can use a *factory provider*.&#10;Factory providers can also be useful when creating an instance of a dependency from a third-party library that wasn't designed to work with DI." />
-      <item value="For example, you might need information that changes repeatedly in the course of the browser session.&#10;Also, your injectable service might not have independent access to the source of the information." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="519" />
-        <entry key="ENGLISH" value="523" />
+        <entry key="CHINESE" value="521" />
+        <entry key="ENGLISH" value="525" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
