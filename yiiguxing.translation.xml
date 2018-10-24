@@ -1,6 +1,46 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The [Change Detection](guide/upgrade#change-detection) section of [Upgrading from AngularJS](guide/upgrade) only applies to apps that use `UpgradeModule`. Though you handle change detection differently with `downgradeModule()`, which is the focus of this guide, reading the [Change Detection](guide/upgrade#change-detection) section provides helpful context for what follows." />
+      <item value="Regardless of whether you choose `downgradeModule()` or `UpgradeModule`, the basic principles of upgrading, the mental model behind hybrid apps, and how you use the {@link upgrade/static upgrade/static} utilities remain the same. For more information, see the [How `ngUpgrade` Works](guide/upgrade#how-ngupgrade-works) section of [Upgrading from AngularJS](guide/upgrade)." />
+      <item value="With the `ngUpgrade` library in Angular you can upgrade an existing AngularJS app incrementally by building a hybrid app where you can run both frameworks side-by-side. In these hybrid apps you can mix and match AngularJS and Angular components and services and have them interoperate seamlessly. That means you don't have to do the upgrade work all at once as there is a natural coexistence between the two frameworks during the transition period." />
+      <item value="Before discussing how you can use `downgradeModule()` to create hybrid apps, there are things that you can do to ease the upgrade process even before you begin upgrading. Because the steps are the same regardless of how you upgrade, refer to the [Preparation](guide/upgrade#preparation) section of [Upgrading from AngularJS](guide/upgrade)." />
+      <item value="This guide describes some of the built-in tools for efficiently migrating AngularJS projects over to the Angular platform, one piece at a time. It is very similar to [Upgrading from AngularJS](guide/upgrade) with the exception that this one uses the {@link downgradeModule downgradeModule()} helper function instead of the {@link UpgradeModule UpgradeModule} class. This affects how the app is bootstrapped and how change detection is propagated between the two frameworks. It allows you to upgrade incrementally while improving the speed of your hybrid apps and leveraging the latest of Angular in AngularJS apps early in the process of upgrading." />
+      <item value="Here's a revised version that defaults to `parent` but also accepts an optional second parameter for a different parent class interface." />
+      <item value="You can extract that logic into a helper function like the following." />
+      <item value="Writing variations of the same parent *alias provider* gets old quickly, especially this awful mouthful with a [*forwardRef*](guide/dependency-injection-in-action#forwardref)." />
+      <item value="`AlexComponent` *should* implement `Parent` as a matter of proper style.&#10;It doesn't in this example *only* to demonstrate that the code will compile and run without the interface." />
+      <item value="Doing so adds clarity to the code. But it's not technically necessary.&#10;Although `AlexComponent` has a `name` property, as required by its `Base` class, its class signature doesn't mention `Parent`." />
+      <item value="A component that could serve as a parent *should* implement the class interface as the `AliceComponent` does." />
+      <item value="You [learned earlier](guide/dependency-injection-in-action#class-interface) that a class interface is an abstract class used as an interface rather than as a base class." />
+      <item value="It tells the injector to start its search for a `Parent` dependency in a component *above* itself, which *is* what parent means." />
+      <item value="`@SkipSelf` is essential for two reasons:" />
+      <item value="It's identical to *Carol*'s constructor except for the additional `@SkipSelf` decorator." />
+      <item value="*Barry*'s `providers` array looks just like [*Alex*'s](#alex-providers).&#10;If you're going to keep writing [*alias providers*](guide/dependency-injection-in-action#useexisting) like this you should create a [helper function](#provideparent)." />
+      <item value="*Barry* is the problem. He needs to reach his parent, *Alice*, and also be a parent to *Carol*.&#10;That means he must both *inject* the `Parent` class interface to get *Alice* and *provide* a `Parent` to satisfy *Carol*." />
+      <item value="Imagine one branch of a component hierarchy: *Alice* -&gt; *Barry* -&gt; *Carol*.&#10;Both *Alice* and *Barry* implement the `Parent' class interface." />
+      <item value="### Find a parent in a tree with _@SkipSelf()_" />
+      <item value="[Parent](#parent-token) is the provider's class interface token.&#10;The [*forwardRef*](guide/dependency-injection-in-action#forwardref) breaks the circular reference you just created by having the `AlexComponent` refer to itself." />
+      <item value="Write an [*alias provider*](guide/dependency-injection-in-action#useexisting)&amp;mdash;a `provide` object literal with a `useExisting` definition&amp;mdash;that creates an *alternative* way to inject the same component instance and add that provider to the `providers` array of the `@Component()` metadata for the `AlexComponent`." />
+      <item value="The parent must cooperate by providing an *alias* to itself in the name of a class interface token." />
+      <item value="Unfortunately, this doesn't work.&#10;The &lt;live-example name=&quot;dependency-injection-in-action&quot;&gt;&lt;/live-example&gt; confirms that the `alex` parameter is null. *You cannot inject a parent by its base class.*" />
+      <item value="The sample's `CraigComponent` explores this question. [Looking back](#alex), you see that the `Alex` component *extends* (*inherits*) from a class named `Base`." />
+      <item value="This isn't necessarily good design.&#10;This example is examining *whether a component can&#10;inject its parent via the parent's base class*." />
+      <item value="Looking for components that implement an interface would be better. That's not possible because TypeScript interfaces disappear from the transpiled JavaScript, which doesn't support interfaces. There's no artifact to look for." />
+      <item value="The app probably defines more than a dozen financial instrument components.&#10;If you're lucky, they all implement the same base class whose API your `NewsComponent` understands." />
+      <item value="A re-usable component might be a child of multiple components. Imagine a component for rendering breaking news about a financial instrument. For business reasons, this news component makes frequent calls directly into its parent instrument as changing market data streams by." />
+      <item value="What if you *don't* know the concrete parent component class?" />
+      <item value="Notice that even though the [@Optional](guide/dependency-injection-in-action#optional) qualifier is there for safety, the &lt;live-example name=&quot;dependency-injection-in-action&quot;&gt;&lt;/live-example&gt; confirms that the `alex` parameter is set." />
+      <item value="*Cathy* reports whether or not she has access to *Alex*&#10;after injecting an `AlexComponent` into her constructor:" />
+      <item value="You use standard class injection to acquire a parent component whose type you know." />
+      <item value="### Find a parent component of known type" />
+      <item value="This section describes some techniques for doing that." />
+      <item value="There is no public API for acquiring a parent reference. However, because every component instance is added to an injector's container, you can use Angular dependency injection to reach a parent component." />
+      <item value="There is an API for navigating *down* the view hierarchy. Check out `Query`, `QueryList`, `ViewChildren`, and `ContentChildren` in the [API Reference](api/)." />
+      <item value="Each component has a *host view*, and can have additional *embedded views*. An embedded view in component A is the host view of component B, which can in turn have embedded view. This means that there is a [view hierarchy](guide/glossary#view-hierarchy) for each component, of which that component's host view is the root." />
+      <item value="Obtaining a component reference is a bit tricky in Angular. Angular components themselves do not have a tree that you can inspect or navigate programmatically. The parent-child relationship is indirect, established through the components' [view objects](guide/glossary#view)." />
+      <item value="Application components often need to share information. You can often use loosely coupled techniques for sharing information, such as data binding and service sharing, but sometimes it makes sense for one component to have a direct reference to another component. You need a direct reference, for instance, to access values or call methods on that component." />
+      <item value="# Navigate the component tree with DI" />
       <item value="Tree-shaking doesn't work here because Angular can't decide to exclude one chunk of code (the provider definition for the service within the module factory) based on whether another chunk of code (the service class) is used. To make services tree-shakable, the information about how to construct an instance of the service (the provider definition) needs to be a part of the service class itself." />
       <item value="The following example of non-tree-shakable providers in Angular configures a service provider for the injector of an NgModule." />
       <item value="Ideally, if an application isn't injecting a service, it shouldn't be included in the final output. However, Angular has to be able to identify at build time whether the service will be required or not. Because it's always possible to inject a service directly using `injector.get(Service)`, Angular can't identify all of the places in your code where this injection could happen, so it has no choice but to include the service in the injector. Thus, services provided at the NgModule or component level are not tree-shakable." />
@@ -11,51 +51,11 @@
       <item value="Let's say you don't want to inject `UserService` directly into `HeroService`, because you don't want to complicate that service with security-sensitive information." />
       <item value="In cases like this you can use a *factory provider*.&#10;Factory providers can also be useful when creating an instance of a dependency from a third-party library that wasn't designed to work with DI." />
       <item value="For example, you might need information that changes repeatedly in the course of the browser session.&#10;Also, your injectable service might not have independent access to the source of the information." />
-      <item value="Although the `AppConfig` interface plays no role in dependency injection,&#10;it supports typing of the configuration object within the class." />
-      <item value="The type parameter, while optional, conveys the dependency's type to developers and tooling.&#10;The token description is another developer aid." />
-      <item value="Apps often define configuration objects with lots of small facts, like the title of the application or the address of a web API endpoint. These configuration objects aren't always instances of a class. They can be object literals, as shown in the following example." />
-      <item value="The following provider object uses the `useValue` key to associate the variable with the `Logger` token." />
-      <item value="The following code defines a variable that creates such an object to play the logger role." />
-      <item value="When the old component logs a message with `OldLogger`, you want the singleton instance of `NewLogger` to handle it instead. In this case, the dependency injector should inject that singleton instance when a component asks for either the new or the old logger. `OldLogger` should be an *alias* for `NewLogger`." />
-      <item value="The class-provider syntax is a shorthand expression that expands into a provider configuration, defined by the [`Provider` interface](api/core/Provider). The following code snippets shows how a class that is given as the `providers` value is expanded into a full provider object." />
-      <item value="* You can provide a substitute class." />
-      <item value="You can, however, configure an injector with an alternative provider, in order to deliver some other object that provides the needed logging functionality. For instance:" />
-      <item value="The [ng generate](cli/generate) and [ng add](cli/add) commands take as an argument the artifact or library to be generated or added to the current project. In addition to any general options, each artifact or library defines its own options in a *schematic*. Schematic options are supplied to the command in the same format as immediate command options." />
-      <item value="Allowed values are given with each enumerated option description, with the default value in **bold**." />
-      <item value="Boolean options have two forms: `--thisOption` sets the flag, `--noThisOption` clears it. If neither option is supplied, the flag remains in its default state, as listed in the reference documentation." />
-      <item value="Typically, the name of a generated artifact can be given as an argument to the command or specified with the --name option." />
-      <item value="option names are prefixed with a double dash (--). option aliases are prefixed with a single dash (-). arguments are not prefixed. for example: `ng build my-app -c production`" />
-      <item value="See the [complete schema](https://github.com/angular/angular-cli/wiki/angular-workspace) for `angular.json`." />
-      <item value="The [ng config](cli/config) command lets you set and retrieve configuration values from the command line, or you can edit the `angular.json` file directly." />
-      <item value="A single workspace configuration file, `angular.json`, is created at the top level of the workspace. This is where you can set workspace-wide defaults, and specify configurations to use when the CLI builds a project for different targets." />
-      <item value="When you use the [ng serve](cli/serve) command to build an app and serve it locally, the server automatically rebuilds the app and reloads the page when you change any of the source files." />
-      <item value="You can edit the generated files directly, or add to and modify them using CLI commands. Use the [ng generate](cli/generate) command to add new files for additional components and services, and code for new pipes, directives, and so on. Commands such as [add](cli/add) and [generate](cli/generate), which create or operate on apps and libraries, must be executed from within a workspace or project folder." />
-      <item value="A newly generated app contains the source files for a root module, with a root component and template. Each app has a `src` folder that contains the logic, data, and assets." />
-      <item value="The [ng new](cli/new) command creates an *Angular workspace* folder and generates a new app skeleton. A workspace can contain multiple apps and libraries. The initial app created by the [ng new](cli/new) command is at the top level of the workspace. When you generate an additional app or library in a workspace, it goes into a `projects/` subfolder." />
-      <item value="The [ng new](cli/new) command creates an *Angular workspace* folder and generates a new app skeleton. A workspace can contain multiple apps and libraries.&#10;The initial app created by the [ng new](cli/new) command is at the top level of the workspace. When you generate an additional app or library in a workspace, it goes into a `projects/` subfolder." />
-      <item value="To create, build, and serve a new, basic Angular project on a development server, go to the parent directory of your new workspace use the following commands:" />
-      <item value="Invoke the tool on the command line through the `ng` executable. Online help is available on the command line. Enter the following to list commands or options for a given command (such as [generate](cli/generate)) with a short description." />
-      <item value="For details about changes between versions, and information about updating from previous releases, see the Releases tab on GitHub: https://github.com/angular/angular-cli/releases" />
-      <item value="The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications. You can use the tool directly in a command shell, or indirectly through an interactive UI such as [Angular Console](https://angularconsole.com)." />
-      <item value="* The first parameter of `navigate()` is a delta to be applied to the current URL or the one provided in the `relativeTo` property of the second parameter (the `NavigationExtras`)." />
-      <item value="* Since `navigateByUrl()` takes an absolute URL as the first parameter, it will not apply any delta to the current URL and ignores any properties in the second parameter (the `NavigationExtras`) that would change the provided URL." />
-      <item value="The reconfigured `BrowserModule` to import into the app's root `AppModule`." />
-      <item value="An object containing an identifier for the app to transition. * The ID must match between the client and server versions of the app." />
-      <item value="* Exports required infrastructure for all Angular apps. Included by defaults in all Angular apps created with the CLI `new` command. Re-exports `CommonModule` and `ApplicationModule`, making their exports and providers available to all apps." />
-      <item value="* The following example implements the `Validator` interface to create a validator directive with a custom error key." />
-      <item value="* The control directive from which to get the `FormControl`." />
-      <item value="* Represents a container where one or more views can be attached to a component." />
-      <item value="* Exports all the basic Angular directives and pipes, such as `NgIf`, `NgForOf`, `DecimalPipe`, and so on. Re-exported by `BrowserModule`, which is included automatically in the root `AppModule` when you create a new app with the CLI `new` command." />
-      <item value="* Configures the [dependency injector](guide/glossary#injector) where it is imported with supporting services for HTTP communications." />
-      <item value="Learn how to deploy your Angular app." />
-      <item value="Techniques and practices for testing an Angular app." />
-      <item value="Learn why and how to use the Ahead-of-Time (AOT) compiler." />
-      <item value="Explanation of npm packages installed into a project by default." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="486" />
-        <entry key="ENGLISH" value="490" />
+        <entry key="CHINESE" value="519" />
+        <entry key="ENGLISH" value="523" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
