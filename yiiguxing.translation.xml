@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="For the most part, you specify the modules in the same way you would for a regular app. Then, you use the `upgrade/static` helpers to let the two frameworks know about assets they can use from each other. This is known as &quot;upgrading&quot; and &quot;downgrading&quot;." />
+      <item value="Their details are quite different in architecture and implementation. In AngularJS, you create a module by specifying its name and dependencies with [angular.module()](https://docs.angularjs.org/api/ng/function/angular.module). Then you can add assets using its various methods. In Angular, you create a class adorned with an {@link NgModule NgModule} decorator that describes assets in metadata." />
+      <item value="Both AngularJS and Angular have their own concept of modules to help organize an app into cohesive blocks of functionality." />
+      <item value="In many cases, a few extra change detection runs may not matter much. However, on larger or change-detection-heavy apps they can have a noticeable impact. By giving you more fine-grained control over the change detection propagation, `downgradeModule()` allows you to achieve better performance for your hybrid apps." />
+      <item value="If you want a particular piece of code to trigger change detection in the AngularJS part of the app, you need to wrap it in [scope.$apply()](https://docs.angularjs.org/api/ng/type/$rootScope.Scope#$apply). Similarly, for triggering change detection in Angular you would use {@link NgZone#run ngZone.run()}." />
+      <item value="In most cases, though, the changes made locally in a particular component are of no interest to the rest of the app. For example, if the user clicks a button that submits a form, the component usually handles the result of this action. That being said, there _are_ cases where you want to propagate changes to some other part of the app that may be controlled by the other framework. In such cases, you are responsible for notifying the interested parties by manually triggering change detection." />
       <item value="`downgradeModule()`, on the other side, avoids explicitly triggering change detection unless it knows the other part of the app is interested in the changes. For example, if a downgraded component defines an `@Input()`, chances are that the app needs to be aware when that value changes. Thus, `downgradeComponent()` automatically triggers change detection on that component." />
       <item value="The [Change Detection](guide/upgrade#change-detection) section of [Upgrading from AngularJS](guide/upgrade) only applies to apps that use `UpgradeModule`. Though you handle change detection differently with `downgradeModule()`, which is the focus of this guide, reading the [Change Detection](guide/upgrade#change-detection) section provides helpful context for what follows." />
       <item value="Regardless of whether you choose `downgradeModule()` or `UpgradeModule`, the basic principles of upgrading, the mental model behind hybrid apps, and how you use the {@link upgrade/static upgrade/static} utilities remain the same. For more information, see the [How `ngUpgrade` Works](guide/upgrade#how-ngupgrade-works) section of [Upgrading from AngularJS](guide/upgrade)." />
@@ -45,17 +51,11 @@
       <item value="Tree-shaking doesn't work here because Angular can't decide to exclude one chunk of code (the provider definition for the service within the module factory) based on whether another chunk of code (the service class) is used. To make services tree-shakable, the information about how to construct an instance of the service (the provider definition) needs to be a part of the service class itself." />
       <item value="The following example of non-tree-shakable providers in Angular configures a service provider for the injector of an NgModule." />
       <item value="Ideally, if an application isn't injecting a service, it shouldn't be included in the final output. However, Angular has to be able to identify at build time whether the service will be required or not. Because it's always possible to inject a service directly using `injector.get(Service)`, Angular can't identify all of the places in your code where this injection could happen, so it has no choice but to include the service in the injector. Thus, services provided at the NgModule or component level are not tree-shakable." />
-      <item value="Tree shaking refers to a compiler option that removes code from the final bundle if that code not referenced in an application. When providers are tree-shakable, the Angular compiler removes the associated services from the final output when it determines that they are not used in your application. This significantly reduces the size of your bundles." />
-      <item value="Multiple providers can be associated with a single token in other areas as well." />
-      <item value="The following shows the new and the old implementations side-by-side." />
-      <item value="To resolve this, we give the `HeroService` constructor a boolean flag to control display of secret heroes." />
-      <item value="Let's say you don't want to inject `UserService` directly into `HeroService`, because you don't want to complicate that service with security-sensitive information." />
-      <item value="In cases like this you can use a *factory provider*.&#10;Factory providers can also be useful when creating an instance of a dependency from a third-party library that wasn't designed to work with DI." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="521" />
-        <entry key="ENGLISH" value="525" />
+        <entry key="CHINESE" value="527" />
+        <entry key="ENGLISH" value="531" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
