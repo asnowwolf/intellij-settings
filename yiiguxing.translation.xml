@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="When you pass an `NgModuleFactory`, `downgradeModule()` uses it to instantiate the module using {@link platformBrowser platformBrowser}'s {@link PlatformRef#bootstrapModuleFactory bootstrapModuleFactory()}, which is compatible with ahead-of-time (AOT) compilation. AOT compilation helps make your apps load faster. For more about AOT and how to create an `NgModuleFactory`, see the [Ahead-of-Time Compilation](guide/aot-compiler) guide." />
+      <item value="As mentioned earlier, `downgradeModule()` needs to know how to instantiate the Angular module. It needs a recipe. You define that recipe by providing a factory function that can create an instance of the Angular module. `downgradeModule()` accepts two types of factory functions:" />
       <item value="There are a few things to note, though:" />
       <item value="An important part of inter-linking dependencies is linking the two main modules together. This is where `downgradeModule()` comes in. Use it to create an AngularJS module&amp;mdash;one that you can use as a dependency in your main AngularJS module&amp;mdash;that will bootstrap your main Angular module and kick off the Angular part of the hybrid app. In a sense, it &quot;downgrades&quot; an Angular module to an AngularJS module." />
       <item value="For the most part, you specify the modules in the same way you would for a regular app. Then, you use the `upgrade/static` helpers to let the two frameworks know about assets they can use from each other. This is known as &quot;upgrading&quot; and &quot;downgrading&quot;." />
@@ -49,13 +51,11 @@
       <item value="Each component has a *host view*, and can have additional *embedded views*. An embedded view in component A is the host view of component B, which can in turn have embedded view. This means that there is a [view hierarchy](guide/glossary#view-hierarchy) for each component, of which that component's host view is the root." />
       <item value="Obtaining a component reference is a bit tricky in Angular. Angular components themselves do not have a tree that you can inspect or navigate programmatically. The parent-child relationship is indirect, established through the components' [view objects](guide/glossary#view)." />
       <item value="Application components often need to share information. You can often use loosely coupled techniques for sharing information, such as data binding and service sharing, but sometimes it makes sense for one component to have a direct reference to another component. You need a direct reference, for instance, to access values or call methods on that component." />
-      <item value="# Navigate the component tree with DI" />
-      <item value="Tree-shaking doesn't work here because Angular can't decide to exclude one chunk of code (the provider definition for the service within the module factory) based on whether another chunk of code (the service class) is used. To make services tree-shakable, the information about how to construct an instance of the service (the provider definition) needs to be a part of the service class itself." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="530" />
-        <entry key="ENGLISH" value="534" />
+        <entry key="CHINESE" value="532" />
+        <entry key="ENGLISH" value="536" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
