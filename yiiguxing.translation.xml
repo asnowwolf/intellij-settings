@@ -1,6 +1,20 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Using `downgradeModule()` is a good option for hybrid apps when you want to keep the AngularJS and Angular parts less coupled. You can still mix and match components and services from both frameworks, but you might need to manually propagate change detection. In return, `downgradeModule()` offers more control and better performance." />
+      <item value="It does not require you to change how you bootstrap your AngularJS app." />
+      <item value="It improves performance by avoiding unnecessary change detection runs while giving the developer greater ability to customize." />
+      <item value="It allows instantiating or even loading the Angular part lazily, which improves the initial loading time. In some cases this may waive the cost of running a second framework altogether." />
+      <item value="To summarize, the key differentiating factors of `downgradeModule()` are:" />
+      <item value="Specifically, this guide showed how you can achieve better performance and greater flexibility in your hybrid apps by using {@link downgradeModule downgradeModule()} instead of {@link UpgradeModule UpgradeModule}." />
+      <item value="This page covered how to use the {@link upgrade/static upgrade/static} package to incrementally upgrade existing AngularJS apps at your own pace and without impeding further development of the app for the duration of the upgrade process." />
+      <item value="And that is all you need to do to get the full benefit of AOT for hybrid Angular apps." />
+      <item value="You also need to pass the generated `MainAngularModuleFactory` to `downgradeModule()` instead of the custom bootstrap function:" />
+      <item value="You can take advantage of ahead-of-time (AOT) compilation in hybrid apps just like in any other Angular app. The setup for a hybrid app is mostly the same as described in the [Ahead-of-Time Compilation](guide/aot-compiler) guide save for differences in `index.html` and `main-aot.ts`." />
+      <item value="## Using ahead-of-time compilation with hybrid apps" />
+      <item value="For example, it is _OK_ to use a downgraded service in an upgraded component that is only used from Angular components, but it is _not OK_ to use it in an AngularJS component that may be used independently of Angular." />
+      <item value="While it is possible to downgrade injectables, downgraded injectables will not be available until the Angular module is instantiated. In order to be safe, you need to ensure that the downgraded injectables are not used anywhere _outside_ the part of the app that is controlled by Angular." />
+      <item value="The differences between `downgradeModule()` and `UpgradeModule` end here. The rest of the&#10;`upgrade/static` APIs and concepts work in the exact same way for both types of hybrid apps.&#10;See [Upgrading from AngularJS](guide/upgrade) to learn about:" />
       <item value="This bare minimum `NgModule` imports `BrowserModule`, the module every Angular browser-based app must have. It also defines an empty `ngDoBootstrap()` method, to prevent the {@link Compiler Compiler} from returning errors. This is necessary because the module will not have a `bootstrap` declaration on its `NgModule` decorator." />
       <item value="In order to start using any `upgrade/static` APIs, you still need to load the Angular framework as you would in a normal Angular app. You can see how this can be done with SystemJS by following the instructions in the [Setup](guide/setup) guide, selectively copying code from the [QuickStart github repository](https://github.com/angular/quickstart)." />
       <item value="As you might have guessed, you don't need to change anything in the way you bootstrap your existing AngularJS app. Unlike `UpgradeModule`&amp;mdash;which requires some extra steps&amp;mdash; `downgradeModule()` is able to take care of bootstrapping the Angular module, as long as you provide the recipe." />
@@ -37,25 +51,11 @@
       <item value="You [learned earlier](guide/dependency-injection-in-action#class-interface) that a class interface is an abstract class used as an interface rather than as a base class." />
       <item value="It tells the injector to start its search for a `Parent` dependency in a component *above* itself, which *is* what parent means." />
       <item value="`@SkipSelf` is essential for two reasons:" />
-      <item value="It's identical to *Carol*'s constructor except for the additional `@SkipSelf` decorator." />
-      <item value="*Barry*'s `providers` array looks just like [*Alex*'s](#alex-providers).&#10;If you're going to keep writing [*alias providers*](guide/dependency-injection-in-action#useexisting) like this you should create a [helper function](#provideparent)." />
-      <item value="*Barry* is the problem. He needs to reach his parent, *Alice*, and also be a parent to *Carol*.&#10;That means he must both *inject* the `Parent` class interface to get *Alice* and *provide* a `Parent` to satisfy *Carol*." />
-      <item value="Imagine one branch of a component hierarchy: *Alice* -&gt; *Barry* -&gt; *Carol*.&#10;Both *Alice* and *Barry* implement the `Parent' class interface." />
-      <item value="### Find a parent in a tree with _@SkipSelf()_" />
-      <item value="[Parent](#parent-token) is the provider's class interface token.&#10;The [*forwardRef*](guide/dependency-injection-in-action#forwardref) breaks the circular reference you just created by having the `AlexComponent` refer to itself." />
-      <item value="Write an [*alias provider*](guide/dependency-injection-in-action#useexisting)&amp;mdash;a `provide` object literal with a `useExisting` definition&amp;mdash;that creates an *alternative* way to inject the same component instance and add that provider to the `providers` array of the `@Component()` metadata for the `AlexComponent`." />
-      <item value="The parent must cooperate by providing an *alias* to itself in the name of a class interface token." />
-      <item value="Unfortunately, this doesn't work.&#10;The &lt;live-example name=&quot;dependency-injection-in-action&quot;&gt;&lt;/live-example&gt; confirms that the `alex` parameter is null. *You cannot inject a parent by its base class.*" />
-      <item value="The sample's `CraigComponent` explores this question. [Looking back](#alex), you see that the `Alex` component *extends* (*inherits*) from a class named `Base`." />
-      <item value="This isn't necessarily good design.&#10;This example is examining *whether a component can&#10;inject its parent via the parent's base class*." />
-      <item value="Looking for components that implement an interface would be better. That's not possible because TypeScript interfaces disappear from the transpiled JavaScript, which doesn't support interfaces. There's no artifact to look for." />
-      <item value="The app probably defines more than a dozen financial instrument components.&#10;If you're lucky, they all implement the same base class whose API your `NewsComponent` understands." />
-      <item value="A re-usable component might be a child of multiple components. Imagine a component for rendering breaking news about a financial instrument. For business reasons, this news component makes frequent calls directly into its parent instrument as changing market data streams by." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="543" />
-        <entry key="ENGLISH" value="547" />
+        <entry key="CHINESE" value="554" />
+        <entry key="ENGLISH" value="558" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
