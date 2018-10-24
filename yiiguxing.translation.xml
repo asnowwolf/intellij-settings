@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This bare minimum `NgModule` imports `BrowserModule`, the module every Angular browser-based app must have. It also defines an empty `ngDoBootstrap()` method, to prevent the {@link Compiler Compiler} from returning errors. This is necessary because the module will not have a `bootstrap` declaration on its `NgModule` decorator." />
       <item value="In order to start using any `upgrade/static` APIs, you still need to load the Angular framework as you would in a normal Angular app. You can see how this can be done with SystemJS by following the instructions in the [Setup](guide/setup) guide, selectively copying code from the [QuickStart github repository](https://github.com/angular/quickstart)." />
       <item value="As you might have guessed, you don't need to change anything in the way you bootstrap your existing AngularJS app. Unlike `UpgradeModule`&amp;mdash;which requires some extra steps&amp;mdash; `downgradeModule()` is able to take care of bootstrapping the Angular module, as long as you provide the recipe." />
       <item value="You use Angular for a feature that is not critical for the initial rendering of the app and you can afford a small delay in favor of better initial load performance." />
@@ -50,12 +51,11 @@
       <item value="Looking for components that implement an interface would be better. That's not possible because TypeScript interfaces disappear from the transpiled JavaScript, which doesn't support interfaces. There's no artifact to look for." />
       <item value="The app probably defines more than a dozen financial instrument components.&#10;If you're lucky, they all implement the same base class whose API your `NewsComponent` understands." />
       <item value="A re-usable component might be a child of multiple components. Imagine a component for rendering breaking news about a financial instrument. For business reasons, this news component makes frequent calls directly into its parent instrument as changing market data streams by." />
-      <item value="What if you *don't* know the concrete parent component class?" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="542" />
-        <entry key="ENGLISH" value="546" />
+        <entry key="CHINESE" value="543" />
+        <entry key="ENGLISH" value="547" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
