@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="There are a few things to note, though:" />
       <item value="An important part of inter-linking dependencies is linking the two main modules together. This is where `downgradeModule()` comes in. Use it to create an AngularJS module&amp;mdash;one that you can use as a dependency in your main AngularJS module&amp;mdash;that will bootstrap your main Angular module and kick off the Angular part of the hybrid app. In a sense, it &quot;downgrades&quot; an Angular module to an AngularJS module." />
       <item value="For the most part, you specify the modules in the same way you would for a regular app. Then, you use the `upgrade/static` helpers to let the two frameworks know about assets they can use from each other. This is known as &quot;upgrading&quot; and &quot;downgrading&quot;." />
       <item value="Their details are quite different in architecture and implementation. In AngularJS, you create a module by specifying its name and dependencies with [angular.module()](https://docs.angularjs.org/api/ng/function/angular.module). Then you can add assets using its various methods. In Angular, you create a class adorned with an {@link NgModule NgModule} decorator that describes assets in metadata." />
@@ -50,12 +51,11 @@
       <item value="Application components often need to share information. You can often use loosely coupled techniques for sharing information, such as data binding and service sharing, but sometimes it makes sense for one component to have a direct reference to another component. You need a direct reference, for instance, to access values or call methods on that component." />
       <item value="# Navigate the component tree with DI" />
       <item value="Tree-shaking doesn't work here because Angular can't decide to exclude one chunk of code (the provider definition for the service within the module factory) based on whether another chunk of code (the service class) is used. To make services tree-shakable, the information about how to construct an instance of the service (the provider definition) needs to be a part of the service class itself." />
-      <item value="The following example of non-tree-shakable providers in Angular configures a service provider for the injector of an NgModule." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="529" />
-        <entry key="ENGLISH" value="533" />
+        <entry key="CHINESE" value="530" />
+        <entry key="ENGLISH" value="534" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
