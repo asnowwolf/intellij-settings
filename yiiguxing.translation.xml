@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="You develop apps in the context of an Angular [workspace](guide/glossary#workspace). A workspace contains the files for one or more [projects](guide/glossary#project). A project is the set of files that comprise a standalone app, a library, or a set of end-to-end (e2e) tests." />
+      <item value="&lt;p&gt;List of components not referenced in any reachable template, for example dynamically created from code.&lt;/p&gt;" />
       <item value="Choosing a strategy begins with understanding the strengths and weaknesses of the options presented. Low-level API and form model access, predictability, mutability, straightforward validation and testing strategies, and scalability are all important consideration in choosing the infrastructure you use when building your forms in Angular. Template-driven forms are similar to patterns in AngularJS, but they have limitations given the criteria of many modern, large-scale Angular apps. Reactive forms integrate with reactive patterns already present in other areas of the Angular architecture, and complement those requirements well. Those limitations are alleviated with reactive forms." />
       <item value="## Final Thoughts" />
       <item value="**Template-driven** forms focus on simple scenarios, are not as reusable, abstract away the low-level APIs and access to the form model is provided asynchronously. The abstraction with template-driven forms surfaces in testing also, where testing reactive forms requires less setup and no dependence on the change detection cycle when updating and validating the form and data models during testing." />
@@ -49,13 +51,11 @@
       <item value="**Template-driven forms** are useful for adding a simple form to an app, such as an email list signup form. They are easy to add to an app, but they do not scale as well as reactive forms. If you have very basic form requirements and logic that can be managed solely in the template, use template-driven forms." />
       <item value="**Reactive forms** are more robust: they are more scalable, reusable, and testable. If forms are a key part of your application, or you're already using reactive patterns for building your application, use reactive forms." />
       <item value="Reactive and template-driven forms differ, however, in how they do the work of processing and managing forms and form data. Each offers different advantages." />
-      <item value="Angular provides two different approaches to handling user input through forms: reactive and template-driven. Both capture user input events from the view, validate the user input, create a form model and data model to update, and provide a way to track changes." />
-      <item value="Handling user input with forms is the cornerstone of many common applications. Applications use forms to enable users log in, to update a profile, to enter sensitive information, and to perform many other data-entry tasks." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="582" />
-        <entry key="ENGLISH" value="587" />
+        <entry key="CHINESE" value="585" />
+        <entry key="ENGLISH" value="590" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
