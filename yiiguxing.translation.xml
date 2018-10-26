@@ -1,6 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="## Configure size budgets" />
+      <item value="You can also configure the `serve` command to use the targeted build configuration if you add it to the &quot;serve:configurations&quot; section of `angular.json`:" />
+      <item value="This means that when you build your production configuration (using `ng build --prod` or `ng build --configuration=production`), the `src/environments/environment.ts` file is replaced with the target-specific version of the file, `src/environments/environment.prod.ts`." />
+      <item value="The main CLI configuration file, `angular.json`, contains a `fileReplacements` section in the configuration for each build target, which allows you to replace any file with a target-specific version of that file. This is useful for including target-specific code or variables in a build that targets a specific environment, such as production or staging." />
+      <item value="This ensures that the build and serve commands can find the configurations for specific build targets." />
+      <item value="To use the environment configurations you have defined, your components must import the original environments file:" />
+      <item value="This page discusses build-specific configuration options for Angular projects." />
+      <item value="You can add target-specific configuration files, such as `environment.prod.ts`. The following sets content sets default values for the production build target:" />
+      <item value="The `build` command uses this as the build target when no environment is specified. You can add further variables, either as additional properties on the environment object, or as separate objects. For example, the following adds a default for a variable to the default environment:" />
+      <item value="The following figure shows how a project has multiple build targets, which can be executed using the named configurations that you define." />
       <item value="You develop apps in the context of an Angular [workspace](guide/glossary#workspace). A workspace contains the files for one or more [projects](guide/glossary#project). A project is the set of files that comprise a standalone app, a library, or a set of end-to-end (e2e) tests." />
       <item value="&lt;p&gt;List of components not referenced in any reachable template, for example dynamically created from code.&lt;/p&gt;" />
       <item value="Choosing a strategy begins with understanding the strengths and weaknesses of the options presented. Low-level API and form model access, predictability, mutability, straightforward validation and testing strategies, and scalability are all important consideration in choosing the infrastructure you use when building your forms in Angular. Template-driven forms are similar to patterns in AngularJS, but they have limitations given the criteria of many modern, large-scale Angular apps. Reactive forms integrate with reactive patterns already present in other areas of the Angular architecture, and complement those requirements well. Those limitations are alleviated with reactive forms." />
@@ -41,21 +51,11 @@
       <item value="The steps below outline the view to model data flow." />
       <item value="As described above, in reactive forms each form element in the view is directly linked to a form model (`FormControl` instance). Updates from the view to model and model to view are synchronous and not dependent on the UI rendered. The diagrams below use the same favorite color example to demonstrate how data flows when an input field's value is changed from the view and then from the model." />
       <item value="When building forms in Angular, it's important to understand how the framework handles data flowing from the user or from programmatic changes. Reactive and template-driven forms follow two different strategies when handling form input. The data flow examples below begin with the favorite color input field example from above, and they show how changes to favorite color are handled in reactive forms compared to template-driven forms." />
-      <item value="The abstraction of the form model promotes simplicity over structure. The template-driven form directive `NgModel` is responsible for creating and managing the form control instance for a given form element. It is less explicit, but you no longer have direct control over the form model." />
-      <item value="Here is the same component with an input field for a single control implemented using template-driven forms." />
-      <item value="The source of truth provides the value and status of the form element at a given point in time. In reactive forms, the form model is source of truth. The form model in the above example is the `FormControl` instance." />
-      <item value="Here is a component with an input field for a single control implemented using reactive forms." />
-      <item value="Reactive and template-driven forms both use a form model to track value changes between Angular forms and form input elements. The examples below show how the form model is defined and created." />
-      <item value="How these control instances are created and managed with reactive and template-driven forms is introduced in the [form model setup](#setup-the-form-model) section below and detailed further in the [data flow section](#data-flow-in-forms) of this guide." />
-      <item value="This guide provides information to help you decide which approach works best for your situation. It introduces the common building blocks used by both approaches. It also summarizes the key differences between the two approaches, and demonstrates those differences in the context of setup, data flow, and testing." />
-      <item value="**Template-driven forms** are useful for adding a simple form to an app, such as an email list signup form. They are easy to add to an app, but they do not scale as well as reactive forms. If you have very basic form requirements and logic that can be managed solely in the template, use template-driven forms." />
-      <item value="**Reactive forms** are more robust: they are more scalable, reusable, and testable. If forms are a key part of your application, or you're already using reactive patterns for building your application, use reactive forms." />
-      <item value="Reactive and template-driven forms differ, however, in how they do the work of processing and managing forms and form data. Each offers different advantages." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="585" />
-        <entry key="ENGLISH" value="590" />
+        <entry key="CHINESE" value="590" />
+        <entry key="ENGLISH" value="595" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
