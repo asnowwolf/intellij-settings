@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `thresholds` property causes the tool to enforce a minimum of 80% code coverage when the unit tests are run in the project." />
+      <item value="For example, suppose you want the code base to have a minimum of 80% code coverage. To enable this, open the [Karma](https://karma-runner.github.io) test platform configuration file, `karma.conf.js`, and add the following in the `coverageIstanbulReporter:` key." />
+      <item value="The code coverage percentages let you estimate how much of your code is tested. If your team decides on a set minimum amount to be unit tested, you can enforce this minimum with the Angular CLI." />
+      <item value="### Code coverage enforcement" />
+      <item value="Code coverage reports show you any parts of our code base that may not be properly tested by your unit tests." />
+      <item value="We'll be using [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome#cli) in these examples." />
+      <item value="When the CLI commands `ng test` and `ng e2e` are generally running the CI tests in your environment, you might still need to adjust your configuration to run the Chrome browser tests." />
       <item value="There are paid CI services like Circle CI and Travis CI, and you can also host your own for free using Jenkins and others. Although Circle CI and Travis CI are paid services, they are provided free for open source projects. You can create a public project on GitHub and add these services without paying. Contributions to the Angular repo are automatically run through a whole suite of Circle CI and Travis CI tests." />
       <item value="One of the best ways to keep your project bug free is through a test suite, but it's easy to forget to run tests all the time. Continuous integration (CI) servers let you set up your project repository so that your tests run on every commit and pull request." />
       <item value="If you want to support such case, you need to define the `macroTask` you want to support in `beforeEach()`. For example:" />
@@ -44,18 +51,11 @@
       <item value="The following figure shows how a project has multiple build targets, which can be executed using the named configurations that you define." />
       <item value="You develop apps in the context of an Angular [workspace](guide/glossary#workspace). A workspace contains the files for one or more [projects](guide/glossary#project). A project is the set of files that comprise a standalone app, a library, or a set of end-to-end (e2e) tests." />
       <item value="&lt;p&gt;List of components not referenced in any reachable template, for example dynamically created from code.&lt;/p&gt;" />
-      <item value="Choosing a strategy begins with understanding the strengths and weaknesses of the options presented. Low-level API and form model access, predictability, mutability, straightforward validation and testing strategies, and scalability are all important consideration in choosing the infrastructure you use when building your forms in Angular. Template-driven forms are similar to patterns in AngularJS, but they have limitations given the criteria of many modern, large-scale Angular apps. Reactive forms integrate with reactive patterns already present in other areas of the Angular architecture, and complement those requirements well. Those limitations are alleviated with reactive forms." />
-      <item value="## Final Thoughts" />
-      <item value="**Template-driven** forms focus on simple scenarios, are not as reusable, abstract away the low-level APIs and access to the form model is provided asynchronously. The abstraction with template-driven forms surfaces in testing also, where testing reactive forms requires less setup and no dependence on the change detection cycle when updating and validating the form and data models during testing." />
-      <item value="**Reactive forms** make creating large scale forms easier by providing access to low-level APIs and synchronous access to the form model." />
-      <item value="If forms are a central part of your application, scalability is very important. Being able to reuse form models across components is critical." />
-      <item value="With template-driven forms, the **favorite color property** is always modified to its new value." />
-      <item value="With reactive forms, the **`FormControl` instance** always returns a new value when the control's value is updated." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="607" />
-        <entry key="ENGLISH" value="612" />
+        <entry key="CHINESE" value="610" />
+        <entry key="ENGLISH" value="615" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
