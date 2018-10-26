@@ -1,6 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="If you work behind a corporate proxy, the cannot directly proxy calls to any URL outside your local network. In this case, you can configure the backend proxy to redirect calls through your corporate proxy using an agent:" />
+      <item value="### Bypass the proxy" />
+      <item value="Set the proxy configuration file to `proxy.conf.js` (instead of `proxy.conf.json`), and specify configuration files as in the following example." />
+      <item value="### Proxy multiple entries" />
+      <item value="You can use the [proxying support](https://webpack.js.org/configuration/dev-server/#devserver-proxy) in the `webpack` dev server to divert certain URLs to a backend server, by passing a file to the `--proxy-config` build option.&#10;For example, to divert all calls for `http://localhost:4200/api` to a server running on `http://localhost:3000/api`, take the following steps." />
+      <item value="If you want to produce a progressive web app and are using [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to grade the project, add the following browserslist entry to your `package.json` file, in order to eliminate the [old flexbox](https://developers.google.com/web/tools/lighthouse/audits/old-flexbox) prefixes:" />
+      <item value="Internally, Autoprefixer relies on a library called [Browserslist](https://github.com/browserslist/browserslist) to figure out which browsers to support with prefixing. Browserlist looks for configuration options in a `browserlist` property of the package configuration file, or in a configuration file named `.browserslistrc`. Autoprefixer looks for the Browserlist configuration when it prefixes your CSS." />
+      <item value="Warns when the size reaches this threshold percentage of the baseline." />
+      <item value="Reports an error when the size exceeds this threshold percentage of the baseline." />
+      <item value="Warns when a size exceeds this threshold percentage of the baseline." />
       <item value="## Configure size budgets" />
       <item value="You can also configure the `serve` command to use the targeted build configuration if you add it to the &quot;serve:configurations&quot; section of `angular.json`:" />
       <item value="This means that when you build your production configuration (using `ng build --prod` or `ng build --configuration=production`), the `src/environments/environment.ts` file is replaced with the target-specific version of the file, `src/environments/environment.prod.ts`." />
@@ -41,21 +51,11 @@
       <item value="The `ngOnChanges()` method queues an async task to set the value for the internal `FormControl` instance." />
       <item value="Because the component template uses two-way data binding for the `favoriteColor`, the `favoriteColor` property in the component is updated to the value emitted by the `ngModelChange` event (&quot;Blue&quot;)." />
       <item value="The control value accessor also calls the `NgModel.viewToModelUpdate()` method which emits an `ngModelChange` event." />
-      <item value="Any subscribers to the `valueChanges` observable receive the new value." />
-      <item value="The `FormControl` instance emits the new value through the `valueChanges` observable." />
-      <item value="The control value accessor attached to the input triggers the `setValue()` method on the `FormControl` instance." />
-      <item value="In template-driven forms, each form element is linked to a directive that manages the form model internally. The diagrams below uses the same favorite color example to demonstrate how data flows when an input field's value is changed from the view and then from the model." />
-      <item value="The control value accessor on the form input element updates the element with the new value." />
-      <item value="The `favoriteColorControl.setValue()` method is called, which updates the `FormControl` value." />
-      <item value="The control value accessor listening for events on the form input element immediately relays the new value to the `FormControl` instance." />
-      <item value="The steps below outline the view to model data flow." />
-      <item value="As described above, in reactive forms each form element in the view is directly linked to a form model (`FormControl` instance). Updates from the view to model and model to view are synchronous and not dependent on the UI rendered. The diagrams below use the same favorite color example to demonstrate how data flows when an input field's value is changed from the view and then from the model." />
-      <item value="When building forms in Angular, it's important to understand how the framework handles data flowing from the user or from programmatic changes. Reactive and template-driven forms follow two different strategies when handling form input. The data flow examples below begin with the favorite color input field example from above, and they show how changes to favorite color are handled in reactive forms compared to template-driven forms." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="590" />
-        <entry key="ENGLISH" value="595" />
+        <entry key="CHINESE" value="594" />
+        <entry key="ENGLISH" value="599" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
