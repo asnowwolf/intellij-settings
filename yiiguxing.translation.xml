@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Configures sharing of target browsers and Node.js versions among various front-end tools." />
+      <item value="Besides using the CLI on the command line, You can also use an interactive development environment like [Angular Console](https://angular.console.com), or manipulate files directly in the app's source folder and configuration files." />
+      <item value="&lt;t&gt;Provides version information for all packages installed into `node_modules` by the npm client. See [npm documentation](https://docs.npmjs.com/files/package-lock.json) for details. If you use the yarn client, this file will be [yarn.lock](https://yarnpkg.com/lang/en/docs/yarn-lock/) instead. &lt;/t&gt;&lt;t&gt;&lt;/t&gt;" />
+      <item value="Lists package dependencies. See [npm documentation](https://docs.npmjs.com/files/package.json) for the specific format and contents of this file." />
+      <item value="CLI configuration for all projects in the workspace, including configuration options for build, serve, and test tools that the CLI uses, such as [Karma](https://karma-runner.github.io/) and [Protractor](http://www.protractortest.org/)." />
+      <item value="Specifies intentionally untracked files that [Git](https://git-scm.com/) should ignore." />
       <item value="The Angular CLI command `ng new &lt;project_name&gt;` gets you started." />
       <item value="If you work behind a corporate proxy, the cannot directly proxy calls to any URL outside your local network. In this case, you can configure the backend proxy to redirect calls through your corporate proxy using an agent:" />
       <item value="### Bypass the proxy" />
@@ -45,17 +51,11 @@
       <item value="The steps performed in the view to model test." />
       <item value="The following tests use the favorite color components mentioned earlier to verify the view to model and model to view data flows for a reactive form." />
       <item value="Reactive forms provide a relatively easy testing strategy because they provide synchronous access to the form and data models, and they can be tested without rendering the UI. In these set of tests, controls and data are queried and manipulated through the control without interacting with the change detection cycle." />
-      <item value="Testing also plays a large part in complex applications and an easier testing strategy is always welcomed. One difference in testing reactive forms and template-driven forms is their reliance on rendering the UI in order to perform assertions based on form control and form field changes. The following examples demonstrate the process of testing forms with reactive and template-driven forms." />
-      <item value="**Template-driven forms** are tied to template **directives**, and must provide custom validator directives that wrap validation functions." />
-      <item value="Validation is an integral part of managing any set of forms. Whether you’re checking for required fields or querying an external API for an existing username, Angular provides a set of built-in validators as well as the ability to create custom validators." />
-      <item value="The `FormControl` instance emits the latest value through the `valueChanges` observable." />
-      <item value="The `ngOnChanges()` method queues an async task to set the value for the internal `FormControl` instance." />
-      <item value="Because the component template uses two-way data binding for the `favoriteColor`, the `favoriteColor` property in the component is updated to the value emitted by the `ngModelChange` event (&quot;Blue&quot;)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="595" />
-        <entry key="ENGLISH" value="600" />
+        <entry key="CHINESE" value="601" />
+        <entry key="ENGLISH" value="606" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
