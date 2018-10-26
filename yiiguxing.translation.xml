@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The Angular CLI command `ng new &lt;project_name&gt;` gets you started." />
       <item value="If you work behind a corporate proxy, the cannot directly proxy calls to any URL outside your local network. In this case, you can configure the backend proxy to redirect calls through your corporate proxy using an agent:" />
       <item value="### Bypass the proxy" />
       <item value="Set the proxy configuration file to `proxy.conf.js` (instead of `proxy.conf.json`), and specify configuration files as in the following example." />
@@ -50,12 +51,11 @@
       <item value="The `FormControl` instance emits the latest value through the `valueChanges` observable." />
       <item value="The `ngOnChanges()` method queues an async task to set the value for the internal `FormControl` instance." />
       <item value="Because the component template uses two-way data binding for the `favoriteColor`, the `favoriteColor` property in the component is updated to the value emitted by the `ngModelChange` event (&quot;Blue&quot;)." />
-      <item value="The control value accessor also calls the `NgModel.viewToModelUpdate()` method which emits an `ngModelChange` event." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="594" />
-        <entry key="ENGLISH" value="599" />
+        <entry key="CHINESE" value="595" />
+        <entry key="ENGLISH" value="600" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
