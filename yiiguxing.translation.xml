@@ -1,6 +1,19 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The original `open` and `closed` states, with the original changes in height, color, and opacity, occurring over a timeframe of 1 second" />
+      <item value="Here's an example of using keyframes to create a pulse effect:" />
+      <item value="Use keyframes to create a pulse effect in your animations by defining styles at specific offset throughout the animation." />
+      <item value="### Keyframes with a pulsation" />
+      <item value="The code with offsets specified would be as follows." />
+      <item value="Defining offsets for keyframes is optional. If you omit them, evenly spaced offsets are automatically assigned. For example, three keyframes without predefined offsets receive offsets of 0, 0.5, and 1. Specifying an offset of 0.8 for the middle transition in the above example might look like this." />
+      <item value="Keyframes include an *offset* that defines the point in the animation where each style change occurs. Offsets are relative measures from zero to one, marking the beginning and end of the animation, respectively." />
+      <item value="The code for this color change might look like this." />
+      <item value="Angular's `keyframe()` function is similar to keyframes in CSS. Keyframes allow several style changes within a single timing segment. For example, our button, instead of fading, could change color several times over a single 2-second timespan." />
+      <item value="In the previous section, we saw a simple two-state transition. Now we'll create an animation with multiple steps run in sequence using *keyframes*." />
+      <item value="Callbacks can serve as a debugging tool, for example in conjunction with `console.warn()` to view the application's progress in a browser's Developer JavaScript Console. The following code snippet creates console log output for our original example, a button with the two states of `open` and `closed`." />
+      <item value="An animation can influence an end user to *perceive* the operation as faster, even when it isn't. Thus, a simple animation can be a cost-effective way to keep users happy, rather than seeking to improve the speed of a server call and having to compensate for circumstances beyond your control, such as an unreliable network connection." />
+      <item value="Then, another animation can be called when the current animation finishes. For example, the button goes from the `inProgress` state to the `closed` state when the API call is completed." />
       <item value="A potential use for animation callbacks could be to cover for a slow API call, such as a database lookup. For example, you could set up the **InProgress** button to have its own looping animation where it pulsates or does some other visual motion while the backend system operation finishes." />
       <item value="In the HTML template, the animation event is passed back via `$event`, as `@trigger.start` and `@trigger.done`, where `trigger` is the name of the trigger being used. In our example, the trigger `openClose` appears as follows." />
       <item value="The animation `trigger()` function emits *callbacks* when it starts and when it finishes. In the example below we have a component that contains an `openClose` trigger." />
@@ -38,24 +51,11 @@
       <item value="The code coverage percentages let you estimate how much of your code is tested. If your team decides on a set minimum amount to be unit tested, you can enforce this minimum with the Angular CLI." />
       <item value="### Code coverage enforcement" />
       <item value="Code coverage reports show you any parts of our code base that may not be properly tested by your unit tests." />
-      <item value="We'll be using [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome#cli) in these examples." />
-      <item value="When the CLI commands `ng test` and `ng e2e` are generally running the CI tests in your environment, you might still need to adjust your configuration to run the Chrome browser tests." />
-      <item value="There are paid CI services like Circle CI and Travis CI, and you can also host your own for free using Jenkins and others. Although Circle CI and Travis CI are paid services, they are provided free for open source projects. You can create a public project on GitHub and add these services without paying. Contributions to the Angular repo are automatically run through a whole suite of Circle CI and Travis CI tests." />
-      <item value="One of the best ways to keep your project bug free is through a test suite, but it's easy to forget to run tests all the time. Continuous integration (CI) servers let you set up your project repository so that your tests run on every commit and pull request." />
-      <item value="If you want to support such case, you need to define the `macroTask` you want to support in `beforeEach()`. For example:" />
-      <item value="If you want to support such case, you need to define the `macroTask` you want to support in `beforeEach()`.&#10;For example:" />
-      <item value="Jasmine also provides a `clock` feature to mock dates. Angular automatically runs tests that are run after `jasmine.clock().install()` is called inside a `fakeAsync()` method until `jasmine.clock().uninstall()` is called. `fakeAsync()` is not needed and throws an error if nested." />
-      <item value="`fakeAsync()` simulates passage of time, which allows you to calculate the difference between dates inside `fakeAsync()`." />
-      <item value="#### Comparing dates inside fakeAsync()" />
-      <item value="The `tick()` function is one of the Angular testing utilities that you import with `TestBed`.&#10;It's a companion to `fakeAsync()` and you can only call it within a `fakeAsync()` body." />
-      <item value="The `tick()` function accepts milliseconds as parameter (defaults to 0 if not provided). The parameter represents how much the virtual clock advances. For example, if you have a `setTimeout(fn, 100)` in a `fakeAsync()` test, you need to use tick(100) to trigger the fn callback." />
-      <item value="Defines the logic for the app's root component, named `AppComponent`. The view associated with this root component becomes the root of the [view hierarchy](guide/glossary#view-hierarchy) as you add components and services to your app." />
-      <item value="Inside the `src/` folder, the `app/` folder contains your app's logic and data. Angular components, templates, and styles go here. An `assets/` subfolder contains images and anything else your app needs. Files at the top level of `src/` support testing and running your app." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="627" />
-        <entry key="ENGLISH" value="632" />
+        <entry key="CHINESE" value="634" />
+        <entry key="ENGLISH" value="639" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
