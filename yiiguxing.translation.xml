@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Transitions are matched in the order in which they are defined. Thus, you can apply other transitions on top of the `* =&gt; *` (any-to-any) transition. For example, define style changes or animations that would apply just to `open =&gt; closed`, or just to `closed =&gt; open`, and then use `* =&gt; *` as a fallback for state pairings that aren't otherwise called out." />
+      <item value="In our two-state button example, the wildcard isn't that useful because there are only two possible states, `open` and `closed`. Wildcard states are better when an element in one particular state has multiple potential states that it can change to. If our button can change from `open` to either `closed` or something like `inProgress`, using a wildcard state could reduce the amount of coding needed." />
       <item value="### Using wildcard state with multiple transition states" />
       <item value="This allows us to add new states without having to include separate transitions for each one." />
       <item value="Here's another code sample using the wildcard state together with our previous example using the `open` and `closed` states. Instead of defining each state-to-state transition pair, we're now saying that any transition to `closed` takes 1 second, and any transition to `open` takes 0.5 seconds." />
@@ -49,8 +51,6 @@
       <item value="This means that when you build your production configuration (using `ng build --prod` or `ng build --configuration=production`), the `src/environments/environment.ts` file is replaced with the target-specific version of the file, `src/environments/environment.prod.ts`." />
       <item value="The main CLI configuration file, `angular.json`, contains a `fileReplacements` section in the configuration for each build target, which allows you to replace any file with a target-specific version of that file. This is useful for including target-specific code or variables in a build that targets a specific environment, such as production or staging." />
       <item value="This ensures that the build and serve commands can find the configurations for specific build targets." />
-      <item value="To use the environment configurations you have defined, your components must import the original environments file:" />
-      <item value="This page discusses build-specific configuration options for Angular projects." />
     </histories>
     <option name="languageScores">
       <map>
