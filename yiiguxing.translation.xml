@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="So far, we've learned simple animations of single HTML elements. Angular also lets you animate coordinated sequences, such as an entire grid or list of elements as they enter and leave a page. You can choose to run multiple animations in parallel, or run discrete animations sequentially, one following another." />
       <item value="The `keyframes()` function in Angular allows you to specify multiple interim styles within a single transition, with an optional offset to define the point in the animation where each style change occurs." />
       <item value="In this example, we have a trigger called `shrinkOut`, used when an HTML element leaves the page. The animation takes whatever height the element has before it leaves, and animates from that height to zero." />
       <item value="In these cases, you can use a special wildcard `*` property value under `style()`, so that the value of that particular style property is computed at runtime and then plugged into the animation." />
@@ -50,12 +51,11 @@
       <item value="In our two-state button example, the wildcard isn't that useful because there are only two possible states, `open` and `closed`. Wildcard states are better when an element in one particular state has multiple potential states that it can change to. If our button can change from `open` to either `closed` or something like `inProgress`, using a wildcard state could reduce the amount of coding needed." />
       <item value="### Using wildcard state with multiple transition states" />
       <item value="This allows us to add new states without having to include separate transitions for each one." />
-      <item value="Here's another code sample using the wildcard state together with our previous example using the `open` and `closed` states. Instead of defining each state-to-state transition pair, we're now saying that any transition to `closed` takes 1 second, and any transition to `open` takes 0.5 seconds." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="636" />
-        <entry key="ENGLISH" value="641" />
+        <entry key="CHINESE" value="637" />
+        <entry key="ENGLISH" value="642" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
