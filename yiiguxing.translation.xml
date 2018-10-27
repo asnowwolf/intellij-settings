@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="A potential use for animation callbacks could be to cover for a slow API call, such as a database lookup. For example, you could set up the **InProgress** button to have its own looping animation where it pulsates or does some other visual motion while the backend system operation finishes." />
       <item value="In the HTML template, the animation event is passed back via `$event`, as `@trigger.start` and `@trigger.done`, where `trigger` is the name of the trigger being used. In our example, the trigger `openClose` appears as follows." />
       <item value="The animation `trigger()` function emits *callbacks* when it starts and when it finishes. In the example below we have a component that contains an `openClose` trigger." />
       <item value="However, selective child animations can still be run on a disabled parent in one of the following ways:" />
@@ -50,7 +51,6 @@
       <item value="The `tick()` function accepts milliseconds as parameter (defaults to 0 if not provided). The parameter represents how much the virtual clock advances. For example, if you have a `setTimeout(fn, 100)` in a `fakeAsync()` test, you need to use tick(100) to trigger the fn callback." />
       <item value="Defines the logic for the app's root component, named `AppComponent`. The view associated with this root component becomes the root of the [view hierarchy](guide/glossary#view-hierarchy) as you add components and services to your app." />
       <item value="Inside the `src/` folder, the `app/` folder contains your app's logic and data. Angular components, templates, and styles go here. An `assets/` subfolder contains images and anything else your app needs. Files at the top level of `src/` support testing and running your app." />
-      <item value="An `e2e/` subfolder contains configuration and source files for a set of end-to-end tests that correspond to the initial app. Workspace-wide `node_modules` dependencies are visible to this project." />
     </histories>
     <option name="languageScores">
       <map>
