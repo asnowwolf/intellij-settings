@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="In the HTML template, the animation event is passed back via `$event`, as `@trigger.start` and `@trigger.done`, where `trigger` is the name of the trigger being used. In our example, the trigger `openClose` appears as follows." />
+      <item value="The animation `trigger()` function emits *callbacks* when it starts and when it finishes. In the example below we have a component that contains an `openClose` trigger." />
+      <item value="However, selective child animations can still be run on a disabled parent in one of the following ways:" />
+      <item value="When an element within an HTML template has animations disabled using the `@.disabled` host binding, animations are disabled on all inner elements as well. You can't selectively disable multiple animations on a single element." />
       <item value="Each time an animation is triggered in Angular, the parent animation always get priority and child animations are blocked. In order for a child animation to run, the parent animation must query each of the elements containing child animations and then allow the animations to run using the [`animateChild()`](https://angular.io/api/animations/animateChild) function." />
       <item value="You can define more than one animation trigger for a component. You can attach animation triggers to different elements, and the parent-child relationships among the elements affect how and when the animations run." />
       <item value="In the component code, in the `@Component` metadata under the `animations:` property, when the state evaluates to `true` (meaning &quot;open&quot; here), the associated HTML element's height is a wildcard style or default. In this case, use whatever height the element already had before the animation started. When the element is &quot;closed,&quot; the element animates to a height of 0, which makes it invisible." />
@@ -47,15 +51,11 @@
       <item value="Defines the logic for the app's root component, named `AppComponent`. The view associated with this root component becomes the root of the [view hierarchy](guide/glossary#view-hierarchy) as you add components and services to your app." />
       <item value="Inside the `src/` folder, the `app/` folder contains your app's logic and data. Angular components, templates, and styles go here. An `assets/` subfolder contains images and anything else your app needs. Files at the top level of `src/` support testing and running your app." />
       <item value="An `e2e/` subfolder contains configuration and source files for a set of end-to-end tests that correspond to the initial app. Workspace-wide `node_modules` dependencies are visible to this project." />
-      <item value="An `e2e/` subfolder contains configuration and source files for a set of end-to-end tests that correspond to the initial app.&#10;Workspace-wide `node_modules` dependencies are visible to this project." />
-      <item value="&lt;t&gt;The main entry point for your app. Compiles the application with the [JIT compiler](https://angular.io/guide/glossary#jit) and bootstraps the application's root module (AppModule) to run in the browser. You can also use the [AOT compiler](https://angular.io/guide/aot-compiler) without changing any code by appending the `--aot` flag to the CLI `build` and `serve` commands. &lt;/t&gt;&lt;t&gt;&lt;/t&gt;" />
-      <item value="Configures sharing of target browsers and Node.js versions among various front-end tools." />
-      <item value="Besides using the CLI on the command line, You can also use an interactive development environment like [Angular Console](https://angular.console.com), or manipulate files directly in the app's source folder and configuration files." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="624" />
-        <entry key="ENGLISH" value="629" />
+        <entry key="CHINESE" value="627" />
+        <entry key="ENGLISH" value="632" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
