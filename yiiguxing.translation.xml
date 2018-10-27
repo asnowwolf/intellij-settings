@@ -1,6 +1,21 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `transition()` function takes additional selector values, `:increment` and `:decrement`. Use these to kick off a transition when a numeric value has increased or decreased in value." />
+      <item value="In the component file, the `:enter` transition sets an initial opacity of 0, and then animates it to change that opacity to 1 as the element is inserted into the view." />
+      <item value="The `:enter` transition runs when any `*ngIf` or `*ngFor` views are placed on the page, and `:leave` runs when those views are removed from the page." />
+      <item value="It's harder to target an element that is entering a view because it isn't in the DOM yet.&#10;So, use the aliases `:enter` and `:leave` to target HTML elements that are inserted or removed from a view." />
+      <item value="These aliases are used by several animation functions." />
+      <item value="In the above code, we applied the `void` state when the HTML element isn't attached to a view." />
+      <item value="When you add a hero to the list of heroes, it appears to fly onto the page from the left." />
+      <item value="Now we'll add a new behavior:" />
+      <item value="**Note:** For our purposes, an element entering or leaving a view is equivalent to being inserted or removed from the DOM." />
+      <item value="This section shows how to animate elements entering or leaving a page." />
+      <item value="A transition of `void =&gt; *` applies when the element enters a view, regardless of what state it assumes when entering." />
+      <item value="A transition of `* =&gt; void` applies when the element leaves a view, regardless of what state it was in before it left." />
+      <item value="You can use the `void` state to configure transitions for an element that is entering or leaving a page. See [Animating entering and leaving a view](#enter-leave-view)." />
+      <item value="Use the wildcard `*` with a style to tell the animation to use whatever the current style value is, and animate with that. Wildcard is a fallback value that's used if the state being animated isn't declared within the trigger." />
+      <item value="### Using wildcards with styles" />
       <item value="Transitions are matched in the order in which they are defined. Thus, you can apply other transitions on top of the `* =&gt; *` (any-to-any) transition. For example, define style changes or animations that would apply just to `open =&gt; closed`, or just to `closed =&gt; open`, and then use `* =&gt; *` as a fallback for state pairings that aren't otherwise called out." />
       <item value="In our two-state button example, the wildcard isn't that useful because there are only two possible states, `open` and `closed`. Wildcard states are better when an element in one particular state has multiple potential states that it can change to. If our button can change from `open` to either `closed` or something like `inProgress`, using a wildcard state could reduce the amount of coding needed." />
       <item value="### Using wildcard state with multiple transition states" />
@@ -36,26 +51,11 @@
       <item value="CLI configuration for all projects in the workspace, including configuration options for build, serve, and test tools that the CLI uses, such as [Karma](https://karma-runner.github.io/) and [Protractor](http://www.protractortest.org/)." />
       <item value="Specifies intentionally untracked files that [Git](https://git-scm.com/) should ignore." />
       <item value="The Angular CLI command `ng new &lt;project_name&gt;` gets you started." />
-      <item value="If you work behind a corporate proxy, the cannot directly proxy calls to any URL outside your local network. In this case, you can configure the backend proxy to redirect calls through your corporate proxy using an agent:" />
-      <item value="### Bypass the proxy" />
-      <item value="Set the proxy configuration file to `proxy.conf.js` (instead of `proxy.conf.json`), and specify configuration files as in the following example." />
-      <item value="### Proxy multiple entries" />
-      <item value="You can use the [proxying support](https://webpack.js.org/configuration/dev-server/#devserver-proxy) in the `webpack` dev server to divert certain URLs to a backend server, by passing a file to the `--proxy-config` build option.&#10;For example, to divert all calls for `http://localhost:4200/api` to a server running on `http://localhost:3000/api`, take the following steps." />
-      <item value="If you want to produce a progressive web app and are using [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to grade the project, add the following browserslist entry to your `package.json` file, in order to eliminate the [old flexbox](https://developers.google.com/web/tools/lighthouse/audits/old-flexbox) prefixes:" />
-      <item value="Internally, Autoprefixer relies on a library called [Browserslist](https://github.com/browserslist/browserslist) to figure out which browsers to support with prefixing. Browserlist looks for configuration options in a `browserlist` property of the package configuration file, or in a configuration file named `.browserslistrc`. Autoprefixer looks for the Browserlist configuration when it prefixes your CSS." />
-      <item value="Warns when the size reaches this threshold percentage of the baseline." />
-      <item value="Reports an error when the size exceeds this threshold percentage of the baseline." />
-      <item value="Warns when a size exceeds this threshold percentage of the baseline." />
-      <item value="## Configure size budgets" />
-      <item value="You can also configure the `serve` command to use the targeted build configuration if you add it to the &quot;serve:configurations&quot; section of `angular.json`:" />
-      <item value="This means that when you build your production configuration (using `ng build --prod` or `ng build --configuration=production`), the `src/environments/environment.ts` file is replaced with the target-specific version of the file, `src/environments/environment.prod.ts`." />
-      <item value="The main CLI configuration file, `angular.json`, contains a `fileReplacements` section in the configuration for each build target, which allows you to replace any file with a target-specific version of that file. This is useful for including target-specific code or variables in a build that targets a specific environment, such as production or staging." />
-      <item value="This ensures that the build and serve commands can find the configurations for specific build targets." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="614" />
-        <entry key="ENGLISH" value="619" />
+        <entry key="CHINESE" value="622" />
+        <entry key="ENGLISH" value="627" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
