@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="The `query()` function allows you to find inner elements within the element that is being animated. This function targets specific HTML elements within a parent component and applies animations to each element individually. Angular intelligently handles setup, teardown, and cleanup as it coordinates the elements across the page." />
+      <item value="* `stagger()` applies a cascading delay to animations for multiple elements." />
       <item value="So far, we've learned simple animations of single HTML elements. Angular also lets you animate coordinated sequences, such as an entire grid or list of elements as they enter and leave a page. You can choose to run multiple animations in parallel, or run discrete animations sequentially, one following another." />
       <item value="The `keyframes()` function in Angular allows you to specify multiple interim styles within a single transition, with an optional offset to define the point in the animation where each style change occurs." />
       <item value="In this example, we have a trigger called `shrinkOut`, used when an HTML element leaves the page. The animation takes whatever height the element has before it leaves, and animates from that height to zero." />
@@ -49,13 +51,11 @@
       <item value="### Using wildcards with styles" />
       <item value="Transitions are matched in the order in which they are defined. Thus, you can apply other transitions on top of the `* =&gt; *` (any-to-any) transition. For example, define style changes or animations that would apply just to `open =&gt; closed`, or just to `closed =&gt; open`, and then use `* =&gt; *` as a fallback for state pairings that aren't otherwise called out." />
       <item value="In our two-state button example, the wildcard isn't that useful because there are only two possible states, `open` and `closed`. Wildcard states are better when an element in one particular state has multiple potential states that it can change to. If our button can change from `open` to either `closed` or something like `inProgress`, using a wildcard state could reduce the amount of coding needed." />
-      <item value="### Using wildcard state with multiple transition states" />
-      <item value="This allows us to add new states without having to include separate transitions for each one." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="637" />
-        <entry key="ENGLISH" value="642" />
+        <entry key="CHINESE" value="639" />
+        <entry key="ENGLISH" value="644" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
