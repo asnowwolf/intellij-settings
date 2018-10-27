@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Each time an animation is triggered in Angular, the parent animation always get priority and child animations are blocked. In order for a child animation to run, the parent animation must query each of the elements containing child animations and then allow the animations to run using the [`animateChild()`](https://angular.io/api/animations/animateChild) function." />
+      <item value="You can define more than one animation trigger for a component. You can attach animation triggers to different elements, and the parent-child relationships among the elements affect how and when the animations run." />
+      <item value="In the component code, in the `@Component` metadata under the `animations:` property, when the state evaluates to `true` (meaning &quot;open&quot; here), the associated HTML element's height is a wildcard style or default. In this case, use whatever height the element already had before the animation started. When the element is &quot;closed,&quot; the element animates to a height of 0, which makes it invisible." />
+      <item value="In the code snippet above, the HTML template binds a `&lt;div&gt;` element to a trigger named `openClose` with a status expression of `isOpen`, and with possible values of `true` and `false`. This is an alternative to the practice of creating two named states of `open` and `close`." />
+      <item value="If a trigger contains a boolean value as a binding value, then this value can be matched using a `transition()` expression that compares `true` and `false`, or `1` and `0`." />
       <item value="The `transition()` function takes additional selector values, `:increment` and `:decrement`. Use these to kick off a transition when a numeric value has increased or decreased in value." />
       <item value="In the component file, the `:enter` transition sets an initial opacity of 0, and then animates it to change that opacity to 1 as the element is inserted into the view." />
       <item value="The `:enter` transition runs when any `*ngIf` or `*ngFor` views are placed on the page, and `:leave` runs when those views are removed from the page." />
@@ -46,16 +51,11 @@
       <item value="&lt;t&gt;The main entry point for your app. Compiles the application with the [JIT compiler](https://angular.io/guide/glossary#jit) and bootstraps the application's root module (AppModule) to run in the browser. You can also use the [AOT compiler](https://angular.io/guide/aot-compiler) without changing any code by appending the `--aot` flag to the CLI `build` and `serve` commands. &lt;/t&gt;&lt;t&gt;&lt;/t&gt;" />
       <item value="Configures sharing of target browsers and Node.js versions among various front-end tools." />
       <item value="Besides using the CLI on the command line, You can also use an interactive development environment like [Angular Console](https://angular.console.com), or manipulate files directly in the app's source folder and configuration files." />
-      <item value="&lt;t&gt;Provides version information for all packages installed into `node_modules` by the npm client. See [npm documentation](https://docs.npmjs.com/files/package-lock.json) for details. If you use the yarn client, this file will be [yarn.lock](https://yarnpkg.com/lang/en/docs/yarn-lock/) instead. &lt;/t&gt;&lt;t&gt;&lt;/t&gt;" />
-      <item value="Lists package dependencies. See [npm documentation](https://docs.npmjs.com/files/package.json) for the specific format and contents of this file." />
-      <item value="CLI configuration for all projects in the workspace, including configuration options for build, serve, and test tools that the CLI uses, such as [Karma](https://karma-runner.github.io/) and [Protractor](http://www.protractortest.org/)." />
-      <item value="Specifies intentionally untracked files that [Git](https://git-scm.com/) should ignore." />
-      <item value="The Angular CLI command `ng new &lt;project_name&gt;` gets you started." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="622" />
-        <entry key="ENGLISH" value="627" />
+        <entry key="CHINESE" value="624" />
+        <entry key="ENGLISH" value="629" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
