@@ -1,6 +1,47 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="You now have a basic routable animation that animates routing from one view to another." />
+      <item value="Calls the `animateChild()` method on the new view to run its child animations after the main animation completes." />
+      <item value="Slides in the new view by animating the view with an easing function and duration. &lt;/br&gt; This animation results in the `about` view sliding from the left to right." />
+      <item value="`query(':enter style({ left: '-100%'})` matches the view that is added and hides the newly added view by positioning it to the far left." />
+      <item value="The animation code does the following after styling the views:" />
+      <item value="Use the `query()` method to find and animate elements within the current host component. The `query(&quot;:enter&quot;)` statement returns the view that is being inserted, and `query(&quot;:leave&quot;)` returns the view that is being removed." />
+      <item value="During a transition, a new view is inserted directly after the old one and both elements appear on screen at the same time. To prevent this, apply additional styling to the host view, and to the removed and inserted child views. The host view must use relative positioning, and the child views must use absolute positioning. Adding styling to the views animates the containers in place, without the DOM moving things around." />
+      <item value="Make the animation definition available in your application by adding the reusable animation (`slideInAnimation`) to the `animations` metadata of the `AppComponent`." />
+      <item value="A route change activates the animation trigger, and a transition matching the state change is applied." />
+      <item value="* Uses `query()` to determine which child view is entering and which is leaving the host view." />
+      <item value="Animations can be defined directly inside your components. For this example we are defining the animations in a separate file, which allows us to re-use the animations." />
+      <item value="Here, the `prepareRoute()` method takes the value of the output directive (established through `#outlet=&quot;outlet&quot;`) and returns a string value representing the state of the animation based on the custom data of the current active route. You can use this data to control which transition to execute for each route." />
+      <item value="`AppComponent` defines a method that can detect when a view changes. The method assigns an animation state value to the animation trigger (`@routeAnimation`) based on the route configuration `data` property value. Here's an example of an `AppComponent` method that detects when a route change happens." />
+      <item value="The `&lt;router-outlet&gt;` container has an attribute directive that contains data about active routes and their states, based on the `data` property that we set in the route configuration." />
+      <item value="After configuring the routes, tell the Angular router where to render the views when matched with a route. You can set a router outlet by inserting a `&lt;router-outlet&gt;` container inside the root `AppComponent` template." />
+      <item value="**Note:** The `data` property names that you use can be arbitrary. For example, the name *animation* used in the example above is an arbitrary choice." />
+      <item value="In addition to `path` and `component`, the `data` property of each route defines the key animation-specific configuration associated with a route. The `data` property value is passed into `AppComponent` when the route changes. You can also pass additional data in route config that is consumed within the animation. The data property value has to match the transitions defined in the `routeAnimation` trigger, which we'll define later." />
+      <item value="The following configuration defines the possible routes for the application." />
+      <item value="To begin, configure a set of routes using methods available in the `RouterModule` class. This route configuration tells the router how to navigate." />
+      <item value="Let's illustrate a router transition animation by navigating between two routes, *Home* and *About* associated with the `HomeComponent` and `AboutComponent` views respectively. Both of these component views are children of the top-most view, hosted by `AppComponent`. We'll implement a router transition animation that slides in the new view to the right and slides out the old view when the user navigates between the two routes." />
+      <item value="The Angular router comes with high-level animation functions that let you animate the transitions between views when a route changes. To produce an animation sequence when switching between routes, you need to define nested animation sequences. Start with the top-level component that hosts the view, and nest additional animations in the components that host the embedded views." />
+      <item value="Routing enables users to navigate between different routes in an application. When a user navigates from one route to another, the Angular router maps the URL path to a relevant component and displays its view. Animating this route transition can greatly enhance the user experience." />
+      <item value="To create a reusable animation, use the [`animation()`](https://angular.io/api/animations/animation) method to define an animation in a separate `.ts` file and declare this animation definition as a `const` export variable. You can then import and reuse this animation in any of your app components using the [`useAnimation()`](https://angular.io/api/animations/useAnimation) API." />
+      <item value="Angular functions for animating multiple elements start with `query()` to find inner elements, for example gathering all images within a `&lt;div&gt;`. The remaining functions, `stagger()`, `group()`, and `sequence()`, apply cascades or allow you to control how multiple animation steps are applied." />
+      <item value="If there are multiple matching elements, staggers in each element starting at the top of the page, with a 50-millisecond delay between each element." />
+      <item value="Animates in the element over 300 milliseconds. During the animation, the element assumes its default width and opacity." />
+      <item value="Hides the element by making it completely transparent and infinitely narrow, by setting its opacity and width to 0." />
+      <item value="* Performs a filter match for matches." />
+      <item value="Ignores any animations that are performed when the user first opens or navigates to this page. The filter narrows what is already there, so it assumes that any HTML elements to be animated already exist in the DOM." />
+      <item value="The filter works in real time as you type. Elements leave the page as you type each new letter and the filter gets progressively stricter. The heroes list gradually re-enters the page as you delete each letter in the filter box." />
+      <item value="Let's take a look at another animation on the live example page. Under the Filter/Stagger tab, enter some text into the **Search Heroes** text box, such as `Magnet` or `tornado`." />
+      <item value="A second function called `sequence()` lets you run those same animations one after the other. Within `sequence()`, the animation steps consist of either `style()` or `animate()` function calls." />
+      <item value="Complex animations can have many things happening at once. But what if you want to create an animation involving several animations happening one after the other? Earlier we used `group()` to run multiple animations all at the same time, in parallel." />
+      <item value="In the following example, using groups on both `:enter` and `:leave` allow for two different timing configurations. They're applied to the same element in parallel, but run independently." />
+      <item value="You've seen how to add a delay between each successive animation. But you may also want to configure animations that happen in parallel. For example, you may want to animate two CSS properties of the same element but use a different `easing` function for each one. For this, you can use the animation `group()` function." />
+      <item value="Animate each element on screen for 0.5 seconds using a custom-defined easing curve, simultaneously fading it in and un-transforming it." />
+      <item value="For each of these elements, use `style()` to set the same initial style for the element. Make it invisible and use `transform` to move it out of position so that it can slide into place." />
+      <item value="Use `query()` to look for any element entering or leaving the page. The query specifies elements meeting certain CSS class criteria." />
+      <item value="The following example demonstrates how to use `query()` and `stagger()` functions on the entry of an animated element." />
+      <item value="The Filter/Stagger tab in the live example shows a list of heroes with an introductory sequence. The entire list of heroes cascades in, with a slight delay from top to bottom." />
+      <item value="The `stagger()` function allows you to define a timing gap between each queried item that is animated and thus animates elements with a delay between them." />
       <item value="The `query()` function allows you to find inner elements within the element that is being animated. This function targets specific HTML elements within a parent component and applies animations to each element individually. Angular intelligently handles setup, teardown, and cleanup as it coordinates the elements across the page." />
       <item value="* `stagger()` applies a cascading delay to animations for multiple elements." />
       <item value="So far, we've learned simple animations of single HTML elements. Angular also lets you animate coordinated sequences, such as an entire grid or list of elements as they enter and leave a page. You can choose to run multiple animations in parallel, or run discrete animations sequentially, one following another." />
@@ -10,52 +51,11 @@
       <item value="Sometimes you don't know the value of a dimensional style property until runtime. For example, elements often have widths and heights that depend on their content and the screen size. These properties are often challenging to animate using CSS." />
       <item value="If you don't provide a unit when specifying dimension, Angular assumes a default unit of pixels, or px. Expressing 50 pixels as `50` is the same as saying `'50px'`." />
       <item value="For positional properties with a numeric value, define a unit by providing the value as a string, in quotes, with the appropriate suffix:" />
-      <item value="A keyframes sequence inserted in the middle that causes the button to appear to pulsate irregularly over the course of that same 1-second timeframe" />
-      <item value="The original `open` and `closed` states, with the original changes in height, color, and opacity, occurring over a timeframe of 1 second" />
-      <item value="Here's an example of using keyframes to create a pulse effect:" />
-      <item value="Use keyframes to create a pulse effect in your animations by defining styles at specific offset throughout the animation." />
-      <item value="### Keyframes with a pulsation" />
-      <item value="The code with offsets specified would be as follows." />
-      <item value="Defining offsets for keyframes is optional. If you omit them, evenly spaced offsets are automatically assigned. For example, three keyframes without predefined offsets receive offsets of 0, 0.5, and 1. Specifying an offset of 0.8 for the middle transition in the above example might look like this." />
-      <item value="Keyframes include an *offset* that defines the point in the animation where each style change occurs. Offsets are relative measures from zero to one, marking the beginning and end of the animation, respectively." />
-      <item value="The code for this color change might look like this." />
-      <item value="Angular's `keyframe()` function is similar to keyframes in CSS. Keyframes allow several style changes within a single timing segment. For example, our button, instead of fading, could change color several times over a single 2-second timespan." />
-      <item value="In the previous section, we saw a simple two-state transition. Now we'll create an animation with multiple steps run in sequence using *keyframes*." />
-      <item value="Callbacks can serve as a debugging tool, for example in conjunction with `console.warn()` to view the application's progress in a browser's Developer JavaScript Console. The following code snippet creates console log output for our original example, a button with the two states of `open` and `closed`." />
-      <item value="An animation can influence an end user to *perceive* the operation as faster, even when it isn't. Thus, a simple animation can be a cost-effective way to keep users happy, rather than seeking to improve the speed of a server call and having to compensate for circumstances beyond your control, such as an unreliable network connection." />
-      <item value="Then, another animation can be called when the current animation finishes. For example, the button goes from the `inProgress` state to the `closed` state when the API call is completed." />
-      <item value="A potential use for animation callbacks could be to cover for a slow API call, such as a database lookup. For example, you could set up the **InProgress** button to have its own looping animation where it pulsates or does some other visual motion while the backend system operation finishes." />
-      <item value="In the HTML template, the animation event is passed back via `$event`, as `@trigger.start` and `@trigger.done`, where `trigger` is the name of the trigger being used. In our example, the trigger `openClose` appears as follows." />
-      <item value="The animation `trigger()` function emits *callbacks* when it starts and when it finishes. In the example below we have a component that contains an `openClose` trigger." />
-      <item value="However, selective child animations can still be run on a disabled parent in one of the following ways:" />
-      <item value="When an element within an HTML template has animations disabled using the `@.disabled` host binding, animations are disabled on all inner elements as well. You can't selectively disable multiple animations on a single element." />
-      <item value="Each time an animation is triggered in Angular, the parent animation always get priority and child animations are blocked. In order for a child animation to run, the parent animation must query each of the elements containing child animations and then allow the animations to run using the [`animateChild()`](https://angular.io/api/animations/animateChild) function." />
-      <item value="You can define more than one animation trigger for a component. You can attach animation triggers to different elements, and the parent-child relationships among the elements affect how and when the animations run." />
-      <item value="In the component code, in the `@Component` metadata under the `animations:` property, when the state evaluates to `true` (meaning &quot;open&quot; here), the associated HTML element's height is a wildcard style or default. In this case, use whatever height the element already had before the animation started. When the element is &quot;closed,&quot; the element animates to a height of 0, which makes it invisible." />
-      <item value="In the code snippet above, the HTML template binds a `&lt;div&gt;` element to a trigger named `openClose` with a status expression of `isOpen`, and with possible values of `true` and `false`. This is an alternative to the practice of creating two named states of `open` and `close`." />
-      <item value="If a trigger contains a boolean value as a binding value, then this value can be matched using a `transition()` expression that compares `true` and `false`, or `1` and `0`." />
-      <item value="The `transition()` function takes additional selector values, `:increment` and `:decrement`. Use these to kick off a transition when a numeric value has increased or decreased in value." />
-      <item value="In the component file, the `:enter` transition sets an initial opacity of 0, and then animates it to change that opacity to 1 as the element is inserted into the view." />
-      <item value="The `:enter` transition runs when any `*ngIf` or `*ngFor` views are placed on the page, and `:leave` runs when those views are removed from the page." />
-      <item value="It's harder to target an element that is entering a view because it isn't in the DOM yet.&#10;So, use the aliases `:enter` and `:leave` to target HTML elements that are inserted or removed from a view." />
-      <item value="These aliases are used by several animation functions." />
-      <item value="In the above code, we applied the `void` state when the HTML element isn't attached to a view." />
-      <item value="When you add a hero to the list of heroes, it appears to fly onto the page from the left." />
-      <item value="Now we'll add a new behavior:" />
-      <item value="**Note:** For our purposes, an element entering or leaving a view is equivalent to being inserted or removed from the DOM." />
-      <item value="This section shows how to animate elements entering or leaving a page." />
-      <item value="A transition of `void =&gt; *` applies when the element enters a view, regardless of what state it assumes when entering." />
-      <item value="A transition of `* =&gt; void` applies when the element leaves a view, regardless of what state it was in before it left." />
-      <item value="You can use the `void` state to configure transitions for an element that is entering or leaving a page. See [Animating entering and leaving a view](#enter-leave-view)." />
-      <item value="Use the wildcard `*` with a style to tell the animation to use whatever the current style value is, and animate with that. Wildcard is a fallback value that's used if the state being animated isn't declared within the trigger." />
-      <item value="### Using wildcards with styles" />
-      <item value="Transitions are matched in the order in which they are defined. Thus, you can apply other transitions on top of the `* =&gt; *` (any-to-any) transition. For example, define style changes or animations that would apply just to `open =&gt; closed`, or just to `closed =&gt; open`, and then use `* =&gt; *` as a fallback for state pairings that aren't otherwise called out." />
-      <item value="In our two-state button example, the wildcard isn't that useful because there are only two possible states, `open` and `closed`. Wildcard states are better when an element in one particular state has multiple potential states that it can change to. If our button can change from `open` to either `closed` or something like `inProgress`, using a wildcard state could reduce the amount of coding needed." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="639" />
-        <entry key="ENGLISH" value="644" />
+        <entry key="CHINESE" value="653" />
+        <entry key="ENGLISH" value="658" />
         <entry key="ROMANIAN" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
